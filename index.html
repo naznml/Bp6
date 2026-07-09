@@ -1,0 +1,2757 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дүйсенбаев А. Педагогика тесті</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+      padding: 28px 18px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 26px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 15px;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+      border: 1px solid #e5e7eb;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      color: #1e3a8a;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #4b5563;
+      font-size: 14px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 22px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #1e3a8a;
+      font-size: 22px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1e40af;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #374151;
+    }
+
+    .terms {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+    }
+
+    .term {
+      background: #eef2ff;
+      color: #3730a3;
+      padding: 6px 10px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .question {
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+      background: #fafafa;
+    }
+
+    .question p {
+      margin-top: 0;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    label {
+      display: block;
+      padding: 9px 10px;
+      margin: 7px 0;
+      border-radius: 10px;
+      background: white;
+      border: 1px solid #e5e7eb;
+      cursor: pointer;
+    }
+
+    label:hover {
+      background: #f3f4f6;
+    }
+
+    input[type="radio"] {
+      margin-right: 8px;
+    }
+
+    label.correct {
+      background: #dcfce7;
+      border-color: #22c55e;
+      color: #166534;
+      font-weight: 700;
+    }
+
+    label.wrong {
+      background: #fee2e2;
+      border-color: #ef4444;
+      color: #991b1b;
+      font-weight: 700;
+    }
+
+    .explain {
+      display: none;
+      margin-top: 10px;
+      padding: 10px 12px;
+      background: #fef9c3;
+      border-left: 4px solid #eab308;
+      border-radius: 8px;
+      color: #713f12;
+      font-size: 14px;
+    }
+
+    button {
+      border: none;
+      background: #2563eb;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    .result {
+      margin-top: 12px;
+      font-weight: 700;
+      color: #1e3a8a;
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      .section {
+        padding: 16px;
+      }
+
+      .section h2 {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Дүйсенбаев А. Педагогика тесті</h1>
+    <p>6-кітап бойынша бөлімдік дайындық</p>
+  </header>
+
+  <main>
+    <div class="cards">
+      <div class="card">
+        <h3>1-тарау</h3>
+        <p>Педагогиканың теориялық-әдіснамалық негіздері</p>
+      </div>
+
+      <div class="card">
+        <h3>2-тарау</h3>
+        <p>Тәрбие теориясы</p>
+      </div>
+
+      <div class="card">
+        <h3>3-тарау</h3>
+        <p>Дидактика</p>
+      </div>
+
+      <div class="card">
+        <h3>4-тарау</h3>
+        <p>Педагогикалық менеджмент негіздері</p>
+      </div>
+    </div>
+
+    <section class="section" id="d6_1" data-section="d6_1">
+  <h2>1-бөлім. Педагогиканың жалпы мәселелері және ғылыми-зерттеу әдістері</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">1.1 және 1.2 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">педагогика</span>
+    <span class="term">тәрбие</span>
+    <span class="term">оқыту</span>
+    <span class="term">білім беру</span>
+    <span class="term">өздігінен білім алу</span>
+    <span class="term">педагогика салалары</span>
+    <span class="term">әдіснама</span>
+    <span class="term">ғылыми-зерттеу әдістері</span>
+    <span class="term">бақылау</span>
+    <span class="term">әңгіме</span>
+    <span class="term">эксперимент</span>
+    <span class="term">анкета</span>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>1. Педагогика ғылымының ғылыми-танымдық саласы ретінде кітапта не көрсетіледі?</p>
+    <label><input type="radio" name="d6q1" value="a"> оқыту әдістерінің жіктелуі</label>
+    <label><input type="radio" name="d6q1" value="b"> білім мазмұнының құрылымы</label>
+    <label><input type="radio" name="d6q1" value="c"> тәрбие</label>
+    <label><input type="radio" name="d6q1" value="d"> педагогикалық технология</label>
+    <label><input type="radio" name="d6q1" value="e"> бақылау мен бағалау</label>
+    <div class="explain">Дұрыс жауап: C. Педагогиканың ғылыми-танымдық саласы тәрбие ретінде көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>2. Педагогика грек тіліндегі қандай сөздерден шыққан?</p>
+    <label><input type="radio" name="d6q2" value="a"> «paida» және «gogos»</label>
+    <label><input type="radio" name="d6q2" value="b"> «logos» және «methodos»</label>
+    <label><input type="radio" name="d6q2" value="c"> «didaktikos» және «techne»</label>
+    <label><input type="radio" name="d6q2" value="d"> «ethnos» және «paideia»</label>
+    <label><input type="radio" name="d6q2" value="e"> «surdus» және «typhlos»</label>
+    <div class="explain">Дұрыс жауап: A. «paida» — бала, «gogos» — жетектеуші.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>3. Педагогика пәні қоғам талабына сай нені зерттейді?</p>
+    <label><input type="radio" name="d6q3" value="a"> оқушылардың жас ерекшелігіне байланысты психикалық процестерін ғана</label>
+    <label><input type="radio" name="d6q3" value="b"> білім беру ұйымдарын қаржыландырудың құқықтық негіздерін ғана</label>
+    <label><input type="radio" name="d6q3" value="c"> оқу пәндерінің мазмұнын құрастырудың техникалық жолдарын ғана</label>
+    <label><input type="radio" name="d6q3" value="d"> өскелең ұрпақты тәрбиелеу, білім беру және оқытудың заңдылықтарын</label>
+    <label><input type="radio" name="d6q3" value="e"> педагогикалық құжаттарды рәсімдеудің әкімшілік тәртібін</label>
+    <div class="explain">Дұрыс жауап: D. Педагогика тәрбиелеу, білім беру және оқытудың заңдылықтарын зерттейді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>4. Тәрбие педагогикалық мағынада қалай түсіндіріледі?</p>
+    <label><input type="radio" name="d6q4" value="a"> білім мазмұнын пәндерге бөлу үдерісі</label>
+    <label><input type="radio" name="d6q4" value="b"> тәрбиелеушілер мен тәрбиеленушілер арасындағы арнайы ұйымдастырылған қарым-қатынас үдерісі</label>
+    <label><input type="radio" name="d6q4" value="c"> оқу материалын меңгеруді тексеру жүйесі</label>
+    <label><input type="radio" name="d6q4" value="d"> оқыту формаларын сабақ түрлеріне жіктеу жолы</label>
+    <label><input type="radio" name="d6q4" value="e"> ғылыми зерттеуде қолданылатын бақылау тәсілі</label>
+    <div class="explain">Дұрыс жауап: B. Тәрбие — арнайы ұйымдастырылған және басқарылатын қарым-қатынас үдерісі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>5. Рухани тәрбиенің негізгі мазмұны</p>
+    <label><input type="radio" name="d6q5" value="a"> құқықтық нормаларды орындау дағдысын қалыптастыру</label>
+    <label><input type="radio" name="d6q5" value="b"> еңбек өнімдеріне жауапкершілік қатынас қалыптастыру</label>
+    <label><input type="radio" name="d6q5" value="c"> көркемдікті қабылдау және бағалау қабілетін дамыту</label>
+    <label><input type="radio" name="d6q5" value="d"> денсаулықты нығайту мен дене бітімін жетілдіру</label>
+    <label><input type="radio" name="d6q5" value="e"> өмірге құндылықты қатынас пен парыз, әділеттілік сезімін қалыптастыру</label>
+    <div class="explain">Дұрыс жауап: E. Рухани тәрбие құндылықты қатынас пен адамгершілік сезімдерді қалыптастырады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>6. Білім беру ұғымының мазмұны қалай беріледі?</p>
+    <label><input type="radio" name="d6q6" value="a"> оқушының мінез-құлқын арнайы бақылау</label>
+    <label><input type="radio" name="d6q6" value="b"> оқыту әдістерін бірізді қолдану</label>
+    <label><input type="radio" name="d6q6" value="c"> табиғат және қоғам туралы білім жүйесін меңгеру және өмірде қолдану</label>
+    <label><input type="radio" name="d6q6" value="d"> тәрбие бағыттарын жас ерекшелігіне бөлу</label>
+    <label><input type="radio" name="d6q6" value="e"> ғылыми ақпараттың анықтығын тексеру</label>
+    <div class="explain">Дұрыс жауап: C. Білім беру — білім жүйесін меңгеру және оны өмірде қолдану.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>7. «Білім беру» ұғымын тұңғыш енгізген педагог кім?</p>
+    <label><input type="radio" name="d6q7" value="a"> Иоганн Генрих Песталоцци</label>
+    <label><input type="radio" name="d6q7" value="b"> Ян Амос Коменский</label>
+    <label><input type="radio" name="d6q7" value="c"> Адольф Дистервег</label>
+    <label><input type="radio" name="d6q7" value="d"> Жан-Жак Руссо</label>
+    <label><input type="radio" name="d6q7" value="e"> Джон Локк</label>
+    <div class="explain">Дұрыс жауап: A. Бұл ұғымды швейцар педагогы И.Г. Песталоцци енгізген.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>8. Оқыту үдерісі кітапта қалай анықталады?</p>
+    <label><input type="radio" name="d6q8" value="a"> оқушының өзін-өзі тәрбиелеуге бағытталған жеке әрекеті</label>
+    <label><input type="radio" name="d6q8" value="b"> педагогикалық құбылыстарды зерттеудің теориялық тәсілі</label>
+    <label><input type="radio" name="d6q8" value="c"> тәрбие бағыттарын жүйелеу мен салыстыру үдерісі</label>
+    <label><input type="radio" name="d6q8" value="d"> оқушы мен мұғалімнің мақсатты түрде өзара әрекет жасау үдерісі</label>
+    <label><input type="radio" name="d6q8" value="e"> ғылыми деректерді жинақтап қорытындылау жолы</label>
+    <div class="explain">Дұрыс жауап: D. Оқыту — оқушы мен мұғалімнің мақсатты өзара әрекет жасау үдерісі.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>9. Өздігінен білім алу дегеніміз</p>
+    <label><input type="radio" name="d6q9" value="a"> мұғалімнің оқушы әрекетін сырттай бақылауы</label>
+    <label><input type="radio" name="d6q9" value="b"> тұлғаның мақсатқа бағытталған арнайы ізденісі арқылы білімін жетілдіруі</label>
+    <label><input type="radio" name="d6q9" value="c"> білім мазмұнын оқу пәндеріне бөлу жүйесі</label>
+    <label><input type="radio" name="d6q9" value="d"> педагогикалық эксперимент нәтижесін салыстыру тәсілі</label>
+    <label><input type="radio" name="d6q9" value="e"> тәрбие әдістерін ұжымдық формада қолдану жолы</label>
+    <div class="explain">Дұрыс жауап: B. Өздігінен білім алу — тұлғаның мақсатты ізденісі арқылы білімін жетілдіруі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>10. Өзін-өзі тәрбиелеу қалай сипатталады?</p>
+    <label><input type="radio" name="d6q10" value="a"> мұғалімнің сабақтағы оқыту әдістерін таңдауы</label>
+    <label><input type="radio" name="d6q10" value="b"> оқушының білім мазмұнын пән бойынша меңгеруі</label>
+    <label><input type="radio" name="d6q10" value="c"> зерттеушінің педагогикалық құжаттарды талдауы</label>
+    <label><input type="radio" name="d6q10" value="d"> тәрбие бағыттарын рухани және адамгершілік түрлерге бөлу</label>
+    <label><input type="radio" name="d6q10" value="e"> адамның саналы түрде мінез-құлық дағдысын қалыптастыруға бағытталған іс-әрекеті</label>
+    <div class="explain">Дұрыс жауап: E. Өзін-өзі тәрбиелеу — саналы түрде қасиет пен мінез-құлық дағдысын қалыптастыру әрекеті.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>11. Педагогиканың негізгі міндеттерінің бірі</p>
+    <label><input type="radio" name="d6q11" value="a"> оқыту нәтижесін тек қорытынды бағамен шектеу</label>
+    <label><input type="radio" name="d6q11" value="b"> педагогикалық зерттеуді тек бақылау әдісімен жүргізу</label>
+    <label><input type="radio" name="d6q11" value="c"> үздіксіз білім берудің біртұтас жүйесін жетілдіру</label>
+    <label><input type="radio" name="d6q11" value="d"> тәрбие бағыттарын тек отбасылық тәрбиеге біріктіру</label>
+    <label><input type="radio" name="d6q11" value="e"> білім беру мазмұнын ғылыми негізден бөлу</label>
+    <div class="explain">Дұрыс жауап: C. Педагогиканың міндеттерінің бірі — үздіксіз білім берудің біртұтас жүйесін жетілдіру.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>12. Жалпы педагогика нені зерттейді?</p>
+    <label><input type="radio" name="d6q12" value="a"> барлық жастағы тұлғаның оқуы мен тәрбиесіне ортақ заңдылықтар мен принциптерді</label>
+    <label><input type="radio" name="d6q12" value="b"> мектеп жасына дейінгі балаларды оқыту мен тәрбиелеу заңдылықтарын</label>
+    <label><input type="radio" name="d6q12" value="c"> жоғары оқу орындарында жастарды тәрбиелеу ерекшеліктерін</label>
+    <label><input type="radio" name="d6q12" value="d"> тіл кемшілігін жою мен алдын алу әдістерін</label>
+    <label><input type="radio" name="d6q12" value="e"> тарихи дәуірлердегі педагогикалық идеялардың дамуын</label>
+    <div class="explain">Дұрыс жауап: A. Жалпы педагогика барлық жастағы тұлғаның оқуы мен тәрбиесіне ортақ заңдылықтарды зерттейді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>13. Логопедияның зерттеу нысаны</p>
+    <label><input type="radio" name="d6q13" value="a"> саңырау және құлағы мүкіс адамдарды оқыту</label>
+    <label><input type="radio" name="d6q13" value="b"> соқыр және көзі нашар көретіндерді тәрбиелеу</label>
+    <label><input type="radio" name="d6q13" value="c"> ақыл-ойы кем балаларды оқыту мәселелері</label>
+    <label><input type="radio" name="d6q13" value="d"> баланың тіл кемшілігін жою және алдын алу әдістері</label>
+    <label><input type="radio" name="d6q13" value="e"> мектеп жасындағы балаларды тәрбиелеу ерекшеліктері</label>
+    <div class="explain">Дұрыс жауап: D. Логопедия баланың тіл кемшілігін жою және алдын алу әдістерін зерттейді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>14. Әдіснама дегеніміз</p>
+    <label><input type="radio" name="d6q14" value="a"> оқушылардың білімін тексеретін тапсырмалар жүйесі</label>
+    <label><input type="radio" name="d6q14" value="b"> әдістер туралы ілім және танымдық үдерістің даму жолын анықтаушы негіз</label>
+    <label><input type="radio" name="d6q14" value="c"> тәрбие бағыттарын жас ерекшелігіне қарай бөлу тәсілі</label>
+    <label><input type="radio" name="d6q14" value="d"> сабақта қолданылатын көрнекілік құралдар жиынтығы</label>
+    <label><input type="radio" name="d6q14" value="e"> оқыту формаларын сыныптық жүйеге біріктіру жолы</label>
+    <div class="explain">Дұрыс жауап: B. Әдіснама — әдістер туралы ілім, танымдық үдерістің даму жолын анықтайтын негіз.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Педагогикалық зерттеу әдістері қалай қолданылуы керек?</p>
+    <label><input type="radio" name="d6q15" value="a"> оқушының жеке дамуын ескермей қолданылуы керек</label>
+    <label><input type="radio" name="d6q15" value="b"> тек теориялық қорытынды жасау үшін қолданылуы керек</label>
+    <label><input type="radio" name="d6q15" value="c"> оқу-тәрбие үдерісінен бөлек жүргізілуі керек</label>
+    <label><input type="radio" name="d6q15" value="d"> педагогикалық құбылыстарды тек салыстырумен шектеуі керек</label>
+    <label><input type="radio" name="d6q15" value="e"> баланың денсаулығына зиян келтірмей, оқу-тәрбие үдерісін жетілдіруге бағытталуы керек</label>
+    <div class="explain">Дұрыс жауап: E. Зерттеу әдістері балаға зиян келтірмей, оқу-тәрбие үдерісін жетілдіруге бағытталуы керек.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>16. Педагогикадағы зерттеу деңгейлері</p>
+    <label><input type="radio" name="d6q16" value="a"> эмпирикалық, теориялық және әдіснамалық</label>
+    <label><input type="radio" name="d6q16" value="b"> рухани, адамгершілік және эстетикалық</label>
+    <label><input type="radio" name="d6q16" value="c"> жалпы, мектеп және жоғары мектеп педагогикасы</label>
+    <label><input type="radio" name="d6q16" value="d"> оқыту, білім беру және тәрбие</label>
+    <label><input type="radio" name="d6q16" value="e"> бақылау, бағалау және қорытындылау</label>
+    <div class="explain">Дұрыс жауап: A. Педагогикада зерттеудің үш деңгейі бар: эмпирикалық, теориялық және әдіснамалық.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>17. Бақылау әдісі қалай сипатталады?</p>
+    <label><input type="radio" name="d6q17" value="a"> зерттеушінің дайын жауаптары бар сұрақтар жүйесін таратуы</label>
+    <label><input type="radio" name="d6q17" value="b"> педагогикалық құбылысты жасанды жағдайда тексеруі</label>
+    <label><input type="radio" name="d6q17" value="c"> әдеттегі жағдайда педагогикалық құбылыстарды қабылдау арқылы тануы</label>
+    <label><input type="radio" name="d6q17" value="d"> ғылыми әдебиеттердегі көзқарастарды салыстырып талдауы</label>
+    <label><input type="radio" name="d6q17" value="e"> оқушылардың жазба және графикалық жұмыстарын зерттеуі</label>
+    <div class="explain">Дұрыс жауап: C. Бақылау — педагогикалық құбылыстарды әдеттегі жағдайда қабылдау арқылы тану әдісі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>18. Әңгіме әдісін дұрыс қолдану үшін не қажет?</p>
+    <label><input type="radio" name="d6q18" value="a"> тек зерттеу нәтижесін кестеге түсіру</label>
+    <label><input type="radio" name="d6q18" value="b"> тек бақылау объектісін алдын ала бөлу</label>
+    <label><input type="radio" name="d6q18" value="c"> тек жабық сұрақтардан анкета құрастыру</label>
+    <label><input type="radio" name="d6q18" value="d"> арнайы жоспар жасап, негізгі және жанама сұрақтарды нақты көрсету</label>
+    <label><input type="radio" name="d6q18" value="e"> эксперимент нәтижесін әдеттегі жағдаймен салыстыру</label>
+    <div class="explain">Дұрыс жауап: D. Әңгіме үшін арнайы жоспар, негізгі және жанама сұрақтар нақты көрсетілуі керек.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>19. Эксперимент әдісінің негізгі мәні</p>
+    <label><input type="radio" name="d6q19" value="a"> педагогикалық құбылысты сырттай ұзақ бақылау</label>
+    <label><input type="radio" name="d6q19" value="b"> нақты жағдайды есепке алып, педагогикалық үдерісті әдейі зерттейтін ғылыми тәжірибе</label>
+    <label><input type="radio" name="d6q19" value="c"> мұғалімдермен және ата-аналармен жоспарлы әңгіме жүргізу</label>
+    <label><input type="radio" name="d6q19" value="d"> оқушылардың жазба жұмыстары мен дәптерлерін талдау</label>
+    <label><input type="radio" name="d6q19" value="e"> ғылыми әдебиеттерді бастапқы құрылымдық бөлік ретінде зерттеу</label>
+    <div class="explain">Дұрыс жауап: B. Эксперимент — нақты жағдайды есепке алып, педагогикалық үдерісті әдейі зерттейтін ғылыми тәжірибе.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Анкета әдісі қандай мақсатта қолданылады?</p>
+    <label><input type="radio" name="d6q20" value="a"> педагогикалық үдерісті жасанды жағдайда өзгерту үшін</label>
+    <label><input type="radio" name="d6q20" value="b"> зерттеу нәтижелерін тек теориялық қорытындыға айналдыру үшін</label>
+    <label><input type="radio" name="d6q20" value="c"> оқушылардың сырттай мінез-құлқын ұзақ бақылау үшін</label>
+    <label><input type="radio" name="d6q20" value="d"> әдебиет көздеріндегі ғылыми мектептерді салыстыру үшін</label>
+    <label><input type="radio" name="d6q20" value="e"> тұлғалардың оқиғаларға, іс-әрекетке және пікірлерге қатынасын анықтау үшін</label>
+    <div class="explain">Дұрыс жауап: E. Анкета тұлғалардың оқиғаларға, іс-әрекетке және пікірлерге қатынасын анықтау үшін қолданылады.</div>
+  </div>
+
+  <button onclick="checkSection('d6_1')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+<section class="section" id="d6_2" data-section="d6_2">
+  <h2>2-бөлім. Жеке тұлға және дүниетаным</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">1.3 және 1.4 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">жеке тұлға</span>
+    <span class="term">даму</span>
+    <span class="term">қалыптасу</span>
+    <span class="term">тұқымқуалаушылық</span>
+    <span class="term">әлеуметтік орта</span>
+    <span class="term">тәрбие</span>
+    <span class="term">акселерация</span>
+    <span class="term">белсенділік</span>
+    <span class="term">дүниетаным</span>
+    <span class="term">көзқарас</span>
+    <span class="term">сенім</span>
+    <span class="term">құндылық бағыттары</span>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>1. Жеке адамның қалыптасуы қалай сипатталады?</p>
+    <label><input type="radio" name="d6q21" value="a"> тек биологиялық жетілудің табиғи нәтижесі ретінде</label>
+    <label><input type="radio" name="d6q21" value="b"> өсу, жетілу, стихиялы әсерлер мен мақсатты тәрбиені қамтитын күрделі үдеріс ретінде</label>
+    <label><input type="radio" name="d6q21" value="c"> тек мектептегі оқу үлгерімінің қорытындысы ретінде</label>
+    <label><input type="radio" name="d6q21" value="d"> тек тұқымқуалаушылық белгілердің сақталуы ретінде</label>
+    <label><input type="radio" name="d6q21" value="e"> тек әлеуметтік ортадан тыс дамудың көрінісі ретінде</label>
+    <div class="explain">Дұрыс жауап: B. Жеке адамның қалыптасуы ағзаның өсуі мен жетілуін, стихиялы әсерлерді және мақсатты ұйымдасқан тәрбиені қамтитын күрделі үдеріс.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>2. Жеке тұлғаның дамуы ең алдымен қандай өзгерістермен байланысты?</p>
+    <label><input type="radio" name="d6q22" value="a"> оқу кестесінің және сабақ ұзақтығының өзгеруімен</label>
+    <label><input type="radio" name="d6q22" value="b"> мектеп құжаттарының және жоспарлардың жаңаруымен</label>
+    <label><input type="radio" name="d6q22" value="c"> сыртқы келбет белгілерінің ғана өзгеруімен</label>
+    <label><input type="radio" name="d6q22" value="d"> іс-әрекетте, қарым-қатынаста және танымдық үдерістерде болатын сапалық өзгерістермен</label>
+    <label><input type="radio" name="d6q22" value="e"> оқушының тек дене салмағы мен бойының өсуімен</label>
+    <div class="explain">Дұрыс жауап: D. Жеке тұлғаның дамуы рухани өсу, іс-әрекет, қарым-қатынас, танымдық үдерістердегі сапалық өзгерістер арқылы көрінеді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>3. Жеке тұлғаның ерекшелігі дегеніміз</p>
+    <label><input type="radio" name="d6q23" value="a"> адамның мінез-құлқындағы, іс-әрекетіндегі және көзқарасындағы даралануы</label>
+    <label><input type="radio" name="d6q23" value="b"> барлық адамдарға ортақ мінез-құлық талаптарының жиынтығы</label>
+    <label><input type="radio" name="d6q23" value="c"> оқушының тек жас кезеңіне байланысты дене дамуы</label>
+    <label><input type="radio" name="d6q23" value="d"> адамның тек биологиялық ұқсастықтарының сақталуы</label>
+    <label><input type="radio" name="d6q23" value="e"> тәрбиенің формалары мен әдістерін таңдау тәртібі</label>
+    <div class="explain">Дұрыс жауап: A. Жеке тұлға өзіне тән мінез-құлқы, іс-әрекеті және көзқарасы арқылы дараланады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>4. Тұлғаның ерік-жігер механизмі нені білдіреді?</p>
+    <label><input type="radio" name="d6q24" value="a"> баланың жас кезеңдерін сырттай жіктеуін</label>
+    <label><input type="radio" name="d6q24" value="b"> оқушының білімін бағалау жүйесін</label>
+    <label><input type="radio" name="d6q24" value="c"> әлеуметтік ортаның табиғи жағдайларға әсерін</label>
+    <label><input type="radio" name="d6q24" value="d"> тұқымқуалаушылық белгілердің биологиялық берілуін</label>
+    <label><input type="radio" name="d6q24" value="e"> адамның өзіне тән қасиеттерін жүзеге асыруын</label>
+    <div class="explain">Дұрыс жауап: E. Ерік-жігер механизмі адамның өзіне тән қасиеттерін жүзеге асыруымен байланысты.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>5. Преформизм қандай көзқарасты білдіреді?</p>
+    <label><input type="radio" name="d6q25" value="a"> баланың дамуын тек әлеуметтік тәрбиемен түсіндіретін бағытты</label>
+    <label><input type="radio" name="d6q25" value="b"> оқушының дүниетанымын білім арқылы қалыптастыруды</label>
+    <label><input type="radio" name="d6q25" value="c"> ересек адамның қасиеттері сәбидің ағзасында алдын ала болады деген түсінікті</label>
+    <label><input type="radio" name="d6q25" value="d"> жас кезеңдерін психологиялық ерекшелікке қарай бөлуді</label>
+    <label><input type="radio" name="d6q25" value="e"> тәрбиенің даму заңдылықтарын тәжірибе арқылы зерттеуді</label>
+    <div class="explain">Дұрыс жауап: C. Преформистер жеке адамның дамуын ұрықта пайда болған қасиеттердің өрістеуі мен сан жағынан артуы ретінде қарастырған.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>6. Бала дамуына ықпал ететін негізгі факторлар</p>
+    <label><input type="radio" name="d6q26" value="a"> оқу жоспары, сабақ кестесі және сынып журналы</label>
+    <label><input type="radio" name="d6q26" value="b"> тұқымқуалаушылық, әлеуметтік орта және тәрбие</label>
+    <label><input type="radio" name="d6q26" value="c"> емтихан, бақылау жұмысы және бағалау парағы</label>
+    <label><input type="radio" name="d6q26" value="d"> мектеп ғимараты, кабинет және құрал-жабдық</label>
+    <label><input type="radio" name="d6q26" value="e"> пән мазмұны, оқулық және дәптер</label>
+    <div class="explain">Дұрыс жауап: B. Кітапта баланың дамуына тұқымқуалаушылық, әлеуметтік орта, тәрбие сияқты факторлар әсер ететіні көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>7. Тұқымқуалаушылық дегеніміз</p>
+    <label><input type="radio" name="d6q27" value="a"> адамның әлеуметтік ортада меңгеретін мінез-құлық нормалары</label>
+    <label><input type="radio" name="d6q27" value="b"> тәрбие арқылы қалыптасатын адамгершілік қасиеттер жүйесі</label>
+    <label><input type="radio" name="d6q27" value="c"> оқушының оқу тапсырмаларын орындау белсенділігі</label>
+    <label><input type="radio" name="d6q27" value="d"> ұрпақтың ата-анасынан берілген биологиялық ұқсастығы</label>
+    <label><input type="radio" name="d6q27" value="e"> дүниетанымдық білімдердің сенімге айналуы</label>
+    <div class="explain">Дұрыс жауап: D. Тұқымқуалаушылық — ұрпақтың ата-анасынан берілген биологиялық ұқсастығы.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>8. Әлеуметтік орта жеке тұлғаға қалай әсер етеді?</p>
+    <label><input type="radio" name="d6q28" value="a"> мінез-құлықтың дамуына, әлеуметтік қатынас пен іс-әрекет арқылы ықпал етеді</label>
+    <label><input type="radio" name="d6q28" value="b"> тек адамның сыртқы пішінін қалыптастырады</label>
+    <label><input type="radio" name="d6q28" value="c"> тек тұқымқуалаушылық белгілерді күшейтеді</label>
+    <label><input type="radio" name="d6q28" value="d"> баланың жас кезеңдерін автоматты түрде өзгертеді</label>
+    <label><input type="radio" name="d6q28" value="e"> дүниетанымды білімсіз және тәжірибесіз қалыптастырады</label>
+    <div class="explain">Дұрыс жауап: A. Әлеуметтік орта адамның мінез-құлқының дамуына әлеуметтік қатынастар мен көп қырлы іс-әрекеттер арқылы әсер етеді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>9. Тәрбиенің бала дамуындағы рөлі қалай түсіндіріледі?</p>
+    <label><input type="radio" name="d6q29" value="a"> тәрбие тұқымқуалаушылық пен ортаның әсерінен толық тәуелсіз болады</label>
+    <label><input type="radio" name="d6q29" value="b"> тәрбие тек баланың дене дамуын жылдамдатуға бағытталады</label>
+    <label><input type="radio" name="d6q29" value="c"> тәрбие тек білім мазмұнын есте сақтаумен шектеледі</label>
+    <label><input type="radio" name="d6q29" value="d"> тәрбие оқушының жас ерекшеліктерін есепке алмай жүргізіледі</label>
+    <label><input type="radio" name="d6q29" value="e"> тәрбие бала дамуын бағыттайды, басқарады және негізгі күш ретінде әсер етеді</label>
+    <div class="explain">Дұрыс жауап: E. Тәрбие бала дамуын бағыттап, басқарып, қоғам талаптарына сәйкес ұйымдастыратын негізгі күш ретінде беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>10. Акселерация ұғымы нені білдіреді?</p>
+    <label><input type="radio" name="d6q30" value="a"> дүниетанымның сенімге айналу үдерісін</label>
+    <label><input type="radio" name="d6q30" value="b"> баланың әлеуметтік ортадан оқшаулануын</label>
+    <label><input type="radio" name="d6q30" value="c"> ағзаның жедел дамуы мен балалардың бойы, салмағы, бұлшық еттерінің тез өсуін</label>
+    <label><input type="radio" name="d6q30" value="d"> ғылыми-зерттеу әдістерінің жүйеленуін</label>
+    <label><input type="radio" name="d6q30" value="e"> оқушының дүниеге көзқарасының қалыптасуын</label>
+    <div class="explain">Дұрыс жауап: C. Акселерация — ағзаның жедел дамуы, балалардың бойы, салмағы, бұлшық еттерінің тез өсіп-жетілуі.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>11. Белсенділік дегеніміз</p>
+    <label><input type="radio" name="d6q31" value="a"> оқушының жас кезеңдерін биологиялық тұрғыдан бөлуі</label>
+    <label><input type="radio" name="d6q31" value="b"> адамның іс-әрекет үстіндегі жағдайы</label>
+    <label><input type="radio" name="d6q31" value="c"> адамның тұқымқуалаушылық белгілерінің жиынтығы</label>
+    <label><input type="radio" name="d6q31" value="d"> дүниетанымның теориялық құрылымы</label>
+    <label><input type="radio" name="d6q31" value="e"> тәрбиенің жас ерекшелікке сәйкес жоспары</label>
+    <div class="explain">Дұрыс жауап: B. Белсенділік адамның іс-әрекет үстіндегі жағдайы ретінде сипатталады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>12. Мектеп жасындағы балалардың кезеңдері қалай бөлінеді?</p>
+    <label><input type="radio" name="d6q32" value="a"> нәрестелік, ерте сәбилік, мектепке дейінгі шақ</label>
+    <label><input type="radio" name="d6q32" value="b"> бастауыш, мектепке дейінгі және ересектік кезең</label>
+    <label><input type="radio" name="d6q32" value="c"> жаңа туған бала, нәрестелік шақ, жасөспірім шақ</label>
+    <label><input type="radio" name="d6q32" value="d"> бастауыш мектеп жасы, жеткіншектік кезең, жасөспірімдік кезең</label>
+    <label><input type="radio" name="d6q32" value="e"> ерте балалық шақ, еңбек кезеңі, кәсіби кезең</label>
+    <div class="explain">Дұрыс жауап: D. Мектеп жасындағы балалар бастауыш мектеп жасы, жеткіншектік кезең және жасөспірімдік кезең болып бөлінеді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>13. Дүниетаным дегеніміз</p>
+    <label><input type="radio" name="d6q33" value="a"> ақиқат дүниеге, адамның ондағы орнына, болмысқа және өзіне қатынасына арналған көзқарастар жүйесі</label>
+    <label><input type="radio" name="d6q33" value="b"> оқушының жас ерекшеліктерін кезеңдерге бөлу жүйесі</label>
+    <label><input type="radio" name="d6q33" value="c"> тұлғаның дене дамуы мен биологиялық ұқсастығын сипаттайтын ұғым</label>
+    <label><input type="radio" name="d6q33" value="d"> тәрбие құралдары мен әдістерін таңдаудың практикалық жоспары</label>
+    <label><input type="radio" name="d6q33" value="e"> педагогикалық бақылау нәтижесін тіркейтін құжат</label>
+    <div class="explain">Дұрыс жауап: A. Дүниетаным — ақиқат дүниеге, ондағы адамның орнына, қоршаған болмысқа және өз-өзіне қатынасына деген көзқарастар жүйесі.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>14. Дүниетаным жүйесінің негізін не құрайды?</p>
+    <label><input type="radio" name="d6q34" value="a"> жас кезеңдері мен физиологиялық даму белгілері</label>
+    <label><input type="radio" name="d6q34" value="b"> әлеуметтік ортадан оқшаулану тәжірибесі</label>
+    <label><input type="radio" name="d6q34" value="c"> философиялық көзқарастар мен сенімдер</label>
+    <label><input type="radio" name="d6q34" value="d"> тұқымқуалаушылық және сыртқы пішін белгілері</label>
+    <label><input type="radio" name="d6q34" value="e"> бақылау, әңгіме және анкета әдістері</label>
+    <div class="explain">Дұрыс жауап: C. Философиялық көзқарастар мен сенімдер бүкіл дүниетаным жүйесінің негізін құрайды.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Ғылыми дүниетаным неге сүйенеді?</p>
+    <label><input type="radio" name="d6q35" value="a"> тек күнделікті қарапайым пікірлерге</label>
+    <label><input type="radio" name="d6q35" value="b"> тек эмоциялық әсерлер мен кездейсоқ бағаларға</label>
+    <label><input type="radio" name="d6q35" value="c"> тек жеке адамның туа біткен нышандарына</label>
+    <label><input type="radio" name="d6q35" value="d"> тек әлеуметтік ортадан тыс жеке тәжірибеге</label>
+    <label><input type="radio" name="d6q35" value="e"> дүниенің ғылыми бейнесіне, ғылыми талдауларға және теориялық негіздеулерге</label>
+    <div class="explain">Дұрыс жауап: E. Ғылыми дүниетаным дүниенің ғылыми бейнесіне, ғылыми талдаулар негізіндегі қорытындыларға және теориялық ұғынуға сүйенеді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>16. Дүниетаным құрылымындағы көзқарастар қандай қызмет атқарады?</p>
+    <label><input type="radio" name="d6q36" value="a"> баланың дене дамуын жеделдету қызметін</label>
+    <label><input type="radio" name="d6q36" value="b"> табиғат пен қоғам құбылыстарын түсіндіріп, іс-әрекетке бағыт-бағдар беру қызметін</label>
+    <label><input type="radio" name="d6q36" value="c"> тұқымқуалаушылық белгілерді сақтау қызметін</label>
+    <label><input type="radio" name="d6q36" value="d"> жас кезеңдерін биологиялық тұрғыдан ауыстыру қызметін</label>
+    <label><input type="radio" name="d6q36" value="e"> оқушыны әлеуметтік ортадан бөлу қызметін</label>
+    <div class="explain">Дұрыс жауап: B. Көзқарастар табиғат пен қоғам құбылыстарын түсіндіреді және мінез-құлық, іс-әрекет, қатынастарға бағыт-бағдар береді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>17. Сенім дүниетанымда қалай сипатталады?</p>
+    <label><input type="radio" name="d6q37" value="a"> баланың жас кезеңін көрсететін биологиялық белгі ретінде</label>
+    <label><input type="radio" name="d6q37" value="b"> тек сыртқы орта ықпалының кездейсоқ нәтижесі ретінде</label>
+    <label><input type="radio" name="d6q37" value="c"> білім мазмұнын пәндерге бөлетін ұйымдастыру формасы ретінде</label>
+    <label><input type="radio" name="d6q37" value="d"> көзқарастардың сапа жағынан жоғары күйі және ішкі ұстанымға айналған білім ретінде</label>
+    <label><input type="radio" name="d6q37" value="e"> оқушының дене дамуындағы үдеу құбылысы ретінде</label>
+    <div class="explain">Дұрыс жауап: D. Сенім — көзқарастардың сапа жағынан жоғары күйі; ол жеке тұлғаның ішкі ұстанымына айналған білім.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>18. Оқушылардың ғылыми дүниетанымы негізінен қалай қалыптасады?</p>
+    <label><input type="radio" name="d6q38" value="a"> ғылыми-философиялық білімдерді, қазіргі ғылыми жаңалықтарды және әдіснаманы меңгеру арқылы</label>
+    <label><input type="radio" name="d6q38" value="b"> тек сыртқы тәртіп талаптарын орындау арқылы</label>
+    <label><input type="radio" name="d6q38" value="c"> тұқымқуалаушылық белгілердің табиғи берілуі арқылы</label>
+    <label><input type="radio" name="d6q38" value="d"> тек баланың дене салмағы мен бойының өсуі арқылы</label>
+    <label><input type="radio" name="d6q38" value="e"> әлеуметтік ортадан оқшаулану арқылы</label>
+    <div class="explain">Дұрыс жауап: A. Оқушылардың ғылыми дүниетанымы ғылыми-философиялық білімдерді, ғылыми жаңалықтарды және дүниені түсіндіру әдіснамасын меңгеру арқылы қалыптасады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>19. Дүниетанымдық білімдерді терең сенімге айналдыру неге әсер етеді?</p>
+    <label><input type="radio" name="d6q39" value="a"> оқушының тек биологиялық өсуіне</label>
+    <label><input type="radio" name="d6q39" value="b"> жас кезеңдерінің автоматты өзгеруіне</label>
+    <label><input type="radio" name="d6q39" value="c"> оқушының іс-әрекеті, мінез-құлқы, қоғамдық бағыты және өмірлік ұстанымына</label>
+    <label><input type="radio" name="d6q39" value="d"> тұқымқуалаушылық белгілердің күшеюіне</label>
+    <label><input type="radio" name="d6q39" value="e"> әлеуметтік ортаның табиғи климатқа тәуелділігіне</label>
+    <div class="explain">Дұрыс жауап: C. Білімді сенімге айналдыру оқушылардың іс-әрекет принциптерін, мінез-құлқын, қоғамдық бағытын және өмірлік ұстанымын қалыптастырады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Дүниетанымды қалыптастырудың маңызды шарты</p>
+    <label><input type="radio" name="d6q40" value="a"> білімді жаттанды түрде ғана меңгерту</label>
+    <label><input type="radio" name="d6q40" value="b"> оқушының тәжірибелік іс-әрекетінен білімді бөлу</label>
+    <label><input type="radio" name="d6q40" value="c"> ғылыми білімді оқушының сезімі мен әрекетінен ажырату</label>
+    <label><input type="radio" name="d6q40" value="d"> дүниетанымды тек кездейсоқ пікірлер арқылы қалыптастыру</label>
+    <label><input type="radio" name="d6q40" value="e"> білім, сенім және тәжірибелік іс-әрекеттің бірлігін қамтамасыз ету</label>
+    <div class="explain">Дұрыс жауап: E. Оқушылардың дүниетанымын қалыптастыруда білім, сенім және тәжірибелік іс-әрекеттің бірлігі маңызды шарт болып табылады.</div>
+  </div>
+
+  <button onclick="checkSection('d6_2')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+<section class="section" id="d6_3" data-section="d6_3">
+  <h2>3-бөлім. Тәрбиенің генезисі, тарихи негізі, формалары мен әдістері</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">2.1 және 2.2 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">тәрбие</span>
+    <span class="term">тәрбие мақсаты</span>
+    <span class="term">тәрбие процесі</span>
+    <span class="term">тәрбие заңдылықтары</span>
+    <span class="term">тәрбие принциптері</span>
+    <span class="term">өзін-өзі тәрбиелеу</span>
+    <span class="term">қайта тәрбиелеу</span>
+    <span class="term">тәрбие әдістері</span>
+    <span class="term">тәрбие тәсілдері</span>
+    <span class="term">тәрбие формалары</span>
+    <span class="term">мадақтау</span>
+    <span class="term">жазалау</span>
+    <span class="term">жарыс</span>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>1. Тәрбие генезисі туралы жалпы түсінікте тәрбие қашан пайда болды деп көрсетіледі?</p>
+    <label><input type="radio" name="d6q41" value="a"> мектеп жүйесі құрылғаннан кейін</label>
+    <label><input type="radio" name="d6q41" value="b"> жазба мәдениеті қалыптасқаннан кейін</label>
+    <label><input type="radio" name="d6q41" value="c"> адам және адамзат қоғамы дүниеге келгеннен бастап</label>
+    <label><input type="radio" name="d6q41" value="d"> арнайы педагогикалық ғылым бөлінгеннен кейін</label>
+    <label><input type="radio" name="d6q41" value="e"> мемлекет пен құқық жүйесі пайда болғаннан кейін</label>
+    <div class="explain">Дұрыс жауап: C. Кітапта тәрбие адамның және адамзат қоғамының дүниеге келгенінен бастап пайда болғаны айтылады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>2. Тәрбие қоғамда қандай қызмет атқарады?</p>
+    <label><input type="radio" name="d6q42" value="a"> ұрпақтар арасындағы сабақтастықты қамтамасыз етеді</label>
+    <label><input type="radio" name="d6q42" value="b"> оқушыларды тек емтиханға дайындайды</label>
+    <label><input type="radio" name="d6q42" value="c"> білім мазмұнын пәндерге ғана бөледі</label>
+    <label><input type="radio" name="d6q42" value="d"> тәрбие әдістерін ғылыми зерттеуден ажыратады</label>
+    <label><input type="radio" name="d6q42" value="e"> тұлғаны әлеуметтік ортадан оқшаулайды</label>
+    <div class="explain">Дұрыс жауап: A. Тәрбие аға ұрпақтың білімі мен тәжірибесін кейінгі ұрпаққа беріп, ұрпақтар сабақтастығын қамтамасыз етеді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>3. Алғашқы қауымдық қоғамда тәрбие ең алдымен немен байланысты дамыды?</p>
+    <label><input type="radio" name="d6q43" value="a"> жазалау жүйесінің қалыптасуымен</label>
+    <label><input type="radio" name="d6q43" value="b"> арнайы мектеп пәндерінің көбеюімен</label>
+    <label><input type="radio" name="d6q43" value="c"> дүниетанымдық теориялардың құрылуымен</label>
+    <label><input type="radio" name="d6q43" value="d"> еңбек үдерісімен және өмірге қажетті дағдыларды меңгертумен</label>
+    <label><input type="radio" name="d6q43" value="e"> педагогикалық бақылау әдістерінің пайда болуымен</label>
+    <div class="explain">Дұрыс жауап: D. Алғашқы қоғамда тәрбие еңбек үдерісімен байланысып, балаларды еңбек құралдарын қолдануға және өмірге қажетті дағдыларға үйретті.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>4. Алғашқы қауымдық құрылыста балалар тәрбиесімен кімдер айналысты?</p>
+    <label><input type="radio" name="d6q44" value="a"> тек арнайы мектеп мұғалімдері</label>
+    <label><input type="radio" name="d6q44" value="b"> рудың тәжірибелі, құрметті адамдары және ақсақалдар</label>
+    <label><input type="radio" name="d6q44" value="c"> тек мемлекеттік қызметкерлер</label>
+    <label><input type="radio" name="d6q44" value="d"> тек кәсіби психологтар</label>
+    <label><input type="radio" name="d6q44" value="e"> тек жазба мәдениет өкілдері</label>
+    <div class="explain">Дұрыс жауап: B. Алғашқы қауымдық құрылыста балаларды тәрбиелеумен рудың тәжірибелі, құрметті адамдары, ақсақалдар айналысты.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>5. Жекеменшіктің, құл иеленушіліктің және моногамиялық отбасының пайда болуы нені өзгертті?</p>
+    <label><input type="radio" name="d6q45" value="a"> тәрбие мазмұнын қоғамдық өмірден толық ажыратты</label>
+    <label><input type="radio" name="d6q45" value="b"> балалардың барлығын бірдей тәрбиелеу жүйесін күшейтті</label>
+    <label><input type="radio" name="d6q45" value="c"> тәрбиені тек ойын әрекетімен шектеді</label>
+    <label><input type="radio" name="d6q45" value="d"> тәрбие әдістерін төрт топқа бөлді</label>
+    <label><input type="radio" name="d6q45" value="e"> отбасы тәрбиесін бұқаралық түрге айналдырып, ұйымдасқан тәрбиені үстем тап ісіне айналдырды</label>
+    <div class="explain">Дұрыс жауап: E. Жекеменшік пен моногамиялық отбасының пайда болуымен отбасы бала тәрбиесімен айналыса бастады, ал мектептегі ұйымдасқан тәрбие үстем тап өкілдерінің ісіне айналды.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>6. Тәрбиенің пайда болуының негізгі шарты ретінде не көрсетіледі?</p>
+    <label><input type="radio" name="d6q46" value="a"> балалардың биологиялық инстинкті ғана</label>
+    <label><input type="radio" name="d6q46" value="b"> еліктеу әрекетінің кездейсоқ көрінісі ғана</label>
+    <label><input type="radio" name="d6q46" value="c"> алғашқы қоғамдағы еңбек іс-әрекеті және қоғамдық қатынастар</label>
+    <label><input type="radio" name="d6q46" value="d"> тек діни түсініктердің таралуы</label>
+    <label><input type="radio" name="d6q46" value="e"> тек мектептің пайда болуы</label>
+    <div class="explain">Дұрыс жауап: C. Кітапта тәрбиенің пайда болуының негізгі шарты алғашқы қоғамдағы еңбек іс-әрекеті мен қалыптасқан қоғамдық қатынастар екені беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>7. П. Монроның психологиялық теориясы тәрбиенің пайда болуын қалай түсіндіреді?</p>
+    <label><input type="radio" name="d6q47" value="a"> балалардағы санасыз инстинктің үлкендерге еліктеуімен</label>
+    <label><input type="radio" name="d6q47" value="b"> қоғамдық қатынастардың еңбек арқылы қалыптасуымен</label>
+    <label><input type="radio" name="d6q47" value="c"> мектептегі ұйымдасқан оқытудың дамуымен</label>
+    <label><input type="radio" name="d6q47" value="d"> тәрбие әдістерінің төрт топқа бөлінуімен</label>
+    <label><input type="radio" name="d6q47" value="e"> өзін-өзі тәрбиелеу бағдарламасының құрылуымен</label>
+    <div class="explain">Дұрыс жауап: A. П. Монро тәрбиенің пайда болуын балаларда санасыз инстинктің үлкендерге еліктеуімен түсіндіреді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>8. Әбу Насыр әл-Фарабидің тәрбие туралы ойы қай пікірмен беріледі?</p>
+    <label><input type="radio" name="d6q48" value="a"> тәрбие тек мектеп қабырғасында жүргізілуі керек</label>
+    <label><input type="radio" name="d6q48" value="b"> білім тәрбиеге тәуелсіз берілуі керек</label>
+    <label><input type="radio" name="d6q48" value="c"> тәрбиенің мақсаты тек дене күшін дамыту</label>
+    <label><input type="radio" name="d6q48" value="d"> адамға ең алдымен білім емес, тәрбие берілуі керек</label>
+    <label><input type="radio" name="d6q48" value="e"> тәрбие қоғамдық құбылыс емес</label>
+    <div class="explain">Дұрыс жауап: D. Әл-Фараби адамға ең алдымен тәрбие берілуі керек, тәрбиесіз білім адамзаттың қас жауы деген ой айтқан.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>9. Тәрбие мақсаты қалай анықталады?</p>
+    <label><input type="radio" name="d6q49" value="a"> оқушының тек жеке қызығушылығы ретінде</label>
+    <label><input type="radio" name="d6q49" value="b"> жастарды өмірге әзірлеу мақсатымен жүргізілетін тәрбие жұмыстарының нәтижесі ретінде</label>
+    <label><input type="radio" name="d6q49" value="c"> тек пәндік білімді тексеру тәсілі ретінде</label>
+    <label><input type="radio" name="d6q49" value="d"> педагогикалық бақылаудың сыртқы формасы ретінде</label>
+    <label><input type="radio" name="d6q49" value="e"> оқыту әдістерін таңдау тәртібі ретінде</label>
+    <div class="explain">Дұрыс жауап: B. Тәрбие мақсаты жастарды өмірге әзірлеу мақсатымен жүргізілетін тәрбие жұмыстарының нәтижесі ретінде түсіндіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>10. Дәстүрлі педагогикада жас ұрпақты тәрбиелеудің негізгі мақсаты</p>
+    <label><input type="radio" name="d6q50" value="a"> оқушыларды тек еңбек дағдысына үйрету</label>
+    <label><input type="radio" name="d6q50" value="b"> тек тәртіптілік пен бағынуды қалыптастыру</label>
+    <label><input type="radio" name="d6q50" value="c"> тек ұлттық салт-дәстүрді жаттату</label>
+    <label><input type="radio" name="d6q50" value="d"> тек ақыл-ой тәрбиесін дамыту</label>
+    <label><input type="radio" name="d6q50" value="e"> жан-жақты үйлесімді дамыған жеке тұлғаны қалыптастыру</label>
+    <div class="explain">Дұрыс жауап: E. Дәстүрлі педагогикада тәрбиенің негізгі мақсаты жан-жақты үйлесімді дамыған жеке тұлғаны қалыптастыру деп көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>11. Тәрбие үдерісіндегі сыртқы қарама-қайшылыққа не жатады?</p>
+    <label><input type="radio" name="d6q51" value="a"> қоғамдық ережелер мен адамдардың тәртібі арасындағы сәйкессіздік</label>
+    <label><input type="radio" name="d6q51" value="b"> тәрбиеленушінің қажеттілігі мен оны қанағаттандыру тәсілдерінің арақатынасы</label>
+    <label><input type="radio" name="d6q51" value="c"> тәрбиешінің талабы мен тәрбиеленушінің мүмкіндігі арасындағы арақатынас</label>
+    <label><input type="radio" name="d6q51" value="d"> тұлғаның ішкі сезімі мен дүниетанымының байланысы</label>
+    <label><input type="radio" name="d6q51" value="e"> оқушының өзін-өзі бақылауы мен өзіне баға беруі</label>
+    <div class="explain">Дұрыс жауап: A. Сыртқы қарама-қайшылықтарға қоғамдық ережелер мен адамдар тәртібі арасындағы сәйкессіздік, мұғалім талабы мен оқушы тәртібінің арақатынасы жатады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>12. Тәрбиенің оқыту мен білім берудің сапасына байланыстылығы нені білдіреді?</p>
+    <label><input type="radio" name="d6q52" value="a"> тәрбиенің оқытудан толық бөлек жүргізілуін</label>
+    <label><input type="radio" name="d6q52" value="b"> тәрбиенің тек өзін-өзі тәрбиелеумен шектелуін</label>
+    <label><input type="radio" name="d6q52" value="c"> оқытудың тұлғаны қалыптастыру құралы екенін</label>
+    <label><input type="radio" name="d6q52" value="d"> тәрбие әдістерінің тек жазалауға сүйенетінін</label>
+    <label><input type="radio" name="d6q52" value="e"> тәрбиенің тек қоғамдық пікір арқылы іске асатынын</label>
+    <div class="explain">Дұрыс жауап: C. Тәрбиенің оқыту мен білім беру сапасына байланыстылығы оқытудың тұлғаны қалыптастыру құралы болуымен түсіндіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>13. Тәрбие принципі дегеніміз</p>
+    <label><input type="radio" name="d6q53" value="a"> тәрбие нәтижесін тексеретін тест түрі</label>
+    <label><input type="radio" name="d6q53" value="b"> оқушының жеке қателігін жазалау тәсілі</label>
+    <label><input type="radio" name="d6q53" value="c"> тәрбие құралдарының материалдық жиынтығы</label>
+    <label><input type="radio" name="d6q53" value="d"> адамның іс-әрекетінде басшылыққа алатын негізгі ереже</label>
+    <label><input type="radio" name="d6q53" value="e"> тек ұжымдық жұмысты ұйымдастыру формасы</label>
+    <div class="explain">Дұрыс жауап: D. Тәрбие принципі адамның іс-әрекетінде басшылыққа алатын алғышарт, негізгі ереже ретінде анықталады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>14. Өзін-өзі тәрбиелеудің міндетті бағытына не жатады?</p>
+    <label><input type="radio" name="d6q54" value="a"> тек басқалардың әрекетін бақылау</label>
+    <label><input type="radio" name="d6q54" value="b"> мақсат қою, күш-жігер жұмсау, өзін-өзі бақылау және өз ісіне талдау жасау</label>
+    <label><input type="radio" name="d6q54" value="c"> тек мұғалім талабын сырттай орындау</label>
+    <label><input type="radio" name="d6q54" value="d"> тек жазалау мен ескерту қабылдау</label>
+    <label><input type="radio" name="d6q54" value="e"> тек қоғамдық пікірге тәуелді болу</label>
+    <div class="explain">Дұрыс жауап: B. Өзін-өзі тәрбиелеудің міндетті бағыты мақсат қою, күш-жігер жұмсау, өзін-өзі бақылау және өз ісіне талдау жасаудан тұрады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Тәрбие әдісі дегеніміз</p>
+    <label><input type="radio" name="d6q55" value="a"> тәрбие мазмұнын тек пәндік тақырыптарға бөлу</label>
+    <label><input type="radio" name="d6q55" value="b"> оқушының білімін бағалайтын балл жүйесі</label>
+    <label><input type="radio" name="d6q55" value="c"> мектеп құжаттарын жүргізу тәртібі</label>
+    <label><input type="radio" name="d6q55" value="d"> оқушылардың жас кезеңдерін анықтау тәсілі</label>
+    <label><input type="radio" name="d6q55" value="e"> тұлғалық қасиеттерді қалыптастыруға бағытталған тәрбиеші мен тәрбиеленушінің өзара байланысты жұмыс тәсілдері</label>
+    <div class="explain">Дұрыс жауап: E. Тәрбие әдісі оқушылардың тұлғалық қасиеттерін қалыптастыруға бағытталған тәрбиешілер мен тәрбиеленушілердің өзара байланысты педагогикалық жұмыс тәсілдері ретінде беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>16. Тәрбие әдістері қандай төрт топқа бөлінеді?</p>
+    <label><input type="radio" name="d6q56" value="a"> адамгершілік сананы қалыптастыру; іс-әрекет тәжірибесін қалыптастыру; ынталандыру; бақылау және өзін-өзі бақылау әдістері</label>
+    <label><input type="radio" name="d6q56" value="b"> сабақ, дәріс, семинар және тәжірибелік жұмыс әдістері</label>
+    <label><input type="radio" name="d6q56" value="c"> бақылау, әңгіме, эксперимент және анкета әдістері</label>
+    <label><input type="radio" name="d6q56" value="d"> бастауыш, жеткіншек, жасөспірім және ересектік әдістері</label>
+    <label><input type="radio" name="d6q56" value="e"> білім беру, оқыту, дамыту және бағалау әдістері</label>
+    <div class="explain">Дұрыс жауап: A. Тәрбие әдістері адамгершілік сананы қалыптастыру, іс-әрекет және қоғамдық тәртіп тәжірибесін қалыптастыру, ынталандыру, бақылау және өзін-өзі бақылау әдістері болып бөлінеді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>17. Тәрбие тәсілдері дегеніміз</p>
+    <label><input type="radio" name="d6q57" value="a"> тәрбие принциптерінің заңдылыққа айналуы</label>
+    <label><input type="radio" name="d6q57" value="b"> тәрбие құралдарының материалдық түрлері</label>
+    <label><input type="radio" name="d6q57" value="c"> әдістің бір бөлігі</label>
+    <label><input type="radio" name="d6q57" value="d"> тәрбие нәтижесін бағалау көрсеткіші</label>
+    <label><input type="radio" name="d6q57" value="e"> ұжымдық іс-әрекеттің сыртқы формасы</label>
+    <div class="explain">Дұрыс жауап: C. Тәрбие тәсілдері әдістің бір бөлігі ретінде анықталады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>18. Адамгершілік сананы қалыптастыру әдістеріне қайсысы жатады?</p>
+    <label><input type="radio" name="d6q58" value="a"> жаттықтыру, ойын, еңбек тапсырмасы</label>
+    <label><input type="radio" name="d6q58" value="b"> жарыс, мадақтау, жазалау</label>
+    <label><input type="radio" name="d6q58" value="c"> өзін-өзі бақылау, сауалнама, тест</label>
+    <label><input type="radio" name="d6q58" value="d"> этикалық әңгіме, әңгімелесу, пікірталас, өнеге</label>
+    <label><input type="radio" name="d6q58" value="e"> бақылау, эксперимент, құжаттарды зерттеу</label>
+    <div class="explain">Дұрыс жауап: D. Адамгершілік сананы қалыптастыру әдістеріне этикалық әңгіме, әңгімелесу, пікірталас, лекциялар, өнеге жатады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>19. Мадақтау әдісінің тәрбиелік мәні неде?</p>
+    <label><input type="radio" name="d6q59" value="a"> оқушының жағымсыз әрекетін күшейтуінде</label>
+    <label><input type="radio" name="d6q59" value="b"> оқушының өзіне сенімділігін арттырып, жағымды мінез-құлықты дамытуында</label>
+    <label><input type="radio" name="d6q59" value="c"> баланың жеке басын қорлау арқылы тәртіпке келтіруінде</label>
+    <label><input type="radio" name="d6q59" value="d"> тәрбиені тек сыртқы бақылауға бағындыруында</label>
+    <label><input type="radio" name="d6q59" value="e"> оқушыны ұжымнан бөлектеуінде</label>
+    <div class="explain">Дұрыс жауап: B. Мадақтау оқушының адамгершілігін сезінуіне, өзіне сенімділігінің артуына және жағымды мінез-құлқын дамытуына көмектеседі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Жазалау әдісіне қойылатын негізгі талаптардың бірі</p>
+    <label><input type="radio" name="d6q60" value="a"> жазаның кек алу түрінде болуы</label>
+    <label><input type="radio" name="d6q60" value="b"> баланың намысын қорлау арқылы әсер ету</label>
+    <label><input type="radio" name="d6q60" value="c"> жазаны әділетсіз қолдану</label>
+    <label><input type="radio" name="d6q60" value="d"> жазаны басқа тәрбие тәсілдерінен толық бөлу</label>
+    <label><input type="radio" name="d6q60" value="e"> жазаның әділ болуы және ұстаздық әдептің сақталуы</label>
+    <div class="explain">Дұрыс жауап: E. Жазалау әдісінде әділдік, ұстаздық әдеп, баланың адамгершілік қасиетін кемітпеу және намысын қорламау талаптары сақталуы керек.</div>
+  </div>
+
+  <button onclick="checkSection('d6_3')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+<section class="section" id="d6_4" data-section="d6_4">
+  <h2>4-бөлім. Отбасындағы тәрбие және мектеппен әрекеттестік</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">2.3 және 2.4 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">отбасы тәрбиесі</span>
+    <span class="term">қоғамдық тәрбие</span>
+    <span class="term">отбасылық тәрбие</span>
+    <span class="term">ата-ананың педагогикалық белсенділігі</span>
+    <span class="term">құқықтық негіз</span>
+    <span class="term">диагностика әдістері</span>
+    <span class="term">мектеп пен отбасы әрекеттестігі</span>
+    <span class="term">ата-аналар комитеті</span>
+    <span class="term">ата-аналар жиналысы</span>
+    <span class="term">педагогикалық сауаттылық</span>
+    <span class="term">сынып жетекшісі</span>
+    <span class="term">тәрбие жүйесі</span>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>1. Педагогика және психология ғылымдарында отбасы қалай сипатталады?</p>
+    <label><input type="radio" name="d6q61" value="a"> оқушылардың оқу үлгерімін тексеретін ұйым ретінде</label>
+    <label><input type="radio" name="d6q61" value="b"> ата-ана, балалар және басқа отбасы мүшелері қарым-қатынасының тарихи нақты жүйесі ретінде</label>
+    <label><input type="radio" name="d6q61" value="c"> мектептегі тәрбие әдістерін ғана жүзеге асыратын мекеме ретінде</label>
+    <label><input type="radio" name="d6q61" value="d"> тек құқықтық құжаттар арқылы реттелетін сыртқы бақылау жүйесі ретінде</label>
+    <label><input type="radio" name="d6q61" value="e"> баланың қоғамдық іс-әрекеттен толық оқшаулану формасы ретінде</label>
+    <div class="explain">Дұрыс жауап: B. Отбасы ата-ана мен балалар, ерлі-зайыптылар және басқа отбасы мүшелері арасындағы тарихи нақты қарым-қатынас жүйесі ретінде беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>2. Отбасының негізгі ерекшелігі неде?</p>
+    <label><input type="radio" name="d6q62" value="a"> тек материалдық қамтамасыз етуге негізделуінде</label>
+    <label><input type="radio" name="d6q62" value="b"> мектеп құжаттарын жүргізумен шектелуінде</label>
+    <label><input type="radio" name="d6q62" value="c"> балалардың жас кезеңдерін автоматты анықтауында</label>
+    <label><input type="radio" name="d6q62" value="d"> тұрмыстың ортақтығы, өзара көмек және рухани жауапкершілік арқылы байланысуында</label>
+    <label><input type="radio" name="d6q62" value="e"> тәрбие әдістерін тек жазалау арқылы жүргізуінде</label>
+    <div class="explain">Дұрыс жауап: D. Отбасының ерекшелігі тұрмыстың ортақтығы, өзара көмек және рухани жауапкершілік арқылы байланысқан қатынастарда көрінеді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>3. Отбасы тәрбиесінің артықшылығы неде?</p>
+    <label><input type="radio" name="d6q63" value="a"> отбасы мүшелері арасындағы жақындық, туыстық қатынас және тұрмыстық өмірдің тәрбиелік ықпалында</label>
+    <label><input type="radio" name="d6q63" value="b"> отбасын қоғамдық өмірден толық бөлуінде</label>
+    <label><input type="radio" name="d6q63" value="c"> баланың өзіндік белсенділігін шектеуінде</label>
+    <label><input type="radio" name="d6q63" value="d"> тәрбиені тек нұсқау және бұйрық түрінде жүргізуінде</label>
+    <label><input type="radio" name="d6q63" value="e"> мектеппен байланыс жасамау мүмкіндігінде</label>
+    <div class="explain">Дұрыс жауап: A. Отбасы тәрбиесінің артықшылығы адамдардың жақындығы, туыстық қатынастары, тұрмыстық өмірі және өзара байланыстарында.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>4. Отбасы баланың әлеуметтенуінде қандай рөл атқарады?</p>
+    <label><input type="radio" name="d6q64" value="a"> баланы әлеуметтік ортадан алыстатады</label>
+    <label><input type="radio" name="d6q64" value="b"> тек оқу үлгерімін бақылаумен шектеледі</label>
+    <label><input type="radio" name="d6q64" value="c"> балаға тек материалдық жағдай жасайды</label>
+    <label><input type="radio" name="d6q64" value="d"> баланың мектептен тыс уақытын ғана реттейді</label>
+    <label><input type="radio" name="d6q64" value="e"> болашақ азаматтың әлеуметтену жолындағы алғашқы бағыт-бағдар беретін орта болады</label>
+    <div class="explain">Дұрыс жауап: E. Отбасы балаға моральдық түсініктер беріп, еңбекке баулып, дүниетанымдық және адамгершілік құндылықтарды жеткізетін алғашқы орта.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>5. Бір баласы бар отбасында қандай тәрбиелік қиындық болуы мүмкін?</p>
+    <label><input type="radio" name="d6q65" value="a"> балада қоғамдық белсенділіктің міндетті түрде толық қалыптасуы</label>
+    <label><input type="radio" name="d6q65" value="b"> ата-ананың педагогикалық мәдениетінің автоматты жоғарылауы</label>
+    <label><input type="radio" name="d6q65" value="c"> балалар қарым-қатынасының жетіспеуі және эгоистік қасиеттердің қалыптасу қаупі</label>
+    <label><input type="radio" name="d6q65" value="d"> мектеп пен отбасы байланысының өздігінен күшеюі</label>
+    <label><input type="radio" name="d6q65" value="e"> баланың өзін-өзі тәрбиелеуге толық дайын болуы</label>
+    <div class="explain">Дұрыс жауап: C. Аз балалы, әсіресе бір балалы отбасында балалар арасындағы қарым-қатынас жетіспейді, артық көңіл бөлу эгоистік қасиеттердің қалыптасуына әсер етуі мүмкін.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>6. Отбасы тәрбиесінің құқықтық негізіндегі маңызды халықаралық құжат</p>
+    <label><input type="radio" name="d6q66" value="a"> мектептің ішкі тәртіп ережесі</label>
+    <label><input type="radio" name="d6q66" value="b"> Бала құқығы туралы Конвенция</label>
+    <label><input type="radio" name="d6q66" value="c"> ата-аналар жиналысының хаттамасы</label>
+    <label><input type="radio" name="d6q66" value="d"> сынып журналы</label>
+    <label><input type="radio" name="d6q66" value="e"> оқушының күн тәртібі</label>
+    <div class="explain">Дұрыс жауап: B. Отбасы тәрбиесінің құқықтық негізінде БҰҰ Бас Ассамблеясы қабылдаған «Бала құқығы туралы Конвенция» маңызды құжат ретінде көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>7. Қазақстан Республикасы Конституциясының 27-бабында не көрсетіледі?</p>
+    <label><input type="radio" name="d6q67" value="a"> ата-аналар комитетінің құрамын анықтау тәртібі</label>
+    <label><input type="radio" name="d6q67" value="b"> оқушының күн тәртібін ұйымдастыру жолы</label>
+    <label><input type="radio" name="d6q67" value="c"> отбасы тәрбиесінің диагностика әдістері</label>
+    <label><input type="radio" name="d6q67" value="d"> неке мен отбасы, ана мен әке және бала мемлекеттің қорғауында болатыны</label>
+    <label><input type="radio" name="d6q67" value="e"> ата-аналар жиналысын жылына өткізу саны</label>
+    <div class="explain">Дұрыс жауап: D. Конституцияда неке мен отбасы, ана мен әке және бала мемлекеттің қорғауында болатыны, балаға қамқорлық жасау ата-ананың құқығы әрі міндеті екені көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>8. «Неке және отбасы туралы» Кодексте бала қалай қарастырылады?</p>
+    <label><input type="radio" name="d6q68" value="a"> өзiндiк құқық субъектiсi ретінде</label>
+    <label><input type="radio" name="d6q68" value="b"> ата-ана билігіне толық тәуелді объект ретінде ғана</label>
+    <label><input type="radio" name="d6q68" value="c"> мектеп құжатының тіркеу бірлігі ретінде</label>
+    <label><input type="radio" name="d6q68" value="d"> тек әлеуметтік бақылау нысаны ретінде</label>
+    <label><input type="radio" name="d6q68" value="e"> тек отбасының материалдық мүшесі ретінде</label>
+    <div class="explain">Дұрыс жауап: A. Кодексте бала ата-ана билігіне тәуелді объект емес, өзіндік құқық субъектісі ретінде қарастырылады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>9. Отбасындағы тәрбиенің субъектілері кімдер?</p>
+    <label><input type="radio" name="d6q69" value="a"> тек мектеп әкімшілігі мен сынып жетекшісі</label>
+    <label><input type="radio" name="d6q69" value="b"> тек қоғамдық ұйымдар мен қамқорлық кеңесі</label>
+    <label><input type="radio" name="d6q69" value="c"> тек мұғалімдер мен психологтар</label>
+    <label><input type="radio" name="d6q69" value="d"> тек ата-аналар комитеті мен мектеп кеңесі</label>
+    <label><input type="radio" name="d6q69" value="e"> ата-ана мен бала</label>
+    <div class="explain">Дұрыс жауап: E. Отбасындағы тәрбиенің субъектілері — ата-ана мен бала; олар әлеуметтік мақсат, міндет, педагогикалық тәсілдер мен әдістер арқылы байланысады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>10. Отбасындағы тәрбиенің негізгі іс-әрекеттік шарты</p>
+    <label><input type="radio" name="d6q70" value="a"> баланы барлық қоғамдық жұмыстардан босату</label>
+    <label><input type="radio" name="d6q70" value="b"> тәрбие жұмысын тек сөз жүзінде жүргізу</label>
+    <label><input type="radio" name="d6q70" value="c"> баланы оқу, еңбек, ойын, эстетикалық іс-әрекетке үнемі қатыстыру</label>
+    <label><input type="radio" name="d6q70" value="d"> ата-ананың мектеппен байланысын тоқтату</label>
+    <label><input type="radio" name="d6q70" value="e"> баланың бос уақытын мүлде бақыламау</label>
+    <div class="explain">Дұрыс жауап: C. Отбасындағы тәрбие ата-ананың басшылығымен баланы оқу, еңбек, ойын, эстетикалық және басқа іс-әрекеттерге қатыстыру арқылы іске асады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>11. Баланың күн тәртібі отбасындағы тәрбие сапасын қалай көрсетеді?</p>
+    <label><input type="radio" name="d6q71" value="a"> тек сабақ кестесін ауыстыру арқылы</label>
+    <label><input type="radio" name="d6q71" value="b"> дене және еңбек қызметі, ой белсенділігі, бос уақыт, тамақтану, гигиена, ұйқы арақатынасы арқылы</label>
+    <label><input type="radio" name="d6q71" value="c"> тек ата-ананың материалдық жағдайы арқылы</label>
+    <label><input type="radio" name="d6q71" value="d"> тек баланың мектепке бару уақыты арқылы</label>
+    <label><input type="radio" name="d6q71" value="e"> тек сынып журналындағы бағалар арқылы</label>
+    <div class="explain">Дұрыс жауап: B. Күн тәртібінде баланың дене, еңбек, ой белсенділігі, бос уақыты, тамақтануы, гигиенасы және ұйқысы көрініс табады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>12. Отбасындағы педагогикалық үдерістің жоғары деңгейіне тән белгі</p>
+    <label><input type="radio" name="d6q72" value="a"> ата-ананың мектеппен байланыс жасамауы</label>
+    <label><input type="radio" name="d6q72" value="b"> баланың бос уақытының кездейсоқ ұйымдастырылуы</label>
+    <label><input type="radio" name="d6q72" value="c"> отбасында авторитарлық ықпалдың басым болуы</label>
+    <label><input type="radio" name="d6q72" value="d"> ата-ананың әлеуметтік жауапкершілігі мен педагогикалық мәдениетінің дамуы</label>
+    <label><input type="radio" name="d6q72" value="e"> баланың оқуына тек қатал бақылау арқылы ықпал ету</label>
+    <div class="explain">Дұрыс жауап: D. Жоғары деңгейдегі отбасыларда ата-ананың әлеуметтік жауапкершілігі, педагогикалық мәдениеті және педагогикалық ынта-ықыласы дамыған болады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>13. Отбасының тәрбие жұмысын зерттеу неден басталады?</p>
+    <label><input type="radio" name="d6q73" value="a"> мектеп құжаттарын зерттеу мен талдаудан</label>
+    <label><input type="radio" name="d6q73" value="b"> жазалау шараларын күшейтуден</label>
+    <label><input type="radio" name="d6q73" value="c"> баланы ұжымнан бөлек бақылаудан</label>
+    <label><input type="radio" name="d6q73" value="d"> ата-аналар комитетін таратудан</label>
+    <label><input type="radio" name="d6q73" value="e"> күн тәртібін ескермеуден</label>
+    <div class="explain">Дұрыс жауап: A. Отбасының тәрбие жұмысын зерттеу оқушылар сипаттамасы, сынып журналы, медициналық карталар сияқты мектеп құжаттарын зерттеу мен талдаудан басталады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>14. Отбасы туралы алғашқы мәліметтерді қандай жұмыс арқылы алуға болады?</p>
+    <label><input type="radio" name="d6q74" value="a"> тек бақылау жұмысы арқылы</label>
+    <label><input type="radio" name="d6q74" value="b"> тек емтихан нәтижесі арқылы</label>
+    <label><input type="radio" name="d6q74" value="c"> тек сабақ жоспары арқылы</label>
+    <label><input type="radio" name="d6q74" value="d"> тек мектептің жылдық есебі арқылы</label>
+    <label><input type="radio" name="d6q74" value="e"> «Менің отбасым», «Біздің отбасымыздағы демалыс күні» сияқты шығармалар арқылы</label>
+    <div class="explain">Дұрыс жауап: E. Отбасы туралы алғашқы мәліметтерді оқушыларға отбасы туралы шығарма жаздыру арқылы алуға болады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>15. «Менің отбасымның суреті» әдісінің ерекшелігі</p>
+    <label><input type="radio" name="d6q75" value="a"> тек ата-ананың құқықтық білімін тексеруі</label>
+    <label><input type="radio" name="d6q75" value="b"> оқушының оқу үлгерімін баллмен бағалауы</label>
+    <label><input type="radio" name="d6q75" value="c"> баланың отбасы мүшелері арасындағы қатынас туралы ақпаратты сурет арқылы өз қалауымен бейнелеуі</label>
+    <label><input type="radio" name="d6q75" value="d"> отбасы тәрбиесін тек жазбаша сауалнамаға айналдыруы</label>
+    <label><input type="radio" name="d6q75" value="e"> мектеп пен отбасы байланысын тоқтатуы</label>
+    <div class="explain">Дұрыс жауап: C. Бұл әдісте бала отбасы мүшелерінің өзара қатынасын сурет арқылы еркін бейнелей алады, бірақ оны басқа әдістермен толықтыру қажет.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>16. Мектеп пен отбасы ынтымақтастығының негізгі бағыттарының бірі</p>
+    <label><input type="radio" name="d6q76" value="a"> ата-ананы тәрбие жұмысынан толық алыстату</label>
+    <label><input type="radio" name="d6q76" value="b"> ата-аналардың педагогикалық сауаттылығын дамыту</label>
+    <label><input type="radio" name="d6q76" value="c"> баланың отбасындағы рөлін ескермеу</label>
+    <label><input type="radio" name="d6q76" value="d"> мектеп құжаттарын қолданбау</label>
+    <label><input type="radio" name="d6q76" value="e"> тәрбие жұмысының нәтижесін талдамау</label>
+    <div class="explain">Дұрыс жауап: B. Мектеп пен отбасы ынтымақтастығы ата-аналармен ұйымдастырушылық-педагогикалық жұмыс, педагогикалық сауаттылықты дамыту және жеке-дара жұмыс арқылы іске асады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>17. Ата-аналар комитеті қандай орган?</p>
+    <label><input type="radio" name="d6q77" value="a"> оқушылардың емтихан нәтижесін бекітетін мемлекеттік орган</label>
+    <label><input type="radio" name="d6q77" value="b"> тек мұғалімдерден тұратын әдістемелік бірлестік</label>
+    <label><input type="radio" name="d6q77" value="c"> мектептің құқықтық құжаттарын алмастыратын басқару жүйесі</label>
+    <label><input type="radio" name="d6q77" value="d"> ең белсенді, ықыласты ата-аналардан тұратын қоғамдық орган</label>
+    <label><input type="radio" name="d6q77" value="e"> оқушылардың өзін-өзі басқару кеңесі</label>
+    <div class="explain">Дұрыс жауап: D. Ата-аналар комитеті ең белсенді, ықыласты ата-аналардан тұратын қоғамдық орган болып табылады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>18. Сынып жетекшісіне ата-аналар комитеті қалай көмектеседі?</p>
+    <label><input type="radio" name="d6q78" value="a"> мектеп пен оқушылар отбасылары арасындағы байланысты орнатуға және сыныптан тыс тәрбие жұмыстарын өткізуге көмектеседі</label>
+    <label><input type="radio" name="d6q78" value="b"> оқушының құқық субъектісі болуын жоққа шығарады</label>
+    <label><input type="radio" name="d6q78" value="c"> ата-аналар жиналысын өткізуді қажетсіз етеді</label>
+    <label><input type="radio" name="d6q78" value="d"> педагогикалық кеңестің қызметін толық алмастырады</label>
+    <label><input type="radio" name="d6q78" value="e"> отбасы туралы ақпарат жинауға тыйым салады</label>
+    <div class="explain">Дұрыс жауап: A. Ата-аналар комитеті сынып жетекшісіне мектеп пен отбасы байланысын орнатуға, мереке, кеш, саяхат, театрға бару сияқты сыныптан тыс жұмыстарды ұйымдастыруға көмектеседі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>19. Жалпы мектептік ата-аналар жиналысында не талқыланады?</p>
+    <label><input type="radio" name="d6q79" value="a"> тек бір оқушының жеке күн тәртібі</label>
+    <label><input type="radio" name="d6q79" value="b"> тек медициналық картадағы мәліметтер</label>
+    <label><input type="radio" name="d6q79" value="c"> тек сынып журналының техникалық рәсімі</label>
+    <label><input type="radio" name="d6q79" value="d"> тек ата-аналар комитетінің құрамы</label>
+    <label><input type="radio" name="d6q79" value="e"> отбасы мен мектептің оқыту-тәрбие жұмыстарын жетілдірудің өзекті мәселелері</label>
+    <div class="explain">Дұрыс жауап: E. Жалпы мектептік ата-аналар жиналысында немесе конференцияларда отбасы мен мектептің оқыту-тәрбие жұмыстарын жетілдірудің өзекті мәселелері талқыланады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>20. Ата-аналардың педагогикалық сауатын дамыту қандай формалар арқылы ұйымдастырылады?</p>
+    <label><input type="radio" name="d6q80" value="a"> тек оқушыны жазалау арқылы</label>
+    <label><input type="radio" name="d6q80" value="b"> тек медициналық бақылау арқылы</label>
+    <label><input type="radio" name="d6q80" value="c"> ата-аналар жиналысы, консультациялар, сұрақ-жауап кештері, әкелер конференциясы арқылы</label>
+    <label><input type="radio" name="d6q80" value="d"> тек сынып журналына баға қою арқылы</label>
+    <label><input type="radio" name="d6q80" value="e"> тек оқушылардың өздігінен жұмыс істеуі арқылы</label>
+    <div class="explain">Дұрыс жауап: C. Мектеп ата-аналардың педагогикалық сауатын ата-аналар жиналысы, консультациялар, сұрақ-жауап кештері, әкелер конференциясы арқылы дамытуға тырысады.</div>
+  </div>
+
+  <button onclick="checkSection('d6_4')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+<section class="section" id="d6_5" data-section="d6_5">
+  <h2>5-бөлім. Білім беру, оқыту теориясы және білім мазмұны</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">3.1 және 3.2 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">дидактика</span>
+    <span class="term">оқыту</span>
+    <span class="term">білім беру</span>
+    <span class="term">іскерлік</span>
+    <span class="term">дағды</span>
+    <span class="term">оқыту үдерісі</span>
+    <span class="term">танымдық белсенділік</span>
+    <span class="term">білім мазмұны</span>
+    <span class="term">білім беру стандарты</span>
+    <span class="term">оқу жоспары</span>
+    <span class="term">бағдарлама</span>
+    <span class="term">оқулық</span>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>1. Дидактика дегеніміз</p>
+    <label><input type="radio" name="d6q81" value="a"> тәрбиенің қоғамдық және отбасылық формаларын зерттейтін сала</label>
+    <label><input type="radio" name="d6q81" value="b"> оқушы мінез-құлқын бақылауға арналған әдістер жиынтығы</label>
+    <label><input type="radio" name="d6q81" value="c"> білім беру мен оқытудың теориялық және әдістемелік негіздерін зерттейтін педагогика саласы</label>
+    <label><input type="radio" name="d6q81" value="d"> отбасы мен мектеп әрекеттестігін ұйымдастыру жүйесі</label>
+    <label><input type="radio" name="d6q81" value="e"> тәрбие мақсаты мен принциптерін ғана қарастыратын бөлім</label>
+    <div class="explain">Дұрыс жауап: C. Дидактика білім беру мен оқытудың теориялық және әдістемелік негіздерін зерттейтін педагогика ғылымының саласы.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>2. Дидактика ұғымын алғаш ғылымға енгізген педагог</p>
+    <label><input type="radio" name="d6q82" value="a"> Вольфанг Ратке</label>
+    <label><input type="radio" name="d6q82" value="b"> Ян Амос Коменский</label>
+    <label><input type="radio" name="d6q82" value="c"> Иоганн Генрих Песталоцци</label>
+    <label><input type="radio" name="d6q82" value="d"> Жан Жак Руссо</label>
+    <label><input type="radio" name="d6q82" value="e"> К. Д. Ушинский</label>
+    <div class="explain">Дұрыс жауап: A. Дидактика ұғымын алғаш ғылымға неміс педагогы Вольфанг Ратке енгізген.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>3. Әл-Фараби оқытуды қалай түсіндіреді?</p>
+    <label><input type="radio" name="d6q83" value="a"> бақылау, салыстыру, қорытындылау ретінде</label>
+    <label><input type="radio" name="d6q83" value="b"> тек білім мазмұнын стандарттау ретінде</label>
+    <label><input type="radio" name="d6q83" value="c"> тәрбие әдістерін жіктеу ретінде</label>
+    <label><input type="radio" name="d6q83" value="d"> үйрету, дағдыландыру, әрекеттендіру ретінде</label>
+    <label><input type="radio" name="d6q83" value="e"> оқулық мәтінін жаттау ретінде</label>
+    <div class="explain">Дұрыс жауап: D. Әл-Фараби бойынша оқыту — үйрету, дағдыландыру, әрекеттендіру.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>4. Оқыту үдерісі қалай сипатталады?</p>
+    <label><input type="radio" name="d6q84" value="a"> оқушының жеке әрекетін мұғалімнен толық бөлу ретінде</label>
+    <label><input type="radio" name="d6q84" value="b"> мұғалім мен оқушының белгіленген мақсатқа бағытталған бірлескен іс-әрекеті ретінде</label>
+    <label><input type="radio" name="d6q84" value="c"> тек бағалау нәтижесін тіркеу ретінде</label>
+    <label><input type="radio" name="d6q84" value="d"> тәрбие құралдарының материалдық жиынтығы ретінде</label>
+    <label><input type="radio" name="d6q84" value="e"> отбасы мен мектептің байланысын талдау ретінде</label>
+    <div class="explain">Дұрыс жауап: B. Оқыту үдерісі мұғалім мен оқушының мақсатқа жетуге бағытталған, реттелген, бірлескен іс-әрекеті ретінде беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>5. Оқыту үдерісінің екіжақты құрылым болуы нені талап етеді?</p>
+    <label><input type="radio" name="d6q85" value="a"> оқушы іс-әрекетін мүлде ескермеуді</label>
+    <label><input type="radio" name="d6q85" value="b"> оқыту мазмұнын тек жаттауға құруды</label>
+    <label><input type="radio" name="d6q85" value="c"> мұғалімнің оқушыдан толық оқшау әрекет етуін</label>
+    <label><input type="radio" name="d6q85" value="d"> білімді тек қорытынды бақылаумен шектеуді</label>
+    <label><input type="radio" name="d6q85" value="e"> мұғалім мен оқушылардың бірлескен іс-әрекетін, жоспарлау мен басқаруды</label>
+    <div class="explain">Дұрыс жауап: E. Оқыту екіжақты құрылым болғандықтан, мұғалім мен оқушылардың бірлескен іс-әрекеті, жоспарлау, ұйымдастыру және басқару қажет.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>6. Оқытудың маңызды міндеттерінің бірі</p>
+    <label><input type="radio" name="d6q86" value="a"> оқушының танымдық белсенділігін төмендету</label>
+    <label><input type="radio" name="d6q86" value="b"> білім мазмұнын өмірден толық ажырату</label>
+    <label><input type="radio" name="d6q86" value="c"> оқушылардың танымдық белсенділігін ынталандыру</label>
+    <label><input type="radio" name="d6q86" value="d"> оқулықты педагогикалық үдерістен бөлу</label>
+    <label><input type="radio" name="d6q86" value="e"> іскерлік пен дағдыны қалыптастырмау</label>
+    <div class="explain">Дұрыс жауап: C. Оқытудың маңызды міндеттеріне оқушылардың танымдық белсенділігін ынталандыру, білім, іскерлік, дағдыны меңгерту және ақыл-ойды дамыту жатады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>7. Білім беру ұғымы қалай анықталады?</p>
+    <label><input type="radio" name="d6q87" value="a"> табиғат және қоғам туралы ғылымда жинақталған білім жүйесін меңгеру және өмірде қолдану</label>
+    <label><input type="radio" name="d6q87" value="b"> тек сабақтағы тәртіпті бақылау</label>
+    <label><input type="radio" name="d6q87" value="c"> тәрбие әдістерін төрт топқа бөлу</label>
+    <label><input type="radio" name="d6q87" value="d"> ата-аналар жиналысын ұйымдастыру</label>
+    <label><input type="radio" name="d6q87" value="e"> оқушыларды сыныптарға бөлу тәртібі</label>
+    <div class="explain">Дұрыс жауап: A. Білім беру — табиғат және қоғам жайында ғылымда жинақталған білім жүйесін жеке адамның меңгеруі және оны өмірде тиімді қолдануы.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>8. Дидактика қандай негізгі сұрақтарға жауап береді?</p>
+    <label><input type="radio" name="d6q88" value="a"> «Кімді жазалау керек?», «Қашан бақылау керек?»</label>
+    <label><input type="radio" name="d6q88" value="b"> «Отбасы қалай құрылады?», «Құқық қалай беріледі?»</label>
+    <label><input type="radio" name="d6q88" value="c"> «Ұжым қалай бөлінеді?», «Жиналыс қалай өтеді?»</label>
+    <label><input type="radio" name="d6q88" value="d"> «Нені оқыту керек?», «Қалай оқыту керек?»</label>
+    <label><input type="radio" name="d6q88" value="e"> «Кім тәртіп бұзды?», «Қандай жаза беріледі?»</label>
+    <div class="explain">Дұрыс жауап: D. Дидактика білім мазмұнын, оқыту әдістерін, оқытуды ұйымдастыруды негіздей отырып, «Нені оқыту керек?», «Қалай оқыту керек?» деген сұрақтарға жауап береді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>9. Дидактиканың негізін салушы ретінде қай педагог көрсетіледі?</p>
+    <label><input type="radio" name="d6q89" value="a"> Вольфанг Ратке</label>
+    <label><input type="radio" name="d6q89" value="b"> Ян Амос Коменский</label>
+    <label><input type="radio" name="d6q89" value="c"> Жан Жак Руссо</label>
+    <label><input type="radio" name="d6q89" value="d"> К. Д. Ушинский</label>
+    <label><input type="radio" name="d6q89" value="e"> М. Жұмабайұлы</label>
+    <div class="explain">Дұрыс жауап: B. Дидактиканың негізін салушы ретінде чех педагогы Ян Амос Коменский көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>10. Я. А. Коменский ұсынған оқыту принциптерінің бірі</p>
+    <label><input type="radio" name="d6q90" value="a"> авторитарлық бақылау принципі</label>
+    <label><input type="radio" name="d6q90" value="b"> оқушыны оқу үдерісінен бөлу принципі</label>
+    <label><input type="radio" name="d6q90" value="c"> білімді тек жаттау принципі</label>
+    <label><input type="radio" name="d6q90" value="d"> ата-аналық бақылау принципі</label>
+    <label><input type="radio" name="d6q90" value="e"> саналылық және белсенділік, көрнекілік, жүйелілік және сабақтастық принциптері</label>
+    <div class="explain">Дұрыс жауап: E. Я. А. Коменский саналылық және белсенділік, көрнекілік, жүйелілік және сабақтастық, жаттығу және түсініктілік принциптерін ұсынды.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>11. Оқыту үдерісінің қозғаушы күші не болып табылады?</p>
+    <label><input type="radio" name="d6q91" value="a"> оқыту үдерісінде кездесетін қарама-қайшылықтарды шешу</label>
+    <label><input type="radio" name="d6q91" value="b"> оқушыны танымдық іс-әрекеттен алыстату</label>
+    <label><input type="radio" name="d6q91" value="c"> білім мазмұнын тек стандартпен шектеу</label>
+    <label><input type="radio" name="d6q91" value="d"> оқулықты сабақтан тыс қалдыру</label>
+    <label><input type="radio" name="d6q91" value="e"> мұғалімнің оқушыға талап қоймауы</label>
+    <div class="explain">Дұрыс жауап: A. Оқыту үдерісіндегі қарама-қайшылықтарды шешу оның қозғаушы күші болып табылады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>12. Білімді меңгеру үшін қандай ойлау операциялары қажет?</p>
+    <label><input type="radio" name="d6q92" value="a"> тек есте сақтау және көшіру</label>
+    <label><input type="radio" name="d6q92" value="b"> тек жазалау және мадақтау</label>
+    <label><input type="radio" name="d6q92" value="c"> талдау, синтездеу, салыстыру, жіктеу және жинақтау</label>
+    <label><input type="radio" name="d6q92" value="d"> тек күн тәртібін сақтау</label>
+    <label><input type="radio" name="d6q92" value="e"> тек ата-аналармен әңгімелесу</label>
+    <div class="explain">Дұрыс жауап: C. Білімді терең ұғыну үшін талдау, синтездеу, салыстыру, жіктеу және жинақтау сияқты ойлау операциялары қажет.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>13. Іскерлік дегеніміз</p>
+    <label><input type="radio" name="d6q93" value="a"> кез келген кездейсоқ әрекетті орындау</label>
+    <label><input type="radio" name="d6q93" value="b"> оқушының тек теориялық білімді жаттауы</label>
+    <label><input type="radio" name="d6q93" value="c"> тәрбие әдісін бір рет қолдану</label>
+    <label><input type="radio" name="d6q93" value="d"> жұмысты жаңа жағдайда тиімді, сапалы, уақытында істей білу қабілеті</label>
+    <label><input type="radio" name="d6q93" value="e"> оқулық құрылымын сырттай сипаттау</label>
+    <div class="explain">Дұрыс жауап: D. Іскерлік — іс-әрекетті жақсы орындауға қажетті тәсілдерді таңдап, жұмысты жаңа жағдайда тиімді және сапалы істей білу қабілеті.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>14. Дағды қалай анықталады?</p>
+    <label><input type="radio" name="d6q94" value="a"> білім мазмұнын мемлекеттік деңгейде бекіту</label>
+    <label><input type="radio" name="d6q94" value="b"> қайта жаттығу нәтижесінде іс-әрекет бөліктерінің автоматтандырылуы</label>
+    <label><input type="radio" name="d6q94" value="c"> оқыту мақсатын тәрбие үдерісінен бөлу</label>
+    <label><input type="radio" name="d6q94" value="d"> сабаққа қатысуды тексеру тәсілі</label>
+    <label><input type="radio" name="d6q94" value="e"> оқу жоспарын пәндерге бөлу</label>
+    <div class="explain">Дұрыс жауап: B. Дағды — алғашқыда саналы орындалатын іс-әрекет бөліктерінің қайта жаттығу нәтижесінде автоматтандырылуы.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Оқыту процесінің негізгі қызметтері</p>
+    <label><input type="radio" name="d6q95" value="a"> тек бақылау, есепке алу, жазалау</label>
+    <label><input type="radio" name="d6q95" value="b"> тек жоспарлау, ұйымдастыру, құжаттау</label>
+    <label><input type="radio" name="d6q95" value="c"> тек отбасы, қоғам, мектеп байланысы</label>
+    <label><input type="radio" name="d6q95" value="d"> тек мазмұн, форма, құрал</label>
+    <label><input type="radio" name="d6q95" value="e"> білім беру, тәрбиелік және дамыту қызметтері</label>
+    <div class="explain">Дұрыс жауап: E. Оқыту процесінің өзіне тән қызметтері — білім беру, тәрбиелік және дамыту қызметтері.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>16. Оқытудың білім беру қызметі нені көздейді?</p>
+    <label><input type="radio" name="d6q96" value="a"> адамды біліммен қаруландыру, өз бетімен білім алуға, іскерлік пен дағдыны игеруге даярлау</label>
+    <label><input type="radio" name="d6q96" value="b"> оқушыны қоғамдық ортадан оқшаулау</label>
+    <label><input type="radio" name="d6q96" value="c"> білімді тек сыртқы бақылау арқылы шектеу</label>
+    <label><input type="radio" name="d6q96" value="d"> отбасылық тәрбие әдістерін алмастыру</label>
+    <label><input type="radio" name="d6q96" value="e"> оқулықсыз және бағдарламасыз оқыту</label>
+    <div class="explain">Дұрыс жауап: A. Оқытудың білім беру қызметі адамды біліммен қаруландырып, өз бетімен білім алуға, іскерлік пен дағдыны игеруге даярлайды.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>17. Оқытудың тәрбиелік қызметі нені білдіреді?</p>
+    <label><input type="radio" name="d6q97" value="a"> білім мен тәрбиені бір-бірінен толық бөлу</label>
+    <label><input type="radio" name="d6q97" value="b"> оқушыға тек құрғақ ақпарат беруді</label>
+    <label><input type="radio" name="d6q97" value="c"> ғылыми теориялар мен ережелердің оқушы дүниетанымы мен сеніміне айналуын</label>
+    <label><input type="radio" name="d6q97" value="d"> оқушының қоғамдық мінез-құлқын ескермеуді</label>
+    <label><input type="radio" name="d6q97" value="e"> оқу материалын өмірден алшақтатуды</label>
+    <div class="explain">Дұрыс жауап: C. Оқытудың тәрбиелік қызметі ғылыми теориялар мен ережелердің оқушылардың дүниетанымы мен сеніміне айналуын қамтамасыз етеді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>18. Білім мазмұны бөліміндегі негізгі ұғымдардың бірі</p>
+    <label><input type="radio" name="d6q98" value="a"> тәрбие әдісі</label>
+    <label><input type="radio" name="d6q98" value="b"> өзін-өзі тәрбиелеу</label>
+    <label><input type="radio" name="d6q98" value="c"> отбасы микроклиматы</label>
+    <label><input type="radio" name="d6q98" value="d"> білім беру стандарты</label>
+    <label><input type="radio" name="d6q98" value="e"> ата-аналар комитеті</label>
+    <div class="explain">Дұрыс жауап: D. Білім мазмұны бөлімінің негізгі ұғымдарына білім мазмұны, білім беру стандарты, оқу жоспары, бағдарлама, оқулық және оқу құралдары жатады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>19. Білім мазмұнын ұйымдастыруда оқу жоспары нені білдіреді?</p>
+    <label><input type="radio" name="d6q99" value="a"> оқушының мінез-құлқын жазалау ережесін</label>
+    <label><input type="radio" name="d6q99" value="b"> оқу пәндерінің құрамы мен оларды оқыту тәртібін анықтайтын құжаттық негізді</label>
+    <label><input type="radio" name="d6q99" value="c"> ата-аналармен жұмыс жүргізу формасын</label>
+    <label><input type="radio" name="d6q99" value="d"> тәрбие тәсілдерінің бір бөлігін</label>
+    <label><input type="radio" name="d6q99" value="e"> оқушылардың қоғамдық пікірін қалыптастыру әдісін</label>
+    <div class="explain">Дұрыс жауап: B. Оқу жоспары білім мазмұнын ұйымдастыратын негізгі құжаттардың бірі ретінде пәндер құрамын, оқыту тәртібін және оқу жүктемесін айқындайды.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Бағдарлама мен оқулықтың білім мазмұнындағы орны қандай?</p>
+    <label><input type="radio" name="d6q100" value="a"> олар тәрбие әдістерін толық алмастырады</label>
+    <label><input type="radio" name="d6q100" value="b"> олар оқушының отбасылық жағдайын диагностикалайды</label>
+    <label><input type="radio" name="d6q100" value="c"> олар тек ата-аналар жиналысында қолданылады</label>
+    <label><input type="radio" name="d6q100" value="d"> олар мектептің құқықтық негізін ғана көрсетеді</label>
+    <label><input type="radio" name="d6q100" value="e"> олар оқу пәнінің мазмұнын, тақырыптарын, меңгерілетін білім мен дағдыларды нақтылайды</label>
+    <div class="explain">Дұрыс жауап: E. Бағдарлама мен оқулық оқу пәні бойынша білім мазмұнын, тақырыптар жүйесін, меңгерілетін білім, іскерлік және дағдыларды нақтылайды.</div>
+  </div>
+
+  <button onclick="checkSection('d6_5')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+<section class="section" id="d6_6" data-section="d6_6">
+  <h2>6-бөлім. Оқытуды ұйымдастыру формалары және оқыту әдістері</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">3.3 және 3.4 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">оқыту формалары</span>
+    <span class="term">жекелеп оқыту</span>
+    <span class="term">топтық оқыту</span>
+    <span class="term">ұжымдық оқыту</span>
+    <span class="term">сыныптық-сабақ жүйесі</span>
+    <span class="term">сабақ</span>
+    <span class="term">сабақ құрылымы</span>
+    <span class="term">дәстүрлі сабақ</span>
+    <span class="term">дәстүрлі емес сабақ</span>
+    <span class="term">фронтальды жұмыс</span>
+    <span class="term">жеке жұмыс</span>
+    <span class="term">топтық жұмыс</span>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>1. Оқыту формаларына қатысты білім беру тарихында не анықталды?</p>
+    <label><input type="radio" name="d6q101" value="a"> тек оқушыларды жазалау түрлері</label>
+    <label><input type="radio" name="d6q101" value="b"> тек ата-аналармен жұмыс формалары</label>
+    <label><input type="radio" name="d6q101" value="c"> жекелеп, топтық, ұжымдық, сыныпта және сыныптан тыс оқыту формалары</label>
+    <label><input type="radio" name="d6q101" value="d"> тек отбасы тәрбиесінің деңгейлері</label>
+    <label><input type="radio" name="d6q101" value="e"> тек тәрбие әдістерін бақылау түрлері</label>
+    <div class="explain">Дұрыс жауап: C. Білім беру тарихында жекелеп оқыту, топтық, ұжымдық, сыныпта, сыныптан тыс, мектепте және мектептен тыс оқыту формалары анықталды.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>2. Жекелеп оқытудың тиімді жағы</p>
+    <label><input type="radio" name="d6q102" value="a"> мұғалім оқушының нені білетінін, нені білмейтінін анықтап, қатесін уақытында түзетеді</label>
+    <label><input type="radio" name="d6q102" value="b"> оқушы басқа оқушылармен міндетті түрде ұжымдық байланысқа түседі</label>
+    <label><input type="radio" name="d6q102" value="c"> барлық оқушылар бірдей қарқынмен жұмыс істейді</label>
+    <label><input type="radio" name="d6q102" value="d"> мұғалім оқушының жеке ерекшелігін ескермейді</label>
+    <label><input type="radio" name="d6q102" value="e"> сабақ құрылымы тұрақты сыныпқа тәуелді болады</label>
+    <div class="explain">Дұрыс жауап: A. Жекелеп оқытуда мұғалім оқушының білім деңгейін нақты анықтап, қатесін уақытында түзете алады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>3. Жекелеп оқытудың кемшілігі</p>
+    <label><input type="radio" name="d6q103" value="a"> оқушының қатесін уақытында түзету мүмкіндігі</label>
+    <label><input type="radio" name="d6q103" value="b"> оқушының өзіне ыңғайлы уақытта жұмыс істеуі</label>
+    <label><input type="radio" name="d6q103" value="c"> мұғалімнің жеке консультация беруі</label>
+    <label><input type="radio" name="d6q103" value="d"> оқушының басқа оқушылармен қарым-қатынаста болмауы</label>
+    <label><input type="radio" name="d6q103" value="e"> оқушының олимпиадаға дайындалуы</label>
+    <div class="explain">Дұрыс жауап: D. Жекелеп оқытуда оқушы басқа оқушылармен қарым-қатынаста болмайды, ұжымда жұмыс істеу қабілеті төмендеуі мүмкін.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>4. Белл-Ланкастер жүйесінің мәні неде?</p>
+    <label><input type="radio" name="d6q104" value="a"> оқушыларды тек жеке үйде оқытуда</label>
+    <label><input type="radio" name="d6q104" value="b"> жоғары сынып оқушылары мұғалімнің нұсқауымен бастауыш сынып оқушыларын оқытуында</label>
+    <label><input type="radio" name="d6q104" value="c"> барлық оқушыларды бірдей жастағы тұрақты сыныпқа біріктіруінде</label>
+    <label><input type="radio" name="d6q104" value="d"> сабақты тек зертханалық жұмыс түрінде өткізуінде</label>
+    <label><input type="radio" name="d6q104" value="e"> оқу уақытын тек жеке жұмысқа бөлуінде</label>
+    <div class="explain">Дұрыс жауап: B. Белл-Ланкастер жүйесінде жоғары сынып оқушылары мұғалімнің басшылығымен материалды меңгеріп, бастауыш сынып оқушыларын оқытқан.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>5. Трамп жоспары бойынша оқу уақыты қалай бөлінеді?</p>
+    <label><input type="radio" name="d6q105" value="a"> 20% дәріс, 40% шағын топ, 40% бақылау</label>
+    <label><input type="radio" name="d6q105" value="b"> 50% дәріс, 25% топтық жұмыс, 25% бақылау</label>
+    <label><input type="radio" name="d6q105" value="c"> 30% дәріс, 30% шағын топ, 40% үй жұмысы</label>
+    <label><input type="radio" name="d6q105" value="d"> 60% дәріс, 20% топтық жұмыс, 20% жеке жұмыс</label>
+    <label><input type="radio" name="d6q105" value="e"> 40% дәріс, 20% шағын топ, 40% жеке жұмыс</label>
+    <div class="explain">Дұрыс жауап: E. Трамп жоспарында дәріске 40%, шағын топтағы сабақтарға 20%, жеке жұмыстарға 40% оқу уақыты бөлінеді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>6. Сыныптық-сабақ жүйесі қашан пайда болды?</p>
+    <label><input type="radio" name="d6q106" value="a"> XV ғасырда</label>
+    <label><input type="radio" name="d6q106" value="b"> XVI ғасырда</label>
+    <label><input type="radio" name="d6q106" value="c"> XVII ғасырда</label>
+    <label><input type="radio" name="d6q106" value="d"> XVIII ғасырда</label>
+    <label><input type="radio" name="d6q106" value="e"> XX ғасырда</label>
+    <div class="explain">Дұрыс жауап: C. Оқытудың сыныптық-сабақ жүйесі XVII ғасырда пайда болып, ұзақ уақыт бойы дамып келеді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>7. Сыныптық-сабақ жүйесінің теориялық негізін тәжірибеге енгізген педагог</p>
+    <label><input type="radio" name="d6q107" value="a"> Ян Амос Коменский</label>
+    <label><input type="radio" name="d6q107" value="b"> Джон Ланкестер</label>
+    <label><input type="radio" name="d6q107" value="c"> Ллойд Трамп</label>
+    <label><input type="radio" name="d6q107" value="d"> И. Н. Казанцев</label>
+    <label><input type="radio" name="d6q107" value="e"> С. В. Иванов</label>
+    <div class="explain">Дұрыс жауап: A. Сыныптық-сабақ жүйесінің теориялық негізін XVII ғасырда Ян Амос Коменский тәжірибеге енгізді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>8. Сыныптық-сабақ жүйесінің мәні мен ерекшелігі</p>
+    <label><input type="radio" name="d6q108" value="a"> оқушылардың жыл бойы еркін ауысып отыруы</label>
+    <label><input type="radio" name="d6q108" value="b"> оқушының оқуын тек жеке консультацияға негіздеу</label>
+    <label><input type="radio" name="d6q108" value="c"> сабақтың тұрақты тақырыпсыз өтуі</label>
+    <label><input type="radio" name="d6q108" value="d"> жастары мен дайындықтары бірдей оқушылардан тұрақты сынып құрастыру</label>
+    <label><input type="radio" name="d6q108" value="e"> мұғалімнің оқушы іс-әрекетіне басшылық жасамауы</label>
+    <div class="explain">Дұрыс жауап: D. Сыныптық-сабақ жүйесінде жастары және дайындықтары бірдей оқушылардан тұрақты сынып құрастырылады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>9. Сабақ дегеніміз</p>
+    <label><input type="radio" name="d6q109" value="a"> тек үй тапсырмасын тексеру кезеңі</label>
+    <label><input type="radio" name="d6q109" value="b"> оқытуды ұйымдастырудың негізгі формасы</label>
+    <label><input type="radio" name="d6q109" value="c"> тек оқушының жеке үйдегі жұмысы</label>
+    <label><input type="radio" name="d6q109" value="d"> тек сыныптан тыс тәрбие шарасы</label>
+    <label><input type="radio" name="d6q109" value="e"> тек ата-аналармен кеңес өткізу формасы</label>
+    <div class="explain">Дұрыс жауап: B. Сабақ — оқытуды ұйымдастырудың негізгі формасы, оқу-тәрбие жұмысын реттеп, басқаруға мүмкіндік береді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>10. Сабақ құрылымына кіретін негізгі кезеңдердің бірі</p>
+    <label><input type="radio" name="d6q110" value="a"> ата-аналар комитетін сайлау</label>
+    <label><input type="radio" name="d6q110" value="b"> отбасы диагностикасын жүргізу</label>
+    <label><input type="radio" name="d6q110" value="c"> қамқорлық кеңесін құру</label>
+    <label><input type="radio" name="d6q110" value="d"> оқушының үйдегі бос уақытын жоспарлау</label>
+    <label><input type="radio" name="d6q110" value="e"> жаңа білімді баяндау, бекіту, қорытындылау және үй тапсырмасын беру</label>
+    <div class="explain">Дұрыс жауап: E. Сабақ құрылымына ұйымдастыру, үй тапсырмасын тексеру, жаңа білімді түсіндіру, бекіту, қорытындылау, бағалау және үй тапсырмасын беру кіреді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>11. Сабақтарды жіктеу неге байланысты болады?</p>
+    <label><input type="radio" name="d6q111" value="a"> пән ерекшелігіне, оқушылардың жас және таным қабілетіне</label>
+    <label><input type="radio" name="d6q111" value="b"> тек ата-аналардың әлеуметтік жағдайына</label>
+    <label><input type="radio" name="d6q111" value="c"> тек мектеп ғимаратының орналасуына</label>
+    <label><input type="radio" name="d6q111" value="d"> тек оқушының бос уақытына</label>
+    <label><input type="radio" name="d6q111" value="e"> тек мұғалімнің еңбек өтіліне</label>
+    <div class="explain">Дұрыс жауап: A. Сабақты жіктеу әрбір пәннің ерекшеліктеріне, оқушылардың жас және таным қабілетіне байланысты болады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>12. М. И. Махмутов бойынша сабақ түрлерінің бірі</p>
+    <label><input type="radio" name="d6q112" value="a"> ата-аналар конференциясы</label>
+    <label><input type="radio" name="d6q112" value="b"> отбасы суретін талдау сабағы</label>
+    <label><input type="radio" name="d6q112" value="c"> жаңа оқу материалын өту сабағы</label>
+    <label><input type="radio" name="d6q112" value="d"> ата-аналар комитеті мәжілісі</label>
+    <label><input type="radio" name="d6q112" value="e"> мектеп кеңесі отырысы</label>
+    <div class="explain">Дұрыс жауап: C. М. И. Махмутов сабақтың түрлеріне жаңа оқу материалын өту, білім мен дағдыны жетілдіру, жинақтау, аралас, бақылау сабақтарын жатқызады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>13. Сабақта оқушылардың оқу қызметін ұйымдастыру бағыттары</p>
+    <label><input type="radio" name="d6q113" value="a"> тек бақылау және жазалау</label>
+    <label><input type="radio" name="d6q113" value="b"> тек ата-анамен әңгімелесу</label>
+    <label><input type="radio" name="d6q113" value="c"> тек үй тапсырмасын белгілеу</label>
+    <label><input type="radio" name="d6q113" value="d"> фронтальды, жеке-өзіндік, топтық және жұптық жұмыс</label>
+    <label><input type="radio" name="d6q113" value="e"> тек педагогикалық кеңес өткізу</label>
+    <div class="explain">Дұрыс жауап: D. Сабақта оқушылардың оқу қызметін ұйымдастыру фронтальды, жеке-өзіндік, топтық және жұптық жұмыс бағыттары арқылы жүзеге асады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>14. Фронтальды жұмыс қалай сипатталады?</p>
+    <label><input type="radio" name="d6q114" value="a"> әр оқушының толық бөлек және байланыссыз әрекеті</label>
+    <label><input type="radio" name="d6q114" value="b"> барлық оқушылардың бірдей тапсырманы орындап, нәтижені бірге талқылауы</label>
+    <label><input type="radio" name="d6q114" value="c"> тек бір оқушыға жеке тапсырма беру</label>
+    <label><input type="radio" name="d6q114" value="d"> ата-аналармен бірлескен тәрбие жұмысы</label>
+    <label><input type="radio" name="d6q114" value="e"> сабақтан тыс үйірме жұмысы</label>
+    <div class="explain">Дұрыс жауап: B. Фронтальды жұмыста барлық оқушылар бірдей тапсырманы орындап, ортақ нәтижені талқылайды және салыстырады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Жеке жұмысты ұйымдастырудың тәрбиелік мәні</p>
+    <label><input type="radio" name="d6q115" value="a"> оқушылардың өздік іс-әрекетін шектеуінде</label>
+    <label><input type="radio" name="d6q115" value="b"> ұжымдық жұмысты толық жоққа шығаруында</label>
+    <label><input type="radio" name="d6q115" value="c"> оқушының барлық мүмкіндігін ескермеуінде</label>
+    <label><input type="radio" name="d6q115" value="d"> тек мұғалімнің түсіндіруіне сүйенуінде</label>
+    <label><input type="radio" name="d6q115" value="e"> оқушыларды өзіндік іс-әрекетке, жинақылыққа, іскерлікке тәрбиелеуінде</label>
+    <div class="explain">Дұрыс жауап: E. Жеке жұмыс оқушыны өзіндік іс-әрекетке, жинақылыққа, іскерлікке, өз мақсатын айқындауға тәрбиелейді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>16. Топтық жұмыс қай жағдайда тиімді қолданылады?</p>
+    <label><input type="radio" name="d6q116" value="a"> оқушылардың бір-бірімен кеңесуін шектеу үшін</label>
+    <label><input type="radio" name="d6q116" value="b"> тек ата-аналар жиналысын өткізу үшін</label>
+    <label><input type="radio" name="d6q116" value="c"> практикалық, зертханалық, тіл дамыту және еңбек сабақтарында</label>
+    <label><input type="radio" name="d6q116" value="d"> тек мұғалімнің жеке баяндамасы кезінде</label>
+    <label><input type="radio" name="d6q116" value="e"> оқу міндетін анықтамай жұмыс жасағанда</label>
+    <div class="explain">Дұрыс жауап: C. Топтық жұмыс практикалық, зертханалық, жаратылыстану тақырыптарында, шет тілін меңгеруде, тіл дамытуда және еңбек сабақтарында тиімді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>17. Мұғалімнің сабаққа дайындығы қандай екі кезеңнен тұрады?</p>
+    <label><input type="radio" name="d6q117" value="a"> тақырып бойынша жоспарлау және әрбір жеке сабақ жоспарын нақтылау</label>
+    <label><input type="radio" name="d6q117" value="b"> ата-аналармен кеңесу және тәртіп журналын толтыру</label>
+    <label><input type="radio" name="d6q117" value="c"> тек сабаққа қатысуды тексеру және баға қою</label>
+    <label><input type="radio" name="d6q117" value="d"> оқушының отбасын зерттеу және ата-аналар комитетін сайлау</label>
+    <label><input type="radio" name="d6q117" value="e"> тек оқулықты оқу және сыныпты бөлу</label>
+    <div class="explain">Дұрыс жауап: A. Мұғалімнің сабаққа дайындығы сабақтарды тақырып бойынша жоспарлау және әрбір сабаққа сәйкес жоспарды нақтылаудан тұрады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>18. Дәстүрлі сабақ түріне қайсысы жатады?</p>
+    <label><input type="radio" name="d6q118" value="a"> аукцион сабақ</label>
+    <label><input type="radio" name="d6q118" value="b"> панорамалық сабақ</label>
+    <label><input type="radio" name="d6q118" value="c"> интеграциялық сабақ</label>
+    <label><input type="radio" name="d6q118" value="d"> жаңа оқу материалын оқу сабағы</label>
+    <label><input type="radio" name="d6q118" value="e"> сайыс сабақ</label>
+    <div class="explain">Дұрыс жауап: D. Дәстүрлі сабақ түрлеріне жаңа оқу материалын оқу сабағы, іскерлік пен дағдыны қалыптастыру, қайталау, аралас, практикалық сабақтар жатады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>19. Дәстүрлі емес сабақ түріне қайсысы жатады?</p>
+    <label><input type="radio" name="d6q119" value="a"> аралас сабақ</label>
+    <label><input type="radio" name="d6q119" value="b"> интеграциялық сабақ</label>
+    <label><input type="radio" name="d6q119" value="c"> қайталау сабағы</label>
+    <label><input type="radio" name="d6q119" value="d"> практикалық сабақ</label>
+    <label><input type="radio" name="d6q119" value="e"> жаңа білімді бекіту сабағы</label>
+    <div class="explain">Дұрыс жауап: B. Дәстүрлі емес сабақтарға интеграциялық, панорамалық, сайыс, аукцион, шығармашылық сабақтар сияқты түрлер жатады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Қазіргі сабаққа қойылатын дидактикалық талаптардың бірі</p>
+    <label><input type="radio" name="d6q120" value="a"> оқушылардың жеке ерекшеліктерін ескермеу</label>
+    <label><input type="radio" name="d6q120" value="b"> сабақ мақсатын нақты қоймау</label>
+    <label><input type="radio" name="d6q120" value="c"> оқыту принциптерін қолданбау</label>
+    <label><input type="radio" name="d6q120" value="d"> танымдық белсенділікті төмендету</label>
+    <label><input type="radio" name="d6q120" value="e"> білімдік міндеттерді нақты қою және тиімді әдіс-тәсілдерді таңдау</label>
+    <div class="explain">Дұрыс жауап: E. Қазіргі сабаққа қойылатын дидактикалық талаптарға білімдік міндеттерді нақты қою, тиімді әдістерді таңдау, оқушыларды ынталандыру және танымдық белсенділікті арттыру жатады.</div>
+  </div>
+
+  <button onclick="checkSection('d6_6')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+    <section class="section" id="d6_6" data-section="d6_6">
+  <h2>6-бөлім. Оқытуды ұйымдастыру формалары және оқыту әдістері</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">3.3 және 3.4 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">оқыту формалары</span>
+    <span class="term">жекелеп оқыту</span>
+    <span class="term">топтық оқыту</span>
+    <span class="term">ұжымдық оқыту</span>
+    <span class="term">сыныптық-сабақ жүйесі</span>
+    <span class="term">сабақ</span>
+    <span class="term">сабақ құрылымы</span>
+    <span class="term">дәстүрлі сабақ</span>
+    <span class="term">дәстүрлі емес сабақ</span>
+    <span class="term">фронтальды жұмыс</span>
+    <span class="term">жеке жұмыс</span>
+    <span class="term">топтық жұмыс</span>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>1. Оқыту формаларына қатысты білім беру тарихында не анықталды?</p>
+    <label><input type="radio" name="d6q101" value="a"> тек оқушыларды жазалау түрлері</label>
+    <label><input type="radio" name="d6q101" value="b"> тек ата-аналармен жұмыс формалары</label>
+    <label><input type="radio" name="d6q101" value="c"> жекелеп, топтық, ұжымдық, сыныпта және сыныптан тыс оқыту формалары</label>
+    <label><input type="radio" name="d6q101" value="d"> тек отбасы тәрбиесінің деңгейлері</label>
+    <label><input type="radio" name="d6q101" value="e"> тек тәрбие әдістерін бақылау түрлері</label>
+    <div class="explain">Дұрыс жауап: C. Білім беру тарихында жекелеп оқыту, топтық, ұжымдық, сыныпта, сыныптан тыс, мектепте және мектептен тыс оқыту формалары анықталды.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>2. Жекелеп оқытудың тиімді жағы</p>
+    <label><input type="radio" name="d6q102" value="a"> мұғалім оқушының нені білетінін, нені білмейтінін анықтап, қатесін уақытында түзетеді</label>
+    <label><input type="radio" name="d6q102" value="b"> оқушы басқа оқушылармен міндетті түрде ұжымдық байланысқа түседі</label>
+    <label><input type="radio" name="d6q102" value="c"> барлық оқушылар бірдей қарқынмен жұмыс істейді</label>
+    <label><input type="radio" name="d6q102" value="d"> мұғалім оқушының жеке ерекшелігін ескермейді</label>
+    <label><input type="radio" name="d6q102" value="e"> сабақ құрылымы тұрақты сыныпқа тәуелді болады</label>
+    <div class="explain">Дұрыс жауап: A. Жекелеп оқытуда мұғалім оқушының білім деңгейін нақты анықтап, қатесін уақытында түзете алады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>3. Жекелеп оқытудың кемшілігі</p>
+    <label><input type="radio" name="d6q103" value="a"> оқушының қатесін уақытында түзету мүмкіндігі</label>
+    <label><input type="radio" name="d6q103" value="b"> оқушының өзіне ыңғайлы уақытта жұмыс істеуі</label>
+    <label><input type="radio" name="d6q103" value="c"> мұғалімнің жеке консультация беруі</label>
+    <label><input type="radio" name="d6q103" value="d"> оқушының басқа оқушылармен қарым-қатынаста болмауы</label>
+    <label><input type="radio" name="d6q103" value="e"> оқушының олимпиадаға дайындалуы</label>
+    <div class="explain">Дұрыс жауап: D. Жекелеп оқытуда оқушы басқа оқушылармен қарым-қатынаста болмайды, ұжымда жұмыс істеу қабілеті төмендеуі мүмкін.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>4. Белл-Ланкастер жүйесінің мәні неде?</p>
+    <label><input type="radio" name="d6q104" value="a"> оқушыларды тек жеке үйде оқытуда</label>
+    <label><input type="radio" name="d6q104" value="b"> жоғары сынып оқушылары мұғалімнің нұсқауымен бастауыш сынып оқушыларын оқытуында</label>
+    <label><input type="radio" name="d6q104" value="c"> барлық оқушыларды бірдей жастағы тұрақты сыныпқа біріктіруінде</label>
+    <label><input type="radio" name="d6q104" value="d"> сабақты тек зертханалық жұмыс түрінде өткізуінде</label>
+    <label><input type="radio" name="d6q104" value="e"> оқу уақытын тек жеке жұмысқа бөлуінде</label>
+    <div class="explain">Дұрыс жауап: B. Белл-Ланкастер жүйесінде жоғары сынып оқушылары мұғалімнің басшылығымен материалды меңгеріп, бастауыш сынып оқушыларын оқытқан.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>5. Трамп жоспары бойынша оқу уақыты қалай бөлінеді?</p>
+    <label><input type="radio" name="d6q105" value="a"> 20% дәріс, 40% шағын топ, 40% бақылау</label>
+    <label><input type="radio" name="d6q105" value="b"> 50% дәріс, 25% топтық жұмыс, 25% бақылау</label>
+    <label><input type="radio" name="d6q105" value="c"> 30% дәріс, 30% шағын топ, 40% үй жұмысы</label>
+    <label><input type="radio" name="d6q105" value="d"> 60% дәріс, 20% топтық жұмыс, 20% жеке жұмыс</label>
+    <label><input type="radio" name="d6q105" value="e"> 40% дәріс, 20% шағын топ, 40% жеке жұмыс</label>
+    <div class="explain">Дұрыс жауап: E. Трамп жоспарында дәріске 40%, шағын топтағы сабақтарға 20%, жеке жұмыстарға 40% оқу уақыты бөлінеді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>6. Сыныптық-сабақ жүйесі қашан пайда болды?</p>
+    <label><input type="radio" name="d6q106" value="a"> XV ғасырда</label>
+    <label><input type="radio" name="d6q106" value="b"> XVI ғасырда</label>
+    <label><input type="radio" name="d6q106" value="c"> XVII ғасырда</label>
+    <label><input type="radio" name="d6q106" value="d"> XVIII ғасырда</label>
+    <label><input type="radio" name="d6q106" value="e"> XX ғасырда</label>
+    <div class="explain">Дұрыс жауап: C. Оқытудың сыныптық-сабақ жүйесі XVII ғасырда пайда болып, ұзақ уақыт бойы дамып келеді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>7. Сыныптық-сабақ жүйесінің теориялық негізін тәжірибеге енгізген педагог</p>
+    <label><input type="radio" name="d6q107" value="a"> Ян Амос Коменский</label>
+    <label><input type="radio" name="d6q107" value="b"> Джон Ланкестер</label>
+    <label><input type="radio" name="d6q107" value="c"> Ллойд Трамп</label>
+    <label><input type="radio" name="d6q107" value="d"> И. Н. Казанцев</label>
+    <label><input type="radio" name="d6q107" value="e"> С. В. Иванов</label>
+    <div class="explain">Дұрыс жауап: A. Сыныптық-сабақ жүйесінің теориялық негізін XVII ғасырда Ян Амос Коменский тәжірибеге енгізді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>8. Сыныптық-сабақ жүйесінің мәні мен ерекшелігі</p>
+    <label><input type="radio" name="d6q108" value="a"> оқушылардың жыл бойы еркін ауысып отыруы</label>
+    <label><input type="radio" name="d6q108" value="b"> оқушының оқуын тек жеке консультацияға негіздеу</label>
+    <label><input type="radio" name="d6q108" value="c"> сабақтың тұрақты тақырыпсыз өтуі</label>
+    <label><input type="radio" name="d6q108" value="d"> жастары мен дайындықтары бірдей оқушылардан тұрақты сынып құрастыру</label>
+    <label><input type="radio" name="d6q108" value="e"> мұғалімнің оқушы іс-әрекетіне басшылық жасамауы</label>
+    <div class="explain">Дұрыс жауап: D. Сыныптық-сабақ жүйесінде жастары және дайындықтары бірдей оқушылардан тұрақты сынып құрастырылады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>9. Сабақ дегеніміз</p>
+    <label><input type="radio" name="d6q109" value="a"> тек үй тапсырмасын тексеру кезеңі</label>
+    <label><input type="radio" name="d6q109" value="b"> оқытуды ұйымдастырудың негізгі формасы</label>
+    <label><input type="radio" name="d6q109" value="c"> тек оқушының жеке үйдегі жұмысы</label>
+    <label><input type="radio" name="d6q109" value="d"> тек сыныптан тыс тәрбие шарасы</label>
+    <label><input type="radio" name="d6q109" value="e"> тек ата-аналармен кеңес өткізу формасы</label>
+    <div class="explain">Дұрыс жауап: B. Сабақ — оқытуды ұйымдастырудың негізгі формасы, оқу-тәрбие жұмысын реттеп, басқаруға мүмкіндік береді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>10. Сабақ құрылымына кіретін негізгі кезеңдердің бірі</p>
+    <label><input type="radio" name="d6q110" value="a"> ата-аналар комитетін сайлау</label>
+    <label><input type="radio" name="d6q110" value="b"> отбасы диагностикасын жүргізу</label>
+    <label><input type="radio" name="d6q110" value="c"> қамқорлық кеңесін құру</label>
+    <label><input type="radio" name="d6q110" value="d"> оқушының үйдегі бос уақытын жоспарлау</label>
+    <label><input type="radio" name="d6q110" value="e"> жаңа білімді баяндау, бекіту, қорытындылау және үй тапсырмасын беру</label>
+    <div class="explain">Дұрыс жауап: E. Сабақ құрылымына ұйымдастыру, үй тапсырмасын тексеру, жаңа білімді түсіндіру, бекіту, қорытындылау, бағалау және үй тапсырмасын беру кіреді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>11. Сабақтарды жіктеу неге байланысты болады?</p>
+    <label><input type="radio" name="d6q111" value="a"> пән ерекшелігіне, оқушылардың жас және таным қабілетіне</label>
+    <label><input type="radio" name="d6q111" value="b"> тек ата-аналардың әлеуметтік жағдайына</label>
+    <label><input type="radio" name="d6q111" value="c"> тек мектеп ғимаратының орналасуына</label>
+    <label><input type="radio" name="d6q111" value="d"> тек оқушының бос уақытына</label>
+    <label><input type="radio" name="d6q111" value="e"> тек мұғалімнің еңбек өтіліне</label>
+    <div class="explain">Дұрыс жауап: A. Сабақты жіктеу әрбір пәннің ерекшеліктеріне, оқушылардың жас және таным қабілетіне байланысты болады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>12. М. И. Махмутов бойынша сабақ түрлерінің бірі</p>
+    <label><input type="radio" name="d6q112" value="a"> ата-аналар конференциясы</label>
+    <label><input type="radio" name="d6q112" value="b"> отбасы суретін талдау сабағы</label>
+    <label><input type="radio" name="d6q112" value="c"> жаңа оқу материалын өту сабағы</label>
+    <label><input type="radio" name="d6q112" value="d"> ата-аналар комитеті мәжілісі</label>
+    <label><input type="radio" name="d6q112" value="e"> мектеп кеңесі отырысы</label>
+    <div class="explain">Дұрыс жауап: C. М. И. Махмутов сабақтың түрлеріне жаңа оқу материалын өту, білім мен дағдыны жетілдіру, жинақтау, аралас, бақылау сабақтарын жатқызады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>13. Сабақта оқушылардың оқу қызметін ұйымдастыру бағыттары</p>
+    <label><input type="radio" name="d6q113" value="a"> тек бақылау және жазалау</label>
+    <label><input type="radio" name="d6q113" value="b"> тек ата-анамен әңгімелесу</label>
+    <label><input type="radio" name="d6q113" value="c"> тек үй тапсырмасын белгілеу</label>
+    <label><input type="radio" name="d6q113" value="d"> фронтальды, жеке-өзіндік, топтық және жұптық жұмыс</label>
+    <label><input type="radio" name="d6q113" value="e"> тек педагогикалық кеңес өткізу</label>
+    <div class="explain">Дұрыс жауап: D. Сабақта оқушылардың оқу қызметін ұйымдастыру фронтальды, жеке-өзіндік, топтық және жұптық жұмыс бағыттары арқылы жүзеге асады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>14. Фронтальды жұмыс қалай сипатталады?</p>
+    <label><input type="radio" name="d6q114" value="a"> әр оқушының толық бөлек және байланыссыз әрекеті</label>
+    <label><input type="radio" name="d6q114" value="b"> барлық оқушылардың бірдей тапсырманы орындап, нәтижені бірге талқылауы</label>
+    <label><input type="radio" name="d6q114" value="c"> тек бір оқушыға жеке тапсырма беру</label>
+    <label><input type="radio" name="d6q114" value="d"> ата-аналармен бірлескен тәрбие жұмысы</label>
+    <label><input type="radio" name="d6q114" value="e"> сабақтан тыс үйірме жұмысы</label>
+    <div class="explain">Дұрыс жауап: B. Фронтальды жұмыста барлық оқушылар бірдей тапсырманы орындап, ортақ нәтижені талқылайды және салыстырады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Жеке жұмысты ұйымдастырудың тәрбиелік мәні</p>
+    <label><input type="radio" name="d6q115" value="a"> оқушылардың өздік іс-әрекетін шектеуінде</label>
+    <label><input type="radio" name="d6q115" value="b"> ұжымдық жұмысты толық жоққа шығаруында</label>
+    <label><input type="radio" name="d6q115" value="c"> оқушының барлық мүмкіндігін ескермеуінде</label>
+    <label><input type="radio" name="d6q115" value="d"> тек мұғалімнің түсіндіруіне сүйенуінде</label>
+    <label><input type="radio" name="d6q115" value="e"> оқушыларды өзіндік іс-әрекетке, жинақылыққа, іскерлікке тәрбиелеуінде</label>
+    <div class="explain">Дұрыс жауап: E. Жеке жұмыс оқушыны өзіндік іс-әрекетке, жинақылыққа, іскерлікке, өз мақсатын айқындауға тәрбиелейді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>16. Топтық жұмыс қай жағдайда тиімді қолданылады?</p>
+    <label><input type="radio" name="d6q116" value="a"> оқушылардың бір-бірімен кеңесуін шектеу үшін</label>
+    <label><input type="radio" name="d6q116" value="b"> тек ата-аналар жиналысын өткізу үшін</label>
+    <label><input type="radio" name="d6q116" value="c"> практикалық, зертханалық, тіл дамыту және еңбек сабақтарында</label>
+    <label><input type="radio" name="d6q116" value="d"> тек мұғалімнің жеке баяндамасы кезінде</label>
+    <label><input type="radio" name="d6q116" value="e"> оқу міндетін анықтамай жұмыс жасағанда</label>
+    <div class="explain">Дұрыс жауап: C. Топтық жұмыс практикалық, зертханалық, жаратылыстану тақырыптарында, шет тілін меңгеруде, тіл дамытуда және еңбек сабақтарында тиімді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>17. Мұғалімнің сабаққа дайындығы қандай екі кезеңнен тұрады?</p>
+    <label><input type="radio" name="d6q117" value="a"> тақырып бойынша жоспарлау және әрбір жеке сабақ жоспарын нақтылау</label>
+    <label><input type="radio" name="d6q117" value="b"> ата-аналармен кеңесу және тәртіп журналын толтыру</label>
+    <label><input type="radio" name="d6q117" value="c"> тек сабаққа қатысуды тексеру және баға қою</label>
+    <label><input type="radio" name="d6q117" value="d"> оқушының отбасын зерттеу және ата-аналар комитетін сайлау</label>
+    <label><input type="radio" name="d6q117" value="e"> тек оқулықты оқу және сыныпты бөлу</label>
+    <div class="explain">Дұрыс жауап: A. Мұғалімнің сабаққа дайындығы сабақтарды тақырып бойынша жоспарлау және әрбір сабаққа сәйкес жоспарды нақтылаудан тұрады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>18. Дәстүрлі сабақ түріне қайсысы жатады?</p>
+    <label><input type="radio" name="d6q118" value="a"> аукцион сабақ</label>
+    <label><input type="radio" name="d6q118" value="b"> панорамалық сабақ</label>
+    <label><input type="radio" name="d6q118" value="c"> интеграциялық сабақ</label>
+    <label><input type="radio" name="d6q118" value="d"> жаңа оқу материалын оқу сабағы</label>
+    <label><input type="radio" name="d6q118" value="e"> сайыс сабақ</label>
+    <div class="explain">Дұрыс жауап: D. Дәстүрлі сабақ түрлеріне жаңа оқу материалын оқу сабағы, іскерлік пен дағдыны қалыптастыру, қайталау, аралас, практикалық сабақтар жатады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>19. Дәстүрлі емес сабақ түріне қайсысы жатады?</p>
+    <label><input type="radio" name="d6q119" value="a"> аралас сабақ</label>
+    <label><input type="radio" name="d6q119" value="b"> интеграциялық сабақ</label>
+    <label><input type="radio" name="d6q119" value="c"> қайталау сабағы</label>
+    <label><input type="radio" name="d6q119" value="d"> практикалық сабақ</label>
+    <label><input type="radio" name="d6q119" value="e"> жаңа білімді бекіту сабағы</label>
+    <div class="explain">Дұрыс жауап: B. Дәстүрлі емес сабақтарға интеграциялық, панорамалық, сайыс, аукцион, шығармашылық сабақтар сияқты түрлер жатады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Қазіргі сабаққа қойылатын дидактикалық талаптардың бірі</p>
+    <label><input type="radio" name="d6q120" value="a"> оқушылардың жеке ерекшеліктерін ескермеу</label>
+    <label><input type="radio" name="d6q120" value="b"> сабақ мақсатын нақты қоймау</label>
+    <label><input type="radio" name="d6q120" value="c"> оқыту принциптерін қолданбау</label>
+    <label><input type="radio" name="d6q120" value="d"> танымдық белсенділікті төмендету</label>
+    <label><input type="radio" name="d6q120" value="e"> білімдік міндеттерді нақты қою және тиімді әдіс-тәсілдерді таңдау</label>
+    <div class="explain">Дұрыс жауап: E. Қазіргі сабаққа қойылатын дидактикалық талаптарға білімдік міндеттерді нақты қою, тиімді әдістерді таңдау, оқушыларды ынталандыру және танымдық белсенділікті арттыру жатады.</div>
+  </div>
+
+  <button onclick="checkSection('d6_6')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+    <section class="section" id="d6_7" data-section="d6_7">
+  <h2>7-бөлім. Бақылау, бағалау және педагогикалық технологиялар</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">3.5 және 3.6 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">бақылау</span>
+    <span class="term">бағалау</span>
+    <span class="term">білімді тексеру</span>
+    <span class="term">диагностика</span>
+    <span class="term">үлгерім</span>
+    <span class="term">бағалау өлшемдері</span>
+    <span class="term">ағымдағы бақылау</span>
+    <span class="term">қорытынды бақылау</span>
+    <span class="term">технология</span>
+    <span class="term">педагогикалық технология</span>
+    <span class="term">дамытa оқыту</span>
+    <span class="term">проблемалық оқыту</span>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>1. Оқушылардың оқу материалын меңгергенін тексеру және бағалау нені білдіреді?</p>
+    <label><input type="radio" name="d6q121" value="a"> оқушының мінез-құлқын тек жазалау арқылы реттеуді</label>
+    <label><input type="radio" name="d6q121" value="b"> оқыту нәтижелерін әділ бағалап, танымдық іс-әрекетті жүйелі басқаруды</label>
+    <label><input type="radio" name="d6q121" value="c"> сабақ құрылымын тек үй тапсырмасымен шектеуді</label>
+    <label><input type="radio" name="d6q121" value="d"> білім мазмұнын отбасы тәрбиесімен алмастыруды</label>
+    <label><input type="radio" name="d6q121" value="e"> оқушыны оқу үдерісінен бөлек бақылауды</label>
+    <div class="explain">Дұрыс жауап: B. Тексеру және бағалау оқыту нәтижелерін, оқушы еңбегін әділ бағалау және танымдық іс-әрекетті жүйелі басқару арқылы жүзеге асады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>2. Білімді тексеру және бағалау мұғалімге қандай мүмкіндік береді?</p>
+    <label><input type="radio" name="d6q122" value="a"> оқушылардың білім деңгейін ескермеуге</label>
+    <label><input type="radio" name="d6q122" value="b"> оқу бағдарламасын қолданбауға</label>
+    <label><input type="radio" name="d6q122" value="c"> сабақ мақсатын белгілемеуге</label>
+    <label><input type="radio" name="d6q122" value="d"> оқушының білім деңгейін біліп, оқыту әдістерін түзетуге</label>
+    <label><input type="radio" name="d6q122" value="e"> оқушының өзін-өзі бағалауына тыйым салуға</label>
+    <div class="explain">Дұрыс жауап: D. Мұғалім оқушының білім деңгейінен хабар алып, өз жұмысындағы жетістік пен кемшілікті анықтап, оқыту әдістерін толықтырады және түзетеді.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>3. Білімді тексеруге қойылатын негізгі талаптардың бірі</p>
+    <label><input type="radio" name="d6q123" value="a"> тексерудің жүйелілігі, тұрақтылығы және міндеттілігі</label>
+    <label><input type="radio" name="d6q123" value="b"> бағалаудың кездейсоқ жүргізілуі</label>
+    <label><input type="radio" name="d6q123" value="c"> оқушының білімін бағдарламаға сәйкестендірмеу</label>
+    <label><input type="radio" name="d6q123" value="d"> бағаның әділетсіз қойылуы</label>
+    <label><input type="radio" name="d6q123" value="e"> бақылаудың оқушы көңіл күйіне әсерін ескермеу</label>
+    <div class="explain">Дұрыс жауап: A. Білімді тексеру жүйелі, тұрақты және міндетті болуы керек; бұл білім сапасына және оқуға қатынасқа әсер етеді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>4. Бағдарламаны меңгеру білімді бағалауда қандай қызмет атқарады?</p>
+    <label><input type="radio" name="d6q124" value="a"> оқушыны тәрбие жұмысынан бөлу құралы болады</label>
+    <label><input type="radio" name="d6q124" value="b"> мұғалімнің сабаққа дайындалмауына мүмкіндік береді</label>
+    <label><input type="radio" name="d6q124" value="c"> білімді бағалаудың негізгі өлшемі болады</label>
+    <label><input type="radio" name="d6q124" value="d"> бақылау жұмысын қажетсіз етеді</label>
+    <label><input type="radio" name="d6q124" value="e"> оқушының өзін-өзі бақылауын тоқтатады</label>
+    <div class="explain">Дұрыс жауап: C. Оқушылардың білім, іскерлік және дағдылары оқу бағдарламасына сәйкес тексеріледі, бағдарламаны меңгеру бағалаудың негізгі өлшемі болып саналады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>5. Күнделікті бақылау арқылы мұғалім нені қадағалайды?</p>
+    <label><input type="radio" name="d6q125" value="a"> тек ата-аналар жиналысының өтуін</label>
+    <label><input type="radio" name="d6q125" value="b"> тек мектеп құжаттарының рәсімделуін</label>
+    <label><input type="radio" name="d6q125" value="c"> тек сынып бөлмесінің жабдықталуын</label>
+    <label><input type="radio" name="d6q125" value="d"> тек сабақ кестесінің сақталуын</label>
+    <label><input type="radio" name="d6q125" value="e"> оқушының білімді қабылдауын, түсінуін, іскерлігі мен оқу икемділігін</label>
+    <div class="explain">Дұрыс жауап: E. Күнделікті бақылауда мұғалім оқушылардың тәртібін, білімді қабылдауын, түсінуін, тәжірибелік іскерлігін, оқуға икемділігін және қызығушылығын қадағалайды.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>6. Ауызша сұраудың кемшілігі неде?</p>
+    <label><input type="radio" name="d6q126" value="a"> оқушының толық жауабын көрсетуі</label>
+    <label><input type="radio" name="d6q126" value="b"> көп уақыт кетіп, аз ғана оқушыны тексеруге мүмкіндік беруі</label>
+    <label><input type="radio" name="d6q126" value="c"> оқушының білімін мүлде анықтамауы</label>
+    <label><input type="radio" name="d6q126" value="d"> мұғалімге сұрақ қоюға мүмкіндік бермеуі</label>
+    <label><input type="radio" name="d6q126" value="e"> оқу материалын жүйелеуге көмектесуі</label>
+    <div class="explain">Дұрыс жауап: B. Ауызша тексеруге көп уақыт кетеді, 45 минут ішінде 3–4 оқушының ғана білімін толық тексеруге мүмкіндік береді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>7. Жазбаша сұрау қандай мүмкіндік береді?</p>
+    <label><input type="radio" name="d6q127" value="a"> тек бір оқушының білімін анықтауға</label>
+    <label><input type="radio" name="d6q127" value="b"> оқушыны жауап беруден босатуға</label>
+    <label><input type="radio" name="d6q127" value="c"> бақылау нәтижесін бағаламауға</label>
+    <label><input type="radio" name="d6q127" value="d"> бір сабақта көп оқушының білімін бағалауға</label>
+    <label><input type="radio" name="d6q127" value="e"> тек ауызша жауапты тексеруге</label>
+    <div class="explain">Дұрыс жауап: D. Жазбаша сұрау арқылы мұғалім қысқа уақыт ішінде көп оқушының білімін тексеріп, нәтижелерін бағалай алады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>8. Бақылау жұмысы қашан өткізіледі?</p>
+    <label><input type="radio" name="d6q128" value="a"> оқу бағдарламасының жекелеген тақырыптары мен бөлімдері өткеннен кейін</label>
+    <label><input type="radio" name="d6q128" value="b"> жаңа тақырып түсіндірілмей тұрып міндетті түрде</label>
+    <label><input type="radio" name="d6q128" value="c"> тек ата-аналар жиналысынан кейін</label>
+    <label><input type="radio" name="d6q128" value="d"> тек оқу жылы басталған күні</label>
+    <label><input type="radio" name="d6q128" value="e"> оқушылар тақырыпты меңгермегені белгілі болса да</label>
+    <div class="explain">Дұрыс жауап: A. Бақылау жұмыстары оқу бағдарламасының жекелеген тақырыптары мен бөлімдері өтілгеннен кейін ұйымдастырылады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>9. Диагностика дегеніміз</p>
+    <label><input type="radio" name="d6q129" value="a"> оқушыны тек баға арқылы жазалау жүйесі</label>
+    <label><input type="radio" name="d6q129" value="b"> сабақ құрылымын қысқарту тәсілі</label>
+    <label><input type="radio" name="d6q129" value="c"> оқу-тәрбие үдерісінің барысы және нәтижелері туралы ақпарат алу тәсілі</label>
+    <label><input type="radio" name="d6q129" value="d"> оқытуды тек жаттаумен ұйымдастыру әдісі</label>
+    <label><input type="radio" name="d6q129" value="e"> білім мазмұнын пәндерге бөлу құжаты</label>
+    <div class="explain">Дұрыс жауап: C. Диагностика оқу-тәрбие үдерісінің барысы мен нәтижелері туралы ақпарат алу тәсілі ретінде беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>10. Мектептегі диагностиканың міндеттерінің бірі</p>
+    <label><input type="radio" name="d6q130" value="a"> оқушыларды «орташа» және «үздік» деп ғана бөлу</label>
+    <label><input type="radio" name="d6q130" value="b"> оқушы мүмкіндіктерін ескермеу</label>
+    <label><input type="radio" name="d6q130" value="c"> оқу нәтижесін талдамау</label>
+    <label><input type="radio" name="d6q130" value="d"> оқыту процесіндегі кемшіліктерді жасыру</label>
+    <label><input type="radio" name="d6q130" value="e"> оқушылардың оқу үлгерімі мен нәтижелеріне талдау жасау</label>
+    <div class="explain">Дұрыс жауап: E. Диагностиканың міндеттеріне оқушылардың оқу үлгерімі мен нәтижелерін, үлгермеушілік себептерін, оқыту процесінің барысын талдау жатады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>11. Бақылаудың жалпы қызметтері</p>
+    <label><input type="radio" name="d6q131" value="a"> тек жазалау және шектеу</label>
+    <label><input type="radio" name="d6q131" value="b"> тексеру, оқыту, тәрбиелеу, дамыту, ынталандыру</label>
+    <label><input type="radio" name="d6q131" value="c"> тек күнделікке баға қою</label>
+    <label><input type="radio" name="d6q131" value="d"> тек сабаққа қатысуды белгілеу</label>
+    <label><input type="radio" name="d6q131" value="e"> тек үй тапсырмасын сұрау</label>
+    <div class="explain">Дұрыс жауап: B. Бақылаудың жалпы қызметтері тексеру, оқыту, тәрбиелеу, дамыту және ынталандыру болып табылады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>12. Ағымдағы бақылауда тестілік тапсырмалар қандай көлемде беріледі?</p>
+    <label><input type="radio" name="d6q132" value="a"> 1–2 тапсырма, 1 минут ішінде</label>
+    <label><input type="radio" name="d6q132" value="b"> 20–25 тапсырма, толық сабақ бойы</label>
+    <label><input type="radio" name="d6q132" value="c"> 30 тапсырма, тоқсан соңында</label>
+    <label><input type="radio" name="d6q132" value="d"> 6–8 тапсырма, 5–8 минут ішінде</label>
+    <label><input type="radio" name="d6q132" value="e"> 40 тапсырма, оқу жылы соңында</label>
+    <div class="explain">Дұрыс жауап: D. Ағымдағы тестілік бақылауда 6–8 тапсырма беріліп, 5–8 минут ішінде соңғы сабақтардағы білім мен іскерліктер тексеріледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>13. Баға оқушыға не үшін қойылады?</p>
+    <label><input type="radio" name="d6q133" value="a"> білім беру стандарттарын меңгергені үшін</label>
+    <label><input type="radio" name="d6q133" value="b"> тек сабаққа қатысқаны үшін</label>
+    <label><input type="radio" name="d6q133" value="c"> тек мұғалімге ұнағаны үшін</label>
+    <label><input type="radio" name="d6q133" value="d"> тек үй жұмысын жазғаны үшін</label>
+    <label><input type="radio" name="d6q133" value="e"> тек тәртіп сақтағаны үшін</label>
+    <div class="explain">Дұрыс жауап: A. Баға оқушыға білім беру стандарттарын меңгергені үшін қойылады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>14. «Бес» бағасы қандай оқушыға қойылады?</p>
+    <label><input type="radio" name="d6q134" value="a"> оқу материалын үстірт түсінген оқушыға</label>
+    <label><input type="radio" name="d6q134" value="b"> мұғалім көмегімен ғана жауап беретін оқушыға</label>
+    <label><input type="radio" name="d6q134" value="c"> бағдарламаны терең әрі толық білетін, жауабын жүйелі құрастыратын оқушыға</label>
+    <label><input type="radio" name="d6q134" value="d"> теория мен деректерді айта алмайтын оқушыға</label>
+    <label><input type="radio" name="d6q134" value="e"> жауабы жүйесіз, негізгі ережелерді шатастыратын оқушыға</label>
+    <div class="explain">Дұрыс жауап: C. «Бес» бағасы оқу бағдарламасын терең және толық білетін, теория мен деректерді ажырататын, жауабын жүйелі құрастыратын оқушыға қойылады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>15. Педагогикалық технология қазіргі түсінікте қалай танылады?</p>
+    <label><input type="radio" name="d6q135" value="a"> тек техникалық құралдарды қолдану ретінде</label>
+    <label><input type="radio" name="d6q135" value="b"> сабақтағы бір ғана әдісті пайдалану ретінде</label>
+    <label><input type="radio" name="d6q135" value="c"> оқушының білімін тек бағалау ретінде</label>
+    <label><input type="radio" name="d6q135" value="d"> оқу құралдарының сыртқы безендірілуі ретінде</label>
+    <label><input type="radio" name="d6q135" value="e"> педагогикалық міндеттерді шешуге бағытталған педагог іс-әрекеттерінің бірізді жүйесі ретінде</label>
+    <div class="explain">Дұрыс жауап: E. Педагогикалық технология оқу және тәрбие аймағындағы міндеттерді шешуге байланысты орындалатын педагог іс-әрекеттерінің бірізді жүйесі ретінде танылады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>16. Педагогикалық технология нені қамтитын кешенді үдеріс?</p>
+    <label><input type="radio" name="d6q136" value="a"> тек оқулық мәтіндерін жаттатуды</label>
+    <label><input type="radio" name="d6q136" value="b"> идеяларды, құрал-жабдықтарды, жоспарлау, бағалау және басқару мәселелерін</label>
+    <label><input type="radio" name="d6q136" value="c"> тек баға қою мен журнал толтыруды</label>
+    <label><input type="radio" name="d6q136" value="d"> тек оқушының үй жұмысын тексеруді</label>
+    <label><input type="radio" name="d6q136" value="e"> тек дәстүрлі дәріс өткізуді</label>
+    <div class="explain">Дұрыс жауап: B. Педагогикалық технология идеяларды, құрал-жабдықтарды, жоспарлау, бағалау және білім меңгерудің барлық қырларын басқаруды қамтиды.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>17. Педагогикалық технологияның әдістемеден айырмашылығы</p>
+    <label><input type="radio" name="d6q137" value="a"> технология тек бір ғана пәннің бір тәсілімен шектеледі</label>
+    <label><input type="radio" name="d6q137" value="b"> технология оқу үдерісінде қолданылмайды</label>
+    <label><input type="radio" name="d6q137" value="c"> әдістеме бүкіл білім беру жүйесін толық қамтиды</label>
+    <label><input type="radio" name="d6q137" value="d"> технология білім беру жүйесін тұтас қамтып, жоғары сапаға кепіл бола алады</label>
+    <label><input type="radio" name="d6q137" value="e"> технология тек көрнекі құралдарды таңдаумен шектеледі</label>
+    <div class="explain">Дұрыс жауап: D. Педагогикалық технологиялар білім беру жүйесін тұтас қамтиды, ал әдіс оқу процесіндегі бір пән мазмұнында қолданылады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>18. Дәстүрлі репродуктивті технологияның негізгі сызбасы</p>
+    <label><input type="radio" name="d6q138" value="a"> жаңаны игерту – бекіту – қадағалау – бағалау</label>
+    <label><input type="radio" name="d6q138" value="b"> мәселе қою – болжам жасау – зерттеу – дәлелдеу</label>
+    <label><input type="radio" name="d6q138" value="c"> бақылау – диагностика – өзін-өзі бағалау – рефлексия</label>
+    <label><input type="radio" name="d6q138" value="d"> жоспарлау – отбасы зерттеу – жиналыс өткізу – есеп беру</label>
+    <label><input type="radio" name="d6q138" value="e"> топқа бөлу – пікірталас – конференция – қорытынды</label>
+    <div class="explain">Дұрыс жауап: A. Дәстүрлі технология жаңаны игерту, бекіту, қадағалау және бағалау сызбасы бойынша қолданылады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>19. Дамыта оқыту технологиясының негізгі бағыты</p>
+    <label><input type="radio" name="d6q139" value="a"> оқушының тек дайын білімді жаттауына сүйену</label>
+    <label><input type="radio" name="d6q139" value="b"> оқу үдерісін дараландырудан бас тарту</label>
+    <label><input type="radio" name="d6q139" value="c"> оқушы дамуының болашағына, жақын даму аймағына және рефлексияға сүйену</label>
+    <label><input type="radio" name="d6q139" value="d"> білімді тек қайталау деңгейінде бағалау</label>
+    <label><input type="radio" name="d6q139" value="e"> оқушының танымдық белсенділігін төмендету</label>
+    <div class="explain">Дұрыс жауап: C. Дамыта оқыту баланың болашақ дамуына, жақын даму аймағына, өзіндік танымына және рефлексиялық әрекеттеріне сүйенеді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>20. Проблемалық оқыту технологиясының мәні</p>
+    <label><input type="radio" name="d6q140" value="a"> мұғалімнің дайын білімді ғана ұсынуы</label>
+    <label><input type="radio" name="d6q140" value="b"> оқушыны ізденіс әрекетінен алыстатуы</label>
+    <label><input type="radio" name="d6q140" value="c"> оқу міндетін тек жаттауға айналдыруы</label>
+    <label><input type="radio" name="d6q140" value="d"> оқушының шығармашылық ойлауын шектеуі</label>
+    <label><input type="radio" name="d6q140" value="e"> оқушылардың оқу міндеттерін шешуге бағытталған өзіндік ізденіс әрекеттерін ұйымдастыруы</label>
+    <div class="explain">Дұрыс жауап: E. Проблемалық оқытуда мұғалім білімді дайын күйінде ұсынбай, мәселе қойып, оқушыларды шешу жолдарын іздеуге ынталандырады.</div>
+  </div>
+
+  <button onclick="checkSection('d6_7')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+    <section class="section" id="d6_8" data-section="d6_8">
+  <h2>8-бөлім. Педагогикалық менеджмент, корпоративтік мәдениет, функциялар мен принциптер</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">4.1 және 4.2 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">менеджмент</span>
+    <span class="term">басқару</span>
+    <span class="term">педагогикалық менеджмент</span>
+    <span class="term">білім сапасы</span>
+    <span class="term">адам капиталы</span>
+    <span class="term">мәдениет</span>
+    <span class="term">маркетинг</span>
+    <span class="term">құндылықтар жүйесі</span>
+    <span class="term">консенсус принципі</span>
+    <span class="term">басқаруды автономдау</span>
+    <span class="term">жоспарлау</span>
+    <span class="term">ұйымдастыру</span>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>1. «Менеджмент» ұғымы қандай мағынаны білдіреді?</p>
+    <label><input type="radio" name="d6q141" value="a"> тек оқушы үлгерімін бағалау жүйесін</label>
+    <label><input type="radio" name="d6q141" value="b"> тек мәдени мұраны сақтау үдерісін</label>
+    <label><input type="radio" name="d6q141" value="c"> ұйымдастыру, басқару, меңгеру ұғымдарын қамтитын басқару жүйесін</label>
+    <label><input type="radio" name="d6q141" value="d"> тек сабақ құрылымын жоспарлау тәсілін</label>
+    <label><input type="radio" name="d6q141" value="e"> тек білім мазмұнын пәндерге бөлу құжатын</label>
+    <div class="explain">Дұрыс жауап: C. Менеджмент ағылшын тіліндегі management сөзінен шығып, ұйымдастыру, басқару, меңгеру мағынасында қолданылады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>2. Басқару ұғымы қалай сипатталады?</p>
+    <label><input type="radio" name="d6q142" value="a"> ел билеу, жетекші болу, нұсқау беру, ұйымдастыру және жөнге салу ретінде</label>
+    <label><input type="radio" name="d6q142" value="b"> тек оқушының жеке жұмысын бағалау ретінде</label>
+    <label><input type="radio" name="d6q142" value="c"> тек білімді жаттау мен қайталау ретінде</label>
+    <label><input type="radio" name="d6q142" value="d"> мәдениетті тек материалдық заттармен шектеу ретінде</label>
+    <label><input type="radio" name="d6q142" value="e"> сабаққа қатысуды белгілеу ретінде</label>
+    <div class="explain">Дұрыс жауап: A. Басқару ел билеу, басшылық ету, жетекші болу, нұсқау беру, бір нәрсені ұйымдастыру және жөнге салу ретінде түсіндіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>3. Менеджменттің ұйымдастыру функциясы нені қалыптастырады?</p>
+    <label><input type="radio" name="d6q143" value="a"> оқушылардың үй тапсырмасын тексеру тәсілдерін</label>
+    <label><input type="radio" name="d6q143" value="b"> мәдениеттің тек рухани құндылықтарын</label>
+    <label><input type="radio" name="d6q143" value="c"> сабақта қолданылатын көрнекі құралдарды ғана</label>
+    <label><input type="radio" name="d6q143" value="d"> оқыту әдістерінің жеке элементтерін</label>
+    <label><input type="radio" name="d6q143" value="e"> шаруашылық әрекеттің негізгі ұғымдары мен заңдылықтарын</label>
+    <div class="explain">Дұрыс жауап: E. Ұйымдастыру функциясы шаруашылық әрекеттің негізгі ұғымдары мен заңдылықтарын қалыптастырады.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>4. Менеджменттің танымдық функциясы қандай қызмет атқарады?</p>
+    <label><input type="radio" name="d6q144" value="a"> тек оқушының жазба жұмысын тексереді</label>
+    <label><input type="radio" name="d6q144" value="b"> білім мен ғылымды басқару заңдылықтарын түсінуге көмектеседі</label>
+    <label><input type="radio" name="d6q144" value="c"> тек еңбек құралдарын стандарттайды</label>
+    <label><input type="radio" name="d6q144" value="d"> тек баға қою өлшемдерін белгілейді</label>
+    <label><input type="radio" name="d6q144" value="e"> тек оқулық мәтінін қайта айтуға бағытталады</label>
+    <div class="explain">Дұрыс жауап: B. Танымдық функция білім мен ғылымды басқару заңдылықтарын ойластыруға және білім беру жүйелерінің байланысын анықтауға көмектеседі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>5. Білім мекемелерін басқаруда неге көшу қажеттігі көрсетіледі?</p>
+    <label><input type="radio" name="d6q145" value="a"> бақылаусыз және жоспарсыз басқаруға</label>
+    <label><input type="radio" name="d6q145" value="b"> тек әкімшілік-бағыныштылық басқаруды күшейтуге</label>
+    <label><input type="radio" name="d6q145" value="c"> басқаруды тек құжат жүргізумен шектеуге</label>
+    <label><input type="radio" name="d6q145" value="d"> әкімшілік-бағыныштылық басқарудан менеджменттік басқаруға</label>
+    <label><input type="radio" name="d6q145" value="e"> оқушыларды басқару үдерісінен толық шығаруға</label>
+    <div class="explain">Дұрыс жауап: D. Қазіргі жағдайда әкімшілік-бағыныштылық басқару түрін менеджменттік басқару түріне ауыстыру қажеттігі айтылады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>6. «Ғылыми менеджмент» мектебінің өкілі ретінде кім көрсетіледі?</p>
+    <label><input type="radio" name="d6q146" value="a"> Ф. Тейлор</label>
+    <label><input type="radio" name="d6q146" value="b"> В. А. Сухомлинский</label>
+    <label><input type="radio" name="d6q146" value="c"> Я. А. Коменский</label>
+    <label><input type="radio" name="d6q146" value="d"> Л. С. Выготский</label>
+    <label><input type="radio" name="d6q146" value="e"> И. Я. Лернер</label>
+    <div class="explain">Дұрыс жауап: A. Ғылыми менеджмент мектебінің бастауында Ф. Тейлор, Ф. және Л. Гилберттер, Г. Гант тұрғаны көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>7. Ф. Тейлордың менеджментке қосқан үлесінің бірі</p>
+    <label><input type="radio" name="d6q147" value="a"> оқытудың сыныптық-сабақ жүйесін енгізу</label>
+    <label><input type="radio" name="d6q147" value="b"> оқушылардың дүниетанымын қалыптастыру</label>
+    <label><input type="radio" name="d6q147" value="c"> еңбекті өлшеу әдістемесінің негіздерін даярлау</label>
+    <label><input type="radio" name="d6q147" value="d"> тәрбие әдістерін төрт топқа бөлу</label>
+    <label><input type="radio" name="d6q147" value="e"> білім мазмұнын стандарттау</label>
+    <div class="explain">Дұрыс жауап: C. Ф. Тейлор еңбекті өлшеу әдістемесінің негіздерін даярлап, жұмыс операцияларын бірқалыпқа түсіруге үлес қосты.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>8. Педагогикалық менеджмент дегеніміз</p>
+    <label><input type="radio" name="d6q148" value="a"> тек оқу пәндерінің мазмұнын құрастыру</label>
+    <label><input type="radio" name="d6q148" value="b"> тек оқушылардың бақылау жұмысын тексеру</label>
+    <label><input type="radio" name="d6q148" value="c"> тек мектеп құжаттарын рәсімдеу</label>
+    <label><input type="radio" name="d6q148" value="d"> тек ата-аналармен байланыс орнату</label>
+    <label><input type="radio" name="d6q148" value="e"> жаңа әлеуметтік-педагогикалық жағдайларға дайын оқушы тұлғасын дамытуға бағытталған басқару қызметі</label>
+    <div class="explain">Дұрыс жауап: E. Педагогикалық менеджмент мектепте немесе сыныпта жүзеге асатын, оқушы тұлғасын дамытуға бағытталған мұғалімнің басқару қызметі ретінде беріледі.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>9. Педагогикалық менеджмент құрылымына қайсысы кіреді?</p>
+    <label><input type="radio" name="d6q149" value="a"> тек сабаққа қатысуды белгілеу</label>
+    <label><input type="radio" name="d6q149" value="b"> мақсаттар, міндеттер, принциптер, қызметтер, басқару әдістері және нәтиже</label>
+    <label><input type="radio" name="d6q149" value="c"> тек оқулық пен бағдарлама атаулары</label>
+    <label><input type="radio" name="d6q149" value="d"> тек емтихан сұрақтарының тізімі</label>
+    <label><input type="radio" name="d6q149" value="e"> тек мәдениет анықтамалары</label>
+    <div class="explain">Дұрыс жауап: B. Педагогикалық менеджмент құрылымында мақсаттар, міндеттер, принциптер, қызметтер, басқару әдістері және нәтиже қарастырылады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>10. Мәдениет термині қалай сипатталады?</p>
+    <label><input type="radio" name="d6q150" value="a"> тек мектептің жылдық жұмыс жоспары ретінде</label>
+    <label><input type="radio" name="d6q150" value="b"> тек еңбек өнімділігін өлшеу жүйесі ретінде</label>
+    <label><input type="radio" name="d6q150" value="c"> тек білім сапасының көрсеткіші ретінде</label>
+    <label><input type="radio" name="d6q150" value="d"> көп мәнді, көп мағыналы ғылыми категория ретінде</label>
+    <label><input type="radio" name="d6q150" value="e"> тек басқару шешімін қабылдау тәсілі ретінде</label>
+    <div class="explain">Дұрыс жауап: D. Мәдениет ғылыми категория ретінде әр ғылым саласында зерттеліп, көп мәнді әрі көп мағыналы ұғым болып табылады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>11. Л. Уайт мәдениетті қандай үш салаға бөледі?</p>
+    <label><input type="radio" name="d6q151" value="a"> технологиялық, әлеуметтік және идеологиялық</label>
+    <label><input type="radio" name="d6q151" value="b"> бақылау, бағалау және диагностика</label>
+    <label><input type="radio" name="d6q151" value="c"> жоспарлау, ұйымдастыру және реттеу</label>
+    <label><input type="radio" name="d6q151" value="d"> оқыту, тәрбиелеу және дамыту</label>
+    <label><input type="radio" name="d6q151" value="e"> материалдық, қаржылық және әкімшілік</label>
+    <div class="explain">Дұрыс жауап: A. Л. Уайт мәдениетті біртұтас жүйе ретінде қарастырып, технологиялық, әлеуметтік және идеологиялық салаларға бөледі.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>12. Мәдениеттің негізгі қызметтерінің бірі</p>
+    <label><input type="radio" name="d6q152" value="a"> оқушыны білімнен алыстату</label>
+    <label><input type="radio" name="d6q152" value="b"> басқару шешімдерін кездейсоқ қабылдау</label>
+    <label><input type="radio" name="d6q152" value="c"> дәстүрлердің сабақтастығын қолдау</label>
+    <label><input type="radio" name="d6q152" value="d"> жоспарлауды қажетсіз ету</label>
+    <label><input type="radio" name="d6q152" value="e"> педагогикалық ұжымдағы сенімді азайту</label>
+    <div class="explain">Дұрыс жауап: C. Мәдениеттің қызметтеріне дәстүрлердің сабақтастығын қолдау, бағалаушылық, мақсаттылық және мағлұматтық қызметтер жатады.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>13. Білім берудегі менеджмент пен маркетинг бөлімінде білім қалай сипатталады?</p>
+    <label><input type="radio" name="d6q153" value="a"> тек шығын әкелетін сала ретінде ғана</label>
+    <label><input type="radio" name="d6q153" value="b"> тек оқулықтағы ақпараттар жиынтығы ретінде</label>
+    <label><input type="radio" name="d6q153" value="c"> тек мектеп ғимаратының көрсеткіші ретінде</label>
+    <label><input type="radio" name="d6q153" value="d"> тек емтихан нәтижесі ретінде</label>
+    <label><input type="radio" name="d6q153" value="e"> адам капиталы мен адамзат дамуының механизмі ретінде</label>
+    <div class="explain">Дұрыс жауап: E. Білім адам капиталы, адамзаттың өркендеуі мен дамуының механизмі ретінде түсіндіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>14. Педагогикалық менеджменттің негізгі нысаны</p>
+    <label><input type="radio" name="d6q154" value="a"> тек материалдық ресурстарды есептеу</label>
+    <label><input type="radio" name="d6q154" value="b"> білім беру үдерісіндегі танымдық, тәрбиелік, дамытушылық мақсаттарды жүзеге асыруды басқару</label>
+    <label><input type="radio" name="d6q154" value="c"> тек мәдениет анықтамаларын салыстыру</label>
+    <label><input type="radio" name="d6q154" value="d"> тек оқушылардың үй жұмысын тексеру</label>
+    <label><input type="radio" name="d6q154" value="e"> тек пәндік үйірме ұйымдастыру</label>
+    <div class="explain">Дұрыс жауап: B. Педагогикалық менеджменттің негізгі нысаны — білім беру үдерісіндегі танымдық, тәрбиелік және дамытушылық мақсаттарды басқару.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>15. Басқару жалпы түрде қалай түсіндіріледі?</p>
+    <label><input type="radio" name="d6q155" value="a"> оқушылардың білімін тек баға арқылы белгілеу</label>
+    <label><input type="radio" name="d6q155" value="b"> мәдени мұраны тек жинақтау</label>
+    <label><input type="radio" name="d6q155" value="c"> сабақ мазмұнын тек оқулықпен шектеу</label>
+    <label><input type="radio" name="d6q155" value="d"> мақсатқа сәйкес ықпал ету, ұйымдастыру, қадағалау, реттеу және талдау жасау әрекеті</label>
+    <label><input type="radio" name="d6q155" value="e"> басқарылатын объектіні толық елемеу</label>
+    <div class="explain">Дұрыс жауап: D. Басқару белгілі мақсатқа сәйкес объектіні ұйымдастыру, қадағалау, реттеу, ақпарат негізінде талдау жасап, қорытынды шығару әрекеті ретінде түсіндіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>16. Білімнің әрекеттілігі дегеніміз</p>
+    <label><input type="radio" name="d6q156" value="a"> тұлғаның білімді әртүрлі жағдайда қолдана алуы</label>
+    <label><input type="radio" name="d6q156" value="b"> білімді тек есте сақтаумен шектелуі</label>
+    <label><input type="radio" name="d6q156" value="c"> білімді өмір құбылыстарынан бөлуі</label>
+    <label><input type="radio" name="d6q156" value="d"> білімнің тек сыртқы бақылауға тәуелді болуы</label>
+    <label><input type="radio" name="d6q156" value="e"> оқушының білімді мүлде қолданбауы</label>
+    <div class="explain">Дұрыс жауап: A. Білімнің әрекеттілігі тұлғаның алған білімін әртүрлі жағдайда қолдана алуымен сипатталады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>17. Білімнің саналылығы қалай көрінеді?</p>
+    <label><input type="radio" name="d6q157" value="a"> білімді себепсіз жаттау арқылы</label>
+    <label><input type="radio" name="d6q157" value="b"> ұғымдар арасындағы байланысты түсінбеу арқылы</label>
+    <label><input type="radio" name="d6q157" value="c"> ішкі байланыстарды түсіну, талдау, салыстыру, дәлелдеу және қорытынды жасау арқылы</label>
+    <label><input type="radio" name="d6q157" value="d"> оқушының бағалаудан толық бас тартуы арқылы</label>
+    <label><input type="radio" name="d6q157" value="e"> оқу әрекетін басқа іс-әрекеттерден бөлу арқылы</label>
+    <div class="explain">Дұрыс жауап: C. Білімнің саналылығы ішкі байланыстарды түсіну, талдау, салыстыру, дәлелдеу, бағалау және қорытынды жасау арқылы көрінеді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>18. Ю. А. Конаржевский бойынша басқару принциптерінің бірі</p>
+    <label><input type="radio" name="d6q158" value="a"> оқушы тұлғасын елемеу</label>
+    <label><input type="radio" name="d6q158" value="b"> педагогты тек орындаушы ретінде қарастыру</label>
+    <label><input type="radio" name="d6q158" value="c"> басқаруда сенім атмосферасын бұзу</label>
+    <label><input type="radio" name="d6q158" value="d"> ұжымдық шешімнен бас тарту</label>
+    <label><input type="radio" name="d6q158" value="e"> жеке тұлғаға деген құрмет пен сенім</label>
+    <div class="explain">Дұрыс жауап: E. Ю. А. Конаржевский басқару принциптерінің ішінде жеке тұлғаға құрмет пен сенім, ынтымақтастық, консенсус, ұжымдық шешім қабылдау сияқты принциптерді көрсетеді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>19. Ынтымақтастық принципі нені көздейді?</p>
+    <label><input type="radio" name="d6q159" value="a"> монологтық және бұйрықтық басқаруды күшейтуді</label>
+    <label><input type="radio" name="d6q159" value="b"> монологтан диалогқа, субъект-объектіліктен субъект-субъектілік қатынасқа өтуді</label>
+    <label><input type="radio" name="d6q159" value="c"> педагогтарды пассивті орындаушы деп қарауды</label>
+    <label><input type="radio" name="d6q159" value="d"> басқарушы мен ұжым арасындағы байланысты әлсіретуді</label>
+    <label><input type="radio" name="d6q159" value="e"> ұжымдық қарым-қатынасты болдырмауды</label>
+    <div class="explain">Дұрыс жауап: B. Ынтымақтастық принципі басқаруда монологтан диалогқа, субъект-объектілік қатынастан субъект-субъектілік қарым-қатынасқа өтуді көздейді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>20. Педагогикалық менеджменттің бірінші қызметі ретінде не көрсетіледі?</p>
+    <label><input type="radio" name="d6q160" value="a"> оқушыларды жазалау</label>
+    <label><input type="radio" name="d6q160" value="b"> мәдениет анықтамаларын жаттау</label>
+    <label><input type="radio" name="d6q160" value="c"> бағаны күнделікке жазу</label>
+    <label><input type="radio" name="d6q160" value="d"> оқу-тәрбие процесін жоспарлау</label>
+    <label><input type="radio" name="d6q160" value="e"> тек сыртқы бақылау жүргізу</label>
+    <div class="explain">Дұрыс жауап: D. Оқу-тәрбие процесін жоспарлау, яғни шешім қабылдау, педагогикалық менеджменттің бірінші қызметі ретінде беріледі.</div>
+  </div>
+
+  <button onclick="checkSection('d6_8')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+    <section class="section" id="d6_9" data-section="d6_9">
+  <h2>9-бөлім. Басқару стильдері, лидерлік және кадрларды жоспарлау</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">4.3 және 4.4 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">басқару стилі</span>
+    <span class="term">лидерлік</span>
+    <span class="term">ұжым</span>
+    <span class="term">топ</span>
+    <span class="term">мотив</span>
+    <span class="term">шешім</span>
+    <span class="term">болжам</span>
+    <span class="term">директивті стиль</span>
+    <span class="term">демократиялық стиль</span>
+    <span class="term">либералдық стиль</span>
+    <span class="term">кадр</span>
+    <span class="term">кадрларды жоспарлау</span>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>1. Басқару стильдері туралы алғашқы тәжірибелер кімнің есімімен байланысты?</p>
+    <label><input type="radio" name="d6q161" value="a"> Ф. Тейлор</label>
+    <label><input type="radio" name="d6q161" value="b"> К. Левин</label>
+    <label><input type="radio" name="d6q161" value="c"> Л. Уайт</label>
+    <label><input type="radio" name="d6q161" value="d"> Ю. А. Конаржевский</label>
+    <label><input type="radio" name="d6q161" value="e"> В. А. Сухомлинский</label>
+    <div class="explain">Дұрыс жауап: B. Басқару стилі түсінігінің пайда болуы XX ғасырдың 30-жылдары АҚШ-та тәжірибелер жасаған К. Левиннің есімімен байланысты.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>2. К. Левин сипаттаған басшылық түрлері</p>
+    <label><input type="radio" name="d6q162" value="a"> технологиялық, әлеуметтік, идеологиялық</label>
+    <label><input type="radio" name="d6q162" value="b"> бақылау, бағалау, диагностика</label>
+    <label><input type="radio" name="d6q162" value="c"> жоспарлау, ұйымдастыру, реттеу</label>
+    <label><input type="radio" name="d6q162" value="d"> авторитарлық, демократиялық, анархиялық</label>
+    <label><input type="radio" name="d6q162" value="e"> кадрларды қолдану, оқыту, сақтау</label>
+    <div class="explain">Дұрыс жауап: D. К. Левин басшылықтың авторитарлық, демократиялық және анархиялық түрлеріне сипаттама берген.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>3. Басқарушылық қызмет стилі дегеніміз</p>
+    <label><input type="radio" name="d6q163" value="a"> басқарушының күнделікті жұмыста қолданатын әдіс-тәсілдері, құралдары және бағыныштыларға қатысты жүріс-тұрыс үлгісі</label>
+    <label><input type="radio" name="d6q163" value="b"> оқушының оқу материалын меңгеру деңгейі</label>
+    <label><input type="radio" name="d6q163" value="c"> кадрларды іріктеу кезіндегі құжаттар тізімі</label>
+    <label><input type="radio" name="d6q163" value="d"> білім мазмұнын анықтайтын оқу жоспары</label>
+    <label><input type="radio" name="d6q163" value="e"> мәдениеттің технологиялық және әлеуметтік саласы</label>
+    <div class="explain">Дұрыс жауап: A. Басқарушылық қызмет стилі — күнделікті жұмыста қолданылатын әдіс-тәсілдер мен бағыныштыларға қатысты жүріс-тұрыс үлгісі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>4. Ұжымды басқару стилінің элементтерінің бірі</p>
+    <label><input type="radio" name="d6q164" value="a"> оқулықтағы тақырыптардың саны</label>
+    <label><input type="radio" name="d6q164" value="b"> оқушының күнделіктегі бағасы</label>
+    <label><input type="radio" name="d6q164" value="c"> ата-аналар жиналысының мерзімі</label>
+    <label><input type="radio" name="d6q164" value="d"> сабақтағы үй тапсырмасы көлемі</label>
+    <label><input type="radio" name="d6q164" value="e"> қызметкерлердің жалпы мәдени, кәсіби және жеке қабілет деңгейі</label>
+    <div class="explain">Дұрыс жауап: E. Ұжымды басқару стиліне билік органдарының сипаттамалары, басқару әдістері мен қызметкерлердің мәдени, кәсіби, жеке қабілет деңгейі кіреді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>5. Лидерлік қалай анықталады?</p>
+    <label><input type="radio" name="d6q165" value="a"> оқушының тек оқу үлгерімін бағалау тәсілі ретінде</label>
+    <label><input type="radio" name="d6q165" value="b"> кадрларға қажеттілікті болжау құралы ретінде</label>
+    <label><input type="radio" name="d6q165" value="c"> адамдарға әсер етіп, оларды белгілі мақсатқа жету үшін басқару қабілеті ретінде</label>
+    <label><input type="radio" name="d6q165" value="d"> материалдық шығындарды есептеу жүйесі ретінде</label>
+    <label><input type="radio" name="d6q165" value="e"> білім мазмұнын пәндерге бөлу формасы ретінде</label>
+    <div class="explain">Дұрыс жауап: C. Лидерлік — жеке адамдарға немесе топқа әсер ету және оларды белгілі бір мақсатқа жету үшін басқару қабілеті.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>6. Бихевиорист ғалымдар лидерлікті тиімді қолданудың қандай тәсілдерін көрсетеді?</p>
+    <label><input type="radio" name="d6q166" value="a"> бақылау, тексеру, бағалау</label>
+    <label><input type="radio" name="d6q166" value="b"> жеке адамның қасиеті мен көзқарасы, тәртіптілік, сабырлылық</label>
+    <label><input type="radio" name="d6q166" value="c"> жоспарлау, кадр жинау, есеп беру</label>
+    <label><input type="radio" name="d6q166" value="d"> технологиялық, әлеуметтік, идеологиялық</label>
+    <label><input type="radio" name="d6q166" value="e"> оқыту, тәрбиелеу, дамыту</label>
+    <div class="explain">Дұрыс жауап: B. Лидерлікті тиімді қолданудың тәсілдері ретінде жеке адамның қасиеті мен көзқарасы, тәртіптілік және сабырлылық көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>7. Лидерге тән жеке қасиеттердің бірі</p>
+    <label><input type="radio" name="d6q167" value="a"> жауапкершіліктен қашу</label>
+    <label><input type="radio" name="d6q167" value="b"> топтан оқшаулану</label>
+    <label><input type="radio" name="d6q167" value="c"> шешім қабылдаудан бас тарту</label>
+    <label><input type="radio" name="d6q167" value="d"> өзіне деген сенімділік</label>
+    <label><input type="radio" name="d6q167" value="e"> ұжымдық мақсатты елемеу</label>
+    <div class="explain">Дұрыс жауап: D. Лидерге интеллектуалды білім деңгейі, адалдық, дұрыс бағыттағы ақыл, әлеуметтік білім және өзіне сенімділік сияқты қасиеттер тән.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>8. Директивті басқару стиліне тән белгі</p>
+    <label><input type="radio" name="d6q168" value="a"> биліктің шектен тыс орталықтандырылуы және шешімдерді басшының өзі қабылдауы</label>
+    <label><input type="radio" name="d6q168" value="b"> бағыныштыларға толық еркіндік беріп, басшының араласпауы</label>
+    <label><input type="radio" name="d6q168" value="c"> шешімдерді барлық қызметкерлердің еркін талқылауы</label>
+    <label><input type="radio" name="d6q168" value="d"> жауапкершілікті ұжым ішінде тең бөлу</label>
+    <label><input type="radio" name="d6q168" value="e"> басқару шешімдерін тек топтық келісіммен қабылдау</label>
+    <div class="explain">Дұрыс жауап: A. Директивті стильде билік шектен тыс орталықтанады, көпшілік пен бағыныштылар мүддесі ескерілмей, негізгі шешімді басшы өзі қабылдайды.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>9. Демократиялық басқару стилінің ерекшелігі</p>
+    <label><input type="radio" name="d6q169" value="a"> басшының ұжым ісіне мүлде араласпауы</label>
+    <label><input type="radio" name="d6q169" value="b"> бағыныштылар мүддесін ескермеуі</label>
+    <label><input type="radio" name="d6q169" value="c"> биліктің тек бір адамның қолында болуы</label>
+    <label><input type="radio" name="d6q169" value="d"> жауапкершіліктен қашқақтау</label>
+    <label><input type="radio" name="d6q169" value="e"> бағыныштылардың белсенді қатысуы арқылы шешімдердің әзірленуі және қабылдануы</label>
+    <div class="explain">Дұрыс жауап: E. Демократиялық стильде бағыныштыларға еркіндік беріліп, олардың белсенді қатысуымен шешімдер әзірленеді және қабылданады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>10. Либералдық басқару стилі қалай сипатталады?</p>
+    <label><input type="radio" name="d6q170" value="a"> басшының барлық шешімді жеке қабылдауымен</label>
+    <label><input type="radio" name="d6q170" value="b"> бағыныштыларға қатал психологиялық қысым жасауымен</label>
+    <label><input type="radio" name="d6q170" value="c"> басшының бағыныштылар іс-әрекетіне араласпауымен және жауапкершіліктен қашқақтауымен</label>
+    <label><input type="radio" name="d6q170" value="d"> басқаруды тек бұйрыққа негіздеуімен</label>
+    <label><input type="radio" name="d6q170" value="e"> шешімді тек жоғары тұрған орган арқылы қабылдауымен</label>
+    <div class="explain">Дұрыс жауап: C. Либералдық стильде басшы бағыныштылардың іс-әрекетіне араласпайды, жауапкершіліктен қашқақтайды және күрделі мәселелерді шешуге қатыспайды.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>11. Партисипативтік басқарудың мәні</p>
+    <label><input type="radio" name="d6q171" value="a"> басшының қызметкерлермен байланысын шектеу</label>
+    <label><input type="radio" name="d6q171" value="b"> бағыныштыларды шешім қабылдауға, жоспарлауға және өзгерістерге қатыстыру</label>
+    <label><input type="radio" name="d6q171" value="c"> ұжымның барлық бастамасын тоқтату</label>
+    <label><input type="radio" name="d6q171" value="d"> басқару шешімдерін тек жасырын қабылдау</label>
+    <label><input type="radio" name="d6q171" value="e"> жұмысшыларға автономды әрекет етуге тыйым салу</label>
+    <div class="explain">Дұрыс жауап: B. Партисипативтік басқаруда бағыныштылар жиналыстарға, ашық қарым-қатынасқа, шешім қабылдауға, жоспарлауға және өзгерістерге қатысады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>12. Д. Макгрегордың «X» теориясы бойынша адамдарға қандай көзқарас тән?</p>
+    <label><input type="radio" name="d6q172" value="a"> адамдар әрқашан жауапкершілікті өз еркімен алады</label>
+    <label><input type="radio" name="d6q172" value="b"> адамдарға бақылау мен басқару қажет емес</label>
+    <label><input type="radio" name="d6q172" value="c"> адамдардың бәрі өз бетінше шығармашылыққа ұмтылады</label>
+    <label><input type="radio" name="d6q172" value="d"> адамдар жұмыс істегісі келмейді, жауапкершіліктен қашады және басқарылуды қалайды</label>
+    <label><input type="radio" name="d6q172" value="e"> адамдарды еңбекке баулу үшін еркіндік қана жеткілікті</label>
+    <div class="explain">Дұрыс жауап: D. «X» теориясы бойынша адамдар жұмыс істегісі келмейді, жауапкершіліктен құтылуға тырысады және басқарылуды қалайды.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>13. Лидер топ ішінде қалай пайда болады?</p>
+    <label><input type="radio" name="d6q173" value="a"> топ үшін маңызды жағдайда өзін танытып, ресми емес басшы ретінде көрінеді</label>
+    <label><input type="radio" name="d6q173" value="b"> міндетті түрде жоғары орган арқылы тағайындалады</label>
+    <label><input type="radio" name="d6q173" value="c"> тек құжат арқылы бекітіледі</label>
+    <label><input type="radio" name="d6q173" value="d"> топ мүшелерінен толық оқшауланады</label>
+    <label><input type="radio" name="d6q173" value="e"> тек еңбек шартымен анықталады</label>
+    <div class="explain">Дұрыс жауап: A. Лидерді ешкім сайламайды; ол топ үшін маңызды жағдайда өзін танытып, топ нормалары мен құндылықтарымен теңестіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>14. Лидер болу үшін қажетті ерекшеліктердің бірі</p>
+    <label><input type="radio" name="d6q174" value="a"> топ мақсатына қызықпау</label>
+    <label><input type="radio" name="d6q174" value="b"> ұйымдастыру қабілетінің болмауы</label>
+    <label><input type="radio" name="d6q174" value="c"> өзіне сенімсіздік</label>
+    <label><input type="radio" name="d6q174" value="d"> тіл табыса алмау</label>
+    <label><input type="radio" name="d6q174" value="e"> бастамашылдық, белсенділік және ұйымдастыру қабілеті</label>
+    <div class="explain">Дұрыс жауап: E. Лидерге бастамашылдық, белсенділік, ұйымдастыру қабілеті, топтық мақсатқа ұмтылыс, беделділік және өзіне сенімділік тән.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>15. Кадрларды жоспарлау неге негізделеді?</p>
+    <label><input type="radio" name="d6q175" value="a"> тек кездейсоқ жұмысқа қабылдауға</label>
+    <label><input type="radio" name="d6q175" value="b"> тек еңбек демалысының төлемақысын есептеуге</label>
+    <label><input type="radio" name="d6q175" value="c"> кадрлық саясатты дамытуға және ұйымның даму стратегиясына</label>
+    <label><input type="radio" name="d6q175" value="d"> тек қызметкерлерді жұмыстан босатуға</label>
+    <label><input type="radio" name="d6q175" value="e"> басқару стилдерін салыстыруға</label>
+    <div class="explain">Дұрыс жауап: C. Кадрларды жоспарлау кадрлық саясатты дамытуға және ұйымның даму стратегиясына негізделеді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>16. Кадрларды жоспарлау қандай нәтижеге ықпал етеді?</p>
+    <label><input type="radio" name="d6q176" value="a"> кадрлар құрамын нашарлатуға</label>
+    <label><input type="radio" name="d6q176" value="b"> кадрлар құрамын жақсартуға және қызметкерлердің кәсіби дамуына</label>
+    <label><input type="radio" name="d6q176" value="c"> қызметкерлердің кәсіби дамуын тоқтатуға</label>
+    <label><input type="radio" name="d6q176" value="d"> ұйымның даму стратегиясын ескермеуге</label>
+    <label><input type="radio" name="d6q176" value="e"> еңбек ресурстарын жоспарламауға</label>
+    <div class="explain">Дұрыс жауап: B. Кадрларды жоспарлау кадрлар құрамын жақсартуға және қызметкерлердің кәсіби дамуына ықпал етеді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>17. Кадрларды жоспарлау түрлерінің бірі</p>
+    <label><input type="radio" name="d6q177" value="a"> басқару стилін анархиялық ету</label>
+    <label><input type="radio" name="d6q177" value="b"> лидерді ресми емес түрде сайлау</label>
+    <label><input type="radio" name="d6q177" value="c"> бағыныштыларды басқарудан бөлу</label>
+    <label><input type="radio" name="d6q177" value="d"> кадрлардың қажеттілігін жоспарлау</label>
+    <label><input type="radio" name="d6q177" value="e"> басшының шешімнен бас тартуы</label>
+    <div class="explain">Дұрыс жауап: D. Кадрларды жоспарлау түрлеріне кадрлардың қажеттілігін жоспарлау, кадрларды қолдану, оқыту, ұстау шығындары және еңбек өнімділігін есепке алу жатады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>18. Кадрларға қажеттілікті болжау нені білдіреді?</p>
+    <label><input type="radio" name="d6q178" value="a"> уақыт факторын ескеріп, кадр қажеттілігінің сандық және сапалық ақпаратын жинау</label>
+    <label><input type="radio" name="d6q178" value="b"> басқару стилін тек авторитарлық ету</label>
+    <label><input type="radio" name="d6q178" value="c"> лидерлік қасиеттерді бағаламау</label>
+    <label><input type="radio" name="d6q178" value="d"> қызметкерлердің еңбек өнімділігін есепке алмау</label>
+    <label><input type="radio" name="d6q178" value="e"> болашақтағы мақсаттарды ескермеу</label>
+    <div class="explain">Дұрыс жауап: A. Кадрларға қажеттілікті болжау уақыт факторын есепке алып, кадрларға қажетті сандық және сапалық ақпаратты жинауды білдіреді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>19. Еңбек ресурстарын жоспарлаудың бірінші кезеңі</p>
+    <label><input type="radio" name="d6q179" value="a"> еңбекақы мен жеңілдіктерді анықтау</label>
+    <label><input type="radio" name="d6q179" value="b"> кандидаттарды конкурстық негізде іріктеу</label>
+    <label><input type="radio" name="d6q179" value="c"> болашақ қажеттілікті бағалау</label>
+    <label><input type="radio" name="d6q179" value="d"> кадрларды босату бағдарламасын құру</label>
+    <label><input type="radio" name="d6q179" value="e"> қолда бар ресурстарды бағалау</label>
+    <div class="explain">Дұрыс жауап: E. Еңбек ресурстарын жоспарлау қолда бар ресурстарды бағалаудан, яғни қызметкерлердің дағдысы мен білімін түгендеуден басталады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>20. Кадрларды іріктеу кезеңінде қандай әрекет жасалады?</p>
+    <label><input type="radio" name="d6q180" value="a"> ұйым мақсаттары толық ескерілмейді</label>
+    <label><input type="radio" name="d6q180" value="b"> барлық кандидат автоматты түрде жұмысқа қабылданады</label>
+    <label><input type="radio" name="d6q180" value="c"> жинау барысында құрылған резервтен жұмысқа ынталы кандидатура таңдалады</label>
+    <label><input type="radio" name="d6q180" value="d"> кадрларға қажеттілік болжанбайды</label>
+    <label><input type="radio" name="d6q180" value="e"> қызметкерлердің сапасы алдын ала бақыланбайды</label>
+    <div class="explain">Дұрыс жауап: C. Іріктеу кезеңінде жетекші жинау барысында құрылған резервтен жұмысқа неғұрлым ынталы кандидатураны таңдайды.</div>
+  </div>
+
+  <button onclick="checkSection('d6_9')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+    <section class="section" id="d6_9" data-section="d6_9">
+  <h2>9-бөлім. Басқару стильдері, лидерлік және кадрларды жоспарлау</h2>
+
+  <div class="meta">
+    <span class="tag">6-кітап</span>
+    <span class="tag">Дүйсенбаев А.</span>
+    <span class="tag">4.3 және 4.4 бөлім</span>
+  </div>
+
+  <h3>Маңызды терминдер</h3>
+  <div class="terms">
+    <span class="term">басқару стилі</span>
+    <span class="term">лидерлік</span>
+    <span class="term">ұжым</span>
+    <span class="term">топ</span>
+    <span class="term">мотив</span>
+    <span class="term">шешім</span>
+    <span class="term">болжам</span>
+    <span class="term">директивті стиль</span>
+    <span class="term">демократиялық стиль</span>
+    <span class="term">либералдық стиль</span>
+    <span class="term">кадр</span>
+    <span class="term">кадрларды жоспарлау</span>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>1. Басқару стильдері туралы алғашқы тәжірибелер кімнің есімімен байланысты?</p>
+    <label><input type="radio" name="d6q161" value="a"> Ф. Тейлор</label>
+    <label><input type="radio" name="d6q161" value="b"> К. Левин</label>
+    <label><input type="radio" name="d6q161" value="c"> Л. Уайт</label>
+    <label><input type="radio" name="d6q161" value="d"> Ю. А. Конаржевский</label>
+    <label><input type="radio" name="d6q161" value="e"> В. А. Сухомлинский</label>
+    <div class="explain">Дұрыс жауап: B. Басқару стилі түсінігінің пайда болуы XX ғасырдың 30-жылдары АҚШ-та тәжірибелер жасаған К. Левиннің есімімен байланысты.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>2. К. Левин сипаттаған басшылық түрлері</p>
+    <label><input type="radio" name="d6q162" value="a"> технологиялық, әлеуметтік, идеологиялық</label>
+    <label><input type="radio" name="d6q162" value="b"> бақылау, бағалау, диагностика</label>
+    <label><input type="radio" name="d6q162" value="c"> жоспарлау, ұйымдастыру, реттеу</label>
+    <label><input type="radio" name="d6q162" value="d"> авторитарлық, демократиялық, анархиялық</label>
+    <label><input type="radio" name="d6q162" value="e"> кадрларды қолдану, оқыту, сақтау</label>
+    <div class="explain">Дұрыс жауап: D. К. Левин басшылықтың авторитарлық, демократиялық және анархиялық түрлеріне сипаттама берген.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>3. Басқарушылық қызмет стилі дегеніміз</p>
+    <label><input type="radio" name="d6q163" value="a"> басқарушының күнделікті жұмыста қолданатын әдіс-тәсілдері, құралдары және бағыныштыларға қатысты жүріс-тұрыс үлгісі</label>
+    <label><input type="radio" name="d6q163" value="b"> оқушының оқу материалын меңгеру деңгейі</label>
+    <label><input type="radio" name="d6q163" value="c"> кадрларды іріктеу кезіндегі құжаттар тізімі</label>
+    <label><input type="radio" name="d6q163" value="d"> білім мазмұнын анықтайтын оқу жоспары</label>
+    <label><input type="radio" name="d6q163" value="e"> мәдениеттің технологиялық және әлеуметтік саласы</label>
+    <div class="explain">Дұрыс жауап: A. Басқарушылық қызмет стилі — күнделікті жұмыста қолданылатын әдіс-тәсілдер мен бағыныштыларға қатысты жүріс-тұрыс үлгісі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>4. Ұжымды басқару стилінің элементтерінің бірі</p>
+    <label><input type="radio" name="d6q164" value="a"> оқулықтағы тақырыптардың саны</label>
+    <label><input type="radio" name="d6q164" value="b"> оқушының күнделіктегі бағасы</label>
+    <label><input type="radio" name="d6q164" value="c"> ата-аналар жиналысының мерзімі</label>
+    <label><input type="radio" name="d6q164" value="d"> сабақтағы үй тапсырмасы көлемі</label>
+    <label><input type="radio" name="d6q164" value="e"> қызметкерлердің жалпы мәдени, кәсіби және жеке қабілет деңгейі</label>
+    <div class="explain">Дұрыс жауап: E. Ұжымды басқару стиліне билік органдарының сипаттамалары, басқару әдістері мен қызметкерлердің мәдени, кәсіби, жеке қабілет деңгейі кіреді.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>5. Лидерлік қалай анықталады?</p>
+    <label><input type="radio" name="d6q165" value="a"> оқушының тек оқу үлгерімін бағалау тәсілі ретінде</label>
+    <label><input type="radio" name="d6q165" value="b"> кадрларға қажеттілікті болжау құралы ретінде</label>
+    <label><input type="radio" name="d6q165" value="c"> адамдарға әсер етіп, оларды белгілі мақсатқа жету үшін басқару қабілеті ретінде</label>
+    <label><input type="radio" name="d6q165" value="d"> материалдық шығындарды есептеу жүйесі ретінде</label>
+    <label><input type="radio" name="d6q165" value="e"> білім мазмұнын пәндерге бөлу формасы ретінде</label>
+    <div class="explain">Дұрыс жауап: C. Лидерлік — жеке адамдарға немесе топқа әсер ету және оларды белгілі бір мақсатқа жету үшін басқару қабілеті.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>6. Бихевиорист ғалымдар лидерлікті тиімді қолданудың қандай тәсілдерін көрсетеді?</p>
+    <label><input type="radio" name="d6q166" value="a"> бақылау, тексеру, бағалау</label>
+    <label><input type="radio" name="d6q166" value="b"> жеке адамның қасиеті мен көзқарасы, тәртіптілік, сабырлылық</label>
+    <label><input type="radio" name="d6q166" value="c"> жоспарлау, кадр жинау, есеп беру</label>
+    <label><input type="radio" name="d6q166" value="d"> технологиялық, әлеуметтік, идеологиялық</label>
+    <label><input type="radio" name="d6q166" value="e"> оқыту, тәрбиелеу, дамыту</label>
+    <div class="explain">Дұрыс жауап: B. Лидерлікті тиімді қолданудың тәсілдері ретінде жеке адамның қасиеті мен көзқарасы, тәртіптілік және сабырлылық көрсетіледі.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>7. Лидерге тән жеке қасиеттердің бірі</p>
+    <label><input type="radio" name="d6q167" value="a"> жауапкершіліктен қашу</label>
+    <label><input type="radio" name="d6q167" value="b"> топтан оқшаулану</label>
+    <label><input type="radio" name="d6q167" value="c"> шешім қабылдаудан бас тарту</label>
+    <label><input type="radio" name="d6q167" value="d"> өзіне деген сенімділік</label>
+    <label><input type="radio" name="d6q167" value="e"> ұжымдық мақсатты елемеу</label>
+    <div class="explain">Дұрыс жауап: D. Лидерге интеллектуалды білім деңгейі, адалдық, дұрыс бағыттағы ақыл, әлеуметтік білім және өзіне сенімділік сияқты қасиеттер тән.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>8. Директивті басқару стиліне тән белгі</p>
+    <label><input type="radio" name="d6q168" value="a"> биліктің шектен тыс орталықтандырылуы және шешімдерді басшының өзі қабылдауы</label>
+    <label><input type="radio" name="d6q168" value="b"> бағыныштыларға толық еркіндік беріп, басшының араласпауы</label>
+    <label><input type="radio" name="d6q168" value="c"> шешімдерді барлық қызметкерлердің еркін талқылауы</label>
+    <label><input type="radio" name="d6q168" value="d"> жауапкершілікті ұжым ішінде тең бөлу</label>
+    <label><input type="radio" name="d6q168" value="e"> басқару шешімдерін тек топтық келісіммен қабылдау</label>
+    <div class="explain">Дұрыс жауап: A. Директивті стильде билік шектен тыс орталықтанады, көпшілік пен бағыныштылар мүддесі ескерілмей, негізгі шешімді басшы өзі қабылдайды.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>9. Демократиялық басқару стилінің ерекшелігі</p>
+    <label><input type="radio" name="d6q169" value="a"> басшының ұжым ісіне мүлде араласпауы</label>
+    <label><input type="radio" name="d6q169" value="b"> бағыныштылар мүддесін ескермеуі</label>
+    <label><input type="radio" name="d6q169" value="c"> биліктің тек бір адамның қолында болуы</label>
+    <label><input type="radio" name="d6q169" value="d"> жауапкершіліктен қашқақтау</label>
+    <label><input type="radio" name="d6q169" value="e"> бағыныштылардың белсенді қатысуы арқылы шешімдердің әзірленуі және қабылдануы</label>
+    <div class="explain">Дұрыс жауап: E. Демократиялық стильде бағыныштыларға еркіндік беріліп, олардың белсенді қатысуымен шешімдер әзірленеді және қабылданады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>10. Либералдық басқару стилі қалай сипатталады?</p>
+    <label><input type="radio" name="d6q170" value="a"> басшының барлық шешімді жеке қабылдауымен</label>
+    <label><input type="radio" name="d6q170" value="b"> бағыныштыларға қатал психологиялық қысым жасауымен</label>
+    <label><input type="radio" name="d6q170" value="c"> басшының бағыныштылар іс-әрекетіне араласпауымен және жауапкершіліктен қашқақтауымен</label>
+    <label><input type="radio" name="d6q170" value="d"> басқаруды тек бұйрыққа негіздеуімен</label>
+    <label><input type="radio" name="d6q170" value="e"> шешімді тек жоғары тұрған орган арқылы қабылдауымен</label>
+    <div class="explain">Дұрыс жауап: C. Либералдық стильде басшы бағыныштылардың іс-әрекетіне араласпайды, жауапкершіліктен қашқақтайды және күрделі мәселелерді шешуге қатыспайды.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>11. Партисипативтік басқарудың мәні</p>
+    <label><input type="radio" name="d6q171" value="a"> басшының қызметкерлермен байланысын шектеу</label>
+    <label><input type="radio" name="d6q171" value="b"> бағыныштыларды шешім қабылдауға, жоспарлауға және өзгерістерге қатыстыру</label>
+    <label><input type="radio" name="d6q171" value="c"> ұжымның барлық бастамасын тоқтату</label>
+    <label><input type="radio" name="d6q171" value="d"> басқару шешімдерін тек жасырын қабылдау</label>
+    <label><input type="radio" name="d6q171" value="e"> жұмысшыларға автономды әрекет етуге тыйым салу</label>
+    <div class="explain">Дұрыс жауап: B. Партисипативтік басқаруда бағыныштылар жиналыстарға, ашық қарым-қатынасқа, шешім қабылдауға, жоспарлауға және өзгерістерге қатысады.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>12. Д. Макгрегордың «X» теориясы бойынша адамдарға қандай көзқарас тән?</p>
+    <label><input type="radio" name="d6q172" value="a"> адамдар әрқашан жауапкершілікті өз еркімен алады</label>
+    <label><input type="radio" name="d6q172" value="b"> адамдарға бақылау мен басқару қажет емес</label>
+    <label><input type="radio" name="d6q172" value="c"> адамдардың бәрі өз бетінше шығармашылыққа ұмтылады</label>
+    <label><input type="radio" name="d6q172" value="d"> адамдар жұмыс істегісі келмейді, жауапкершіліктен қашады және басқарылуды қалайды</label>
+    <label><input type="radio" name="d6q172" value="e"> адамдарды еңбекке баулу үшін еркіндік қана жеткілікті</label>
+    <div class="explain">Дұрыс жауап: D. «X» теориясы бойынша адамдар жұмыс істегісі келмейді, жауапкершіліктен құтылуға тырысады және басқарылуды қалайды.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>13. Лидер топ ішінде қалай пайда болады?</p>
+    <label><input type="radio" name="d6q173" value="a"> топ үшін маңызды жағдайда өзін танытып, ресми емес басшы ретінде көрінеді</label>
+    <label><input type="radio" name="d6q173" value="b"> міндетті түрде жоғары орган арқылы тағайындалады</label>
+    <label><input type="radio" name="d6q173" value="c"> тек құжат арқылы бекітіледі</label>
+    <label><input type="radio" name="d6q173" value="d"> топ мүшелерінен толық оқшауланады</label>
+    <label><input type="radio" name="d6q173" value="e"> тек еңбек шартымен анықталады</label>
+    <div class="explain">Дұрыс жауап: A. Лидерді ешкім сайламайды; ол топ үшін маңызды жағдайда өзін танытып, топ нормалары мен құндылықтарымен теңестіріледі.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>14. Лидер болу үшін қажетті ерекшеліктердің бірі</p>
+    <label><input type="radio" name="d6q174" value="a"> топ мақсатына қызықпау</label>
+    <label><input type="radio" name="d6q174" value="b"> ұйымдастыру қабілетінің болмауы</label>
+    <label><input type="radio" name="d6q174" value="c"> өзіне сенімсіздік</label>
+    <label><input type="radio" name="d6q174" value="d"> тіл табыса алмау</label>
+    <label><input type="radio" name="d6q174" value="e"> бастамашылдық, белсенділік және ұйымдастыру қабілеті</label>
+    <div class="explain">Дұрыс жауап: E. Лидерге бастамашылдық, белсенділік, ұйымдастыру қабілеті, топтық мақсатқа ұмтылыс, беделділік және өзіне сенімділік тән.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>15. Кадрларды жоспарлау неге негізделеді?</p>
+    <label><input type="radio" name="d6q175" value="a"> тек кездейсоқ жұмысқа қабылдауға</label>
+    <label><input type="radio" name="d6q175" value="b"> тек еңбек демалысының төлемақысын есептеуге</label>
+    <label><input type="radio" name="d6q175" value="c"> кадрлық саясатты дамытуға және ұйымның даму стратегиясына</label>
+    <label><input type="radio" name="d6q175" value="d"> тек қызметкерлерді жұмыстан босатуға</label>
+    <label><input type="radio" name="d6q175" value="e"> басқару стилдерін салыстыруға</label>
+    <div class="explain">Дұрыс жауап: C. Кадрларды жоспарлау кадрлық саясатты дамытуға және ұйымның даму стратегиясына негізделеді.</div>
+  </div>
+
+  <div class="question" data-answer="b">
+    <p>16. Кадрларды жоспарлау қандай нәтижеге ықпал етеді?</p>
+    <label><input type="radio" name="d6q176" value="a"> кадрлар құрамын нашарлатуға</label>
+    <label><input type="radio" name="d6q176" value="b"> кадрлар құрамын жақсартуға және қызметкерлердің кәсіби дамуына</label>
+    <label><input type="radio" name="d6q176" value="c"> қызметкерлердің кәсіби дамуын тоқтатуға</label>
+    <label><input type="radio" name="d6q176" value="d"> ұйымның даму стратегиясын ескермеуге</label>
+    <label><input type="radio" name="d6q176" value="e"> еңбек ресурстарын жоспарламауға</label>
+    <div class="explain">Дұрыс жауап: B. Кадрларды жоспарлау кадрлар құрамын жақсартуға және қызметкерлердің кәсіби дамуына ықпал етеді.</div>
+  </div>
+
+  <div class="question" data-answer="d">
+    <p>17. Кадрларды жоспарлау түрлерінің бірі</p>
+    <label><input type="radio" name="d6q177" value="a"> басқару стилін анархиялық ету</label>
+    <label><input type="radio" name="d6q177" value="b"> лидерді ресми емес түрде сайлау</label>
+    <label><input type="radio" name="d6q177" value="c"> бағыныштыларды басқарудан бөлу</label>
+    <label><input type="radio" name="d6q177" value="d"> кадрлардың қажеттілігін жоспарлау</label>
+    <label><input type="radio" name="d6q177" value="e"> басшының шешімнен бас тартуы</label>
+    <div class="explain">Дұрыс жауап: D. Кадрларды жоспарлау түрлеріне кадрлардың қажеттілігін жоспарлау, кадрларды қолдану, оқыту, ұстау шығындары және еңбек өнімділігін есепке алу жатады.</div>
+  </div>
+
+  <div class="question" data-answer="a">
+    <p>18. Кадрларға қажеттілікті болжау нені білдіреді?</p>
+    <label><input type="radio" name="d6q178" value="a"> уақыт факторын ескеріп, кадр қажеттілігінің сандық және сапалық ақпаратын жинау</label>
+    <label><input type="radio" name="d6q178" value="b"> басқару стилін тек авторитарлық ету</label>
+    <label><input type="radio" name="d6q178" value="c"> лидерлік қасиеттерді бағаламау</label>
+    <label><input type="radio" name="d6q178" value="d"> қызметкерлердің еңбек өнімділігін есепке алмау</label>
+    <label><input type="radio" name="d6q178" value="e"> болашақтағы мақсаттарды ескермеу</label>
+    <div class="explain">Дұрыс жауап: A. Кадрларға қажеттілікті болжау уақыт факторын есепке алып, кадрларға қажетті сандық және сапалық ақпаратты жинауды білдіреді.</div>
+  </div>
+
+  <div class="question" data-answer="e">
+    <p>19. Еңбек ресурстарын жоспарлаудың бірінші кезеңі</p>
+    <label><input type="radio" name="d6q179" value="a"> еңбекақы мен жеңілдіктерді анықтау</label>
+    <label><input type="radio" name="d6q179" value="b"> кандидаттарды конкурстық негізде іріктеу</label>
+    <label><input type="radio" name="d6q179" value="c"> болашақ қажеттілікті бағалау</label>
+    <label><input type="radio" name="d6q179" value="d"> кадрларды босату бағдарламасын құру</label>
+    <label><input type="radio" name="d6q179" value="e"> қолда бар ресурстарды бағалау</label>
+    <div class="explain">Дұрыс жауап: E. Еңбек ресурстарын жоспарлау қолда бар ресурстарды бағалаудан, яғни қызметкерлердің дағдысы мен білімін түгендеуден басталады.</div>
+  </div>
+
+  <div class="question" data-answer="c">
+    <p>20. Кадрларды іріктеу кезеңінде қандай әрекет жасалады?</p>
+    <label><input type="radio" name="d6q180" value="a"> ұйым мақсаттары толық ескерілмейді</label>
+    <label><input type="radio" name="d6q180" value="b"> барлық кандидат автоматты түрде жұмысқа қабылданады</label>
+    <label><input type="radio" name="d6q180" value="c"> жинау барысында құрылған резервтен жұмысқа ынталы кандидатура таңдалады</label>
+    <label><input type="radio" name="d6q180" value="d"> кадрларға қажеттілік болжанбайды</label>
+    <label><input type="radio" name="d6q180" value="e"> қызметкерлердің сапасы алдын ала бақыланбайды</label>
+    <div class="explain">Дұрыс жауап: C. Іріктеу кезеңінде жетекші жинау барысында құрылған резервтен жұмысқа неғұрлым ынталы кандидатураны таңдайды.</div>
+  </div>
+
+  <button onclick="checkSection('d6_9')">Нәтижені көрсету</button>
+  <div class="result"></div>
+</section>
+    
